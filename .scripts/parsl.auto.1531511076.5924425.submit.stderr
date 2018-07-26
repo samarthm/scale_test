@@ -1,0 +1,2 @@
+/tmp/slurmd/job47495643/slurm_script: line 18: 10467 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+slurmstepd-midway403: error: *** JOB 47495643 ON midway403 CANCELLED AT 2018-07-13T14:46:16 ***

@@ -1,0 +1,3 @@
+/tmp/slurmd/job47677582/slurm_script: line 18: 31258 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47677582/slurm_script: line 18: 31685 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47677582/slurm_script: line 18: 31683 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1

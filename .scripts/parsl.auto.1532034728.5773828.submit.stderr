@@ -1,0 +1,11 @@
+/tmp/slurmd/job47699181/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47699181/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47699181/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47699181/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47699181/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47699181/slurm_script: fork: Resource temporarily unavailable
+/tmp/slurmd/job47699181/slurm_script: line 18: 21581 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+slurmstepd-midway070: error: Job 47699181 exceeded memory limit (2191272 > 1945600), being killed
+slurmstepd-midway070: error: Exceeded job memory limit
+slurmstepd-midway070: error: *** JOB 47699181 ON midway070 CANCELLED AT 2018-07-19T16:13:15 ***
+slurmstepd-midway070: error: Detected 45398 oom-kill event(s) in step 47699181.batch cgroup.

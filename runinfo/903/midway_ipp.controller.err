@@ -1,0 +1,19 @@
+2018-07-10 15:34:18.626 [IPControllerApp] Created profile dir: '/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/903/profile_midway_ipp'
+2018-07-10 15:34:18.683 [IPControllerApp] Hub listening on tcp://*:57185 for registration.
+2018-07-10 15:34:18.685 [IPControllerApp] Hub using DB backend: 'DictDB'
+2018-07-10 15:34:18.952 [IPControllerApp] hub::created hub
+2018-07-10 15:34:18.952 [IPControllerApp] writing connection info to /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/903/profile_midway_ipp/security/ipcontroller-client.json
+2018-07-10 15:34:18.954 [IPControllerApp] writing connection info to /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/903/profile_midway_ipp/security/ipcontroller-engine.json
+2018-07-10 15:34:18.956 [IPControllerApp] task::using Python leastload Task scheduler
+2018-07-10 15:34:18.956 [IPControllerApp] Heartmonitor started
+2018-07-10 15:34:18.968 [IPControllerApp] Creating pid file: /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/903/profile_midway_ipp/pid/ipcontroller.pid
+2018-07-10 15:34:18.996 [scheduler] Scheduler started [leastload]
+2018-07-10 15:34:19.000 [IPControllerApp] client::client b'\x00k\x8bEg' requested 'connection_request'
+2018-07-10 15:34:19.000 [IPControllerApp] client::client [b'\x00k\x8bEg'] connected
+2018-07-10 15:34:19.354 [IPControllerApp] client::client b'\x00k\x8bEh' requested 'connection_request'
+2018-07-10 15:34:19.354 [IPControllerApp] client::client [b'\x00k\x8bEh'] connected
+2018-07-10 15:34:39.460 [IPControllerApp] client::client b'aae7e5d2-856021c6fd5422654407a338' requested 'registration_request'
+2018-07-10 15:34:42.960 [IPControllerApp] registration::finished registering engine 0:aae7e5d2-856021c6fd5422654407a338
+2018-07-10 15:34:42.961 [IPControllerApp] engine::Engine Connected: 0
+2018-07-10 15:35:13.648 [IPControllerApp] CRITICAL | Received signal 15, shutting down
+2018-07-10 15:35:13.649 [IPControllerApp] CRITICAL | terminating children...

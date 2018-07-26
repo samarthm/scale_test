@@ -1,0 +1,9 @@
+/tmp/slurmd/job47252643/slurm_script: line 18:  4755 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47252643/slurm_script: line 18:  4749 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47252643/slurm_script: line 18:  4747 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47252643/slurm_script: line 18:  4751 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47252643/slurm_script: line 18:  4752 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47252643/slurm_script: line 18:  4753 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47252643/slurm_script: line 18:  4754 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+slurmstepd-midway011: error: *** JOB 47252643 ON midway011 CANCELLED AT 2018-07-05T06:31:13 DUE TO TIME LIMIT ***
+slurmstepd-midway011: error: Detected 1845 oom-kill event(s) in step 47252643.batch cgroup.

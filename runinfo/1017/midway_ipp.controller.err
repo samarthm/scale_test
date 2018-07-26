@@ -1,0 +1,39 @@
+2018-07-11 15:28:05.308 [IPControllerApp] Created profile dir: '/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1017/profile_midway_ipp'
+2018-07-11 15:28:05.326 [IPControllerApp] Hub listening on tcp://*:65441 for registration.
+2018-07-11 15:28:05.328 [IPControllerApp] Hub using DB backend: 'DictDB'
+2018-07-11 15:28:05.593 [IPControllerApp] hub::created hub
+2018-07-11 15:28:05.593 [IPControllerApp] writing connection info to /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1017/profile_midway_ipp/security/ipcontroller-client.json
+2018-07-11 15:28:05.594 [IPControllerApp] writing connection info to /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1017/profile_midway_ipp/security/ipcontroller-engine.json
+2018-07-11 15:28:05.595 [IPControllerApp] task::using Python leastload Task scheduler
+2018-07-11 15:28:05.595 [IPControllerApp] Heartmonitor started
+2018-07-11 15:28:05.604 [IPControllerApp] Creating pid file: /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1017/profile_midway_ipp/pid/ipcontroller.pid
+2018-07-11 15:28:05.613 [scheduler] Scheduler started [leastload]
+2018-07-11 15:28:05.616 [IPControllerApp] client::client b'\x00k\x8bEg' requested 'connection_request'
+2018-07-11 15:28:05.616 [IPControllerApp] client::client [b'\x00k\x8bEg'] connected
+2018-07-11 15:28:06.596 [IPControllerApp] client::client b'\x00k\x8bEh' requested 'connection_request'
+2018-07-11 15:28:06.596 [IPControllerApp] client::client [b'\x00k\x8bEh'] connected
+2018-07-11 15:28:18.076 [IPControllerApp] client::client b'2342d79e-657b3cb823eddd40a1c3737a' requested 'registration_request'
+2018-07-11 15:28:23.599 [IPControllerApp] registration::finished registering engine 0:2342d79e-657b3cb823eddd40a1c3737a
+2018-07-11 15:28:23.600 [IPControllerApp] engine::Engine Connected: 0
+2018-07-11 15:28:23.604 [IPControllerApp] task::task '988ae4c8-1722d3a46112473f76749126' arrived on 0
+2018-07-11 15:28:34.840 [IPControllerApp] task::task 'f89be8d2-f6e73ddfa754a9b10b0809ac' arrived on 0
+2018-07-11 15:28:34.841 [IPControllerApp] task::task '988ae4c8-1722d3a46112473f76749126' finished on 0
+2018-07-11 15:28:44.856 [IPControllerApp] task::task '2c59c2f9-acffaa68ff46353c123cca21' arrived on 0
+2018-07-11 15:28:44.856 [IPControllerApp] task::task 'f89be8d2-f6e73ddfa754a9b10b0809ac' finished on 0
+2018-07-11 15:28:54.871 [IPControllerApp] task::task '4e5e4bff-1628e1f7d8e3c11a8c39b2a5' arrived on 0
+2018-07-11 15:28:54.871 [IPControllerApp] task::task '2c59c2f9-acffaa68ff46353c123cca21' finished on 0
+2018-07-11 15:29:04.886 [IPControllerApp] task::task '5d493aa8-c6d2e54d68bb74f2f8afc8ba' arrived on 0
+2018-07-11 15:29:04.887 [IPControllerApp] task::task '4e5e4bff-1628e1f7d8e3c11a8c39b2a5' finished on 0
+2018-07-11 15:29:14.901 [IPControllerApp] task::task 'de2d0dbb-ca2b457df6a82d6140952318' arrived on 0
+2018-07-11 15:29:14.902 [IPControllerApp] task::task '5d493aa8-c6d2e54d68bb74f2f8afc8ba' finished on 0
+2018-07-11 15:29:24.917 [IPControllerApp] task::task '33546274-81168c7a2896aa86091a6915' arrived on 0
+2018-07-11 15:29:24.917 [IPControllerApp] task::task 'de2d0dbb-ca2b457df6a82d6140952318' finished on 0
+2018-07-11 15:29:34.931 [IPControllerApp] task::task '68c9a211-3fc4a22812b2971637a2b6cd' arrived on 0
+2018-07-11 15:29:34.932 [IPControllerApp] task::task '33546274-81168c7a2896aa86091a6915' finished on 0
+2018-07-11 15:29:44.945 [IPControllerApp] task::task '0f6bc3a7-a5ac34990bcf702915815200' arrived on 0
+2018-07-11 15:29:44.946 [IPControllerApp] task::task '68c9a211-3fc4a22812b2971637a2b6cd' finished on 0
+2018-07-11 15:29:54.960 [IPControllerApp] task::task 'fd65207f-7b61898517caecd7905ce1e4' arrived on 0
+2018-07-11 15:29:54.961 [IPControllerApp] task::task '0f6bc3a7-a5ac34990bcf702915815200' finished on 0
+2018-07-11 15:30:04.974 [IPControllerApp] task::task 'fd65207f-7b61898517caecd7905ce1e4' finished on 0
+2018-07-11 15:30:06.781 [IPControllerApp] CRITICAL | Received signal 15, shutting down
+2018-07-11 15:30:06.782 [IPControllerApp] CRITICAL | terminating children...

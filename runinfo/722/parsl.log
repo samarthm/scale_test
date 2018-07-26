@@ -1,0 +1,496 @@
+2018-07-06 10:37:38 parsl.dataflow.dflow:71 [INFO]  Parsl version: 0.5.1
+2018-07-06 10:37:38 parsl.dataflow.dflow:72 [INFO]  Libsubmit version: 0.5.0-a0
+2018-07-06 10:37:38 parsl.dataflow.usage_tracking.usage:125 [DEBUG]  Tracking status: True
+2018-07-06 10:37:38 parsl.dataflow.usage_tracking.usage:126 [DEBUG]  Testing mode   : False
+2018-07-06 10:37:38 parsl.dataflow.memoization:52 [INFO]  App caching initialized
+2018-07-06 10:37:38 parsl.executors.ipp_controller:83 [DEBUG]  Starting ipcontroller with 'ipcontroller --ipython-dir=/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/722 --ip=* --profile=midway_ipp   '
+2018-07-06 10:37:40 parsl.executors.ipp:97 [DEBUG]  Waiting for /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/722/profile_midway_ipp/security/ipcontroller-client.json
+2018-07-06 10:37:40 parsl.executors.ipp:114 [DEBUG]  Starting IPyParallelExecutor with provider:
+SlurmProvider(
+    'sandyb',
+    channel=LocalChannel(
+        envs={}, 
+        script_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/.scripts', 
+        userhome='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress'
+    ), 
+    cmd_timeout=10, 
+    init_blocks=1, 
+    label='slurm', 
+    launcher=<libsubmit.launchers.launchers.SingleNodeLauncher object at 0x7f64dbaabbe0>, 
+    max_blocks=1, 
+    min_blocks=1, 
+    nodes_per_block=16, 
+    overrides='module load Anaconda3/5.1.0; export PARSL_TESTING=True', 
+    parallelism=0.5, 
+    script_dir='parsl_scripts', 
+    tasks_per_node=2, 
+    walltime=11
+)
+2018-07-06 10:37:41 parsl.executors.ipp:119 [DEBUG]  Launched block: 0:47315504
+2018-07-06 10:37:41 parsl.executors.ipp:134 [DEBUG]  Starting executor
+2018-07-06 10:37:41 parsl.dataflow.strategy:120 [DEBUG]  Scaling strategy: simple
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 0 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 0 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 0 launched with AppFuture: <AppFuture at 0x7f645836d898 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 1 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 1 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 1 launched with AppFuture: <AppFuture at 0x7f64583730f0 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 2 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 2 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 2 launched with AppFuture: <AppFuture at 0x7f6458373908 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 3 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 3 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 3 launched with AppFuture: <AppFuture at 0x7f645837d160 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 4 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 4 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 4 launched with AppFuture: <AppFuture at 0x7f645837d978 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 5 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 5 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 5 launched with AppFuture: <AppFuture at 0x7f645830a1d0 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 6 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 6 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 6 launched with AppFuture: <AppFuture at 0x7f645830a9e8 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 7 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 7 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 7 launched with AppFuture: <AppFuture at 0x7f6458315240 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 8 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 8 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 8 launched with AppFuture: <AppFuture at 0x7f6458315a58 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 9 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 9 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 9 launched with AppFuture: <AppFuture at 0x7f64583222b0 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 10 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 10 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 10 launched with AppFuture: <AppFuture at 0x7f6458322ac8 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 11 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 11 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 11 launched with AppFuture: <AppFuture at 0x7f645832d320 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 12 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 12 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 12 launched with AppFuture: <AppFuture at 0x7f645832db38 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 13 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 13 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 13 launched with AppFuture: <AppFuture at 0x7f6458337390 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 14 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 14 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 14 launched with AppFuture: <AppFuture at 0x7f6458337ba8 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 15 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 15 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 15 launched with AppFuture: <AppFuture at 0x7f64582c4400 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 16 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 16 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 16 launched with AppFuture: <AppFuture at 0x7f64582c4c18 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 17 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 17 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 17 launched with AppFuture: <AppFuture at 0x7f64582d0470 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 18 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 18 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 18 launched with AppFuture: <AppFuture at 0x7f64582d0c88 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 19 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 19 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 19 launched with AppFuture: <AppFuture at 0x7f64582db4e0 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 20 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 20 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 20 launched with AppFuture: <AppFuture at 0x7f64582dbcf8 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 21 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 21 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 21 launched with AppFuture: <AppFuture at 0x7f64582e6550 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 22 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 22 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 22 launched with AppFuture: <AppFuture at 0x7f64582e6d68 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 23 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 23 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 23 launched with AppFuture: <AppFuture at 0x7f64582f15c0 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 24 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 24 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 24 launched with AppFuture: <AppFuture at 0x7f64582f1dd8 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 25 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 25 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 25 launched with AppFuture: <AppFuture at 0x7f64582fb630 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 26 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 26 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 26 launched with AppFuture: <AppFuture at 0x7f64582fbe48 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 27 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 27 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 27 launched with AppFuture: <AppFuture at 0x7f64582886a0 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 28 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 28 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 28 launched with AppFuture: <AppFuture at 0x7f6458288eb8 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 29 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 29 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 29 launched with AppFuture: <AppFuture at 0x7f6458296710 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 30 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 30 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 30 launched with AppFuture: <AppFuture at 0x7f6458296f28 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 31 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 31 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 31 launched with AppFuture: <AppFuture at 0x7f645829f780 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 32 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 32 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 32 launched with AppFuture: <AppFuture at 0x7f645829ff98 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 33 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 33 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 33 launched with AppFuture: <AppFuture at 0x7f64582ab7f0 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 34 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 34 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 34 launched with AppFuture: <AppFuture at 0x7f64582b7048 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 35 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 35 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 35 launched with AppFuture: <AppFuture at 0x7f64582b7860 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 36 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 36 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 36 launched with AppFuture: <AppFuture at 0x7f64582400b8 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 37 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 37 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 37 launched with AppFuture: <AppFuture at 0x7f64582408d0 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 38 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 38 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 38 launched with AppFuture: <AppFuture at 0x7f645824c128 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 39 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 39 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 39 launched with AppFuture: <AppFuture at 0x7f645824c940 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 40 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 40 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 40 launched with AppFuture: <AppFuture at 0x7f6458258198 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 41 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 41 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 41 launched with AppFuture: <AppFuture at 0x7f64582589b0 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 42 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 42 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 42 launched with AppFuture: <AppFuture at 0x7f6458263208 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 43 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 43 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 43 launched with AppFuture: <AppFuture at 0x7f6458263a20 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 44 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 44 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 44 launched with AppFuture: <AppFuture at 0x7f645826e278 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 45 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 45 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 45 launched with AppFuture: <AppFuture at 0x7f645826ea90 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 46 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 46 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 46 launched with AppFuture: <AppFuture at 0x7f645827a2e8 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 47 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 47 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 47 launched with AppFuture: <AppFuture at 0x7f645827ab00 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 48 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 48 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 48 launched with AppFuture: <AppFuture at 0x7f6458205358 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 49 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 49 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 49 launched with AppFuture: <AppFuture at 0x7f6458205b70 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 50 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 50 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 50 launched with AppFuture: <AppFuture at 0x7f64582123c8 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 51 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 51 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 51 launched with AppFuture: <AppFuture at 0x7f6458212be0 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 52 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 52 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 52 launched with AppFuture: <AppFuture at 0x7f645821c438 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 53 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 53 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 53 launched with AppFuture: <AppFuture at 0x7f645821cc50 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 54 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 54 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 54 launched with AppFuture: <AppFuture at 0x7f64582294a8 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 55 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 55 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 55 launched with AppFuture: <AppFuture at 0x7f6458229cc0 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 56 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 56 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 56 launched with AppFuture: <AppFuture at 0x7f6458232518 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 57 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 57 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 57 launched with AppFuture: <AppFuture at 0x7f6458232d30 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 58 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 58 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 58 launched with AppFuture: <AppFuture at 0x7f64581be588 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 59 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 59 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 59 launched with AppFuture: <AppFuture at 0x7f64581beda0 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 60 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 60 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 60 launched with AppFuture: <AppFuture at 0x7f64581c95f8 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 61 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 61 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 61 launched with AppFuture: <AppFuture at 0x7f64581c9e10 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 62 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 62 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 62 launched with AppFuture: <AppFuture at 0x7f64581d6668 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 63 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 63 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 63 launched with AppFuture: <AppFuture at 0x7f64581d6e80 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 64 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 64 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 64 launched with AppFuture: <AppFuture at 0x7f64581e06d8 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 65 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 65 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 65 launched with AppFuture: <AppFuture at 0x7f64581e0ef0 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 66 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 66 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 66 launched with AppFuture: <AppFuture at 0x7f64581ee748 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 67 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 67 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 67 launched with AppFuture: <AppFuture at 0x7f64581eef60 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 68 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 68 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 68 launched with AppFuture: <AppFuture at 0x7f64581f87b8 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 69 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 69 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 69 launched with AppFuture: <AppFuture at 0x7f64581f8fd0 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 70 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 70 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 70 launched with AppFuture: <AppFuture at 0x7f6458182828 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 71 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 71 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 71 launched with AppFuture: <AppFuture at 0x7f645818e080 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 72 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 72 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 72 launched with AppFuture: <AppFuture at 0x7f645818e898 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 73 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 73 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 73 launched with AppFuture: <AppFuture at 0x7f645819a0f0 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 74 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 74 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 74 launched with AppFuture: <AppFuture at 0x7f645819a908 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 75 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 75 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 75 launched with AppFuture: <AppFuture at 0x7f64581a4160 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 76 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 76 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 76 launched with AppFuture: <AppFuture at 0x7f64581a4978 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 77 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 77 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 77 launched with AppFuture: <AppFuture at 0x7f64581b01d0 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 78 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 78 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 78 launched with AppFuture: <AppFuture at 0x7f64581b09e8 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 79 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 79 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 79 launched with AppFuture: <AppFuture at 0x7f64581bc240 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 80 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 80 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 80 launched with AppFuture: <AppFuture at 0x7f64581bca58 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 81 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 81 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 81 launched with AppFuture: <AppFuture at 0x7f64581472b0 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 82 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 82 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 82 launched with AppFuture: <AppFuture at 0x7f6458147ac8 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 83 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 83 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 83 launched with AppFuture: <AppFuture at 0x7f6458152320 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 84 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 84 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 84 launched with AppFuture: <AppFuture at 0x7f6458152b38 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 85 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 85 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 85 launched with AppFuture: <AppFuture at 0x7f645815f390 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 86 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 86 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 86 launched with AppFuture: <AppFuture at 0x7f645815fba8 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 87 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 87 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 87 launched with AppFuture: <AppFuture at 0x7f645816c400 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 88 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 88 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 88 launched with AppFuture: <AppFuture at 0x7f645816cc18 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 89 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 89 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 89 launched with AppFuture: <AppFuture at 0x7f6458176470 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 90 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 90 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 90 launched with AppFuture: <AppFuture at 0x7f6458176c88 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 91 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 91 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 91 launched with AppFuture: <AppFuture at 0x7f64581004e0 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 92 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 92 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 92 launched with AppFuture: <AppFuture at 0x7f6458100cf8 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 93 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 93 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 93 launched with AppFuture: <AppFuture at 0x7f645810c550 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 94 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 94 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 94 launched with AppFuture: <AppFuture at 0x7f645810cd68 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 95 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 95 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 95 launched with AppFuture: <AppFuture at 0x7f64581165c0 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 96 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 96 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 96 launched with AppFuture: <AppFuture at 0x7f6458116dd8 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 97 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 97 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 97 launched with AppFuture: <AppFuture at 0x7f6458123630 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 98 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 98 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 98 launched with AppFuture: <AppFuture at 0x7f6458123e48 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 99 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 99 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 99 launched with AppFuture: <AppFuture at 0x7f645812d6a0 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 100 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 100 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 100 launched with AppFuture: <AppFuture at 0x7f645812deb8 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 101 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 101 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 101 launched with AppFuture: <AppFuture at 0x7f645813b710 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 102 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 102 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 102 launched with AppFuture: <AppFuture at 0x7f645813bf28 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 103 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 103 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 103 launched with AppFuture: <AppFuture at 0x7f64580c5780 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 104 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 104 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 104 launched with AppFuture: <AppFuture at 0x7f64580c5f98 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 105 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 105 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 105 launched with AppFuture: <AppFuture at 0x7f64580d27f0 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 106 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 106 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 106 launched with AppFuture: <AppFuture at 0x7f64580dc048 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 107 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 107 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 107 launched with AppFuture: <AppFuture at 0x7f64580dc860 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 108 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 108 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 108 launched with AppFuture: <AppFuture at 0x7f64580ea0b8 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 109 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 109 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 109 launched with AppFuture: <AppFuture at 0x7f64580ea8d0 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 110 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 110 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 110 launched with AppFuture: <AppFuture at 0x7f64580f3128 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 111 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 111 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 111 launched with AppFuture: <AppFuture at 0x7f64580f3940 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 112 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 112 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 112 launched with AppFuture: <AppFuture at 0x7f645807f198 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 113 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 113 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 113 launched with AppFuture: <AppFuture at 0x7f645807f9b0 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 114 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 114 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 114 launched with AppFuture: <AppFuture at 0x7f645808a208 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 115 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 115 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 115 launched with AppFuture: <AppFuture at 0x7f645808aa20 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 116 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 116 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 116 launched with AppFuture: <AppFuture at 0x7f6458097278 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 117 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 117 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 117 launched with AppFuture: <AppFuture at 0x7f6458097a90 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 118 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 118 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 118 launched with AppFuture: <AppFuture at 0x7f64580a02e8 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 119 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 119 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 119 launched with AppFuture: <AppFuture at 0x7f64580a0b00 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 120 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 120 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 120 launched with AppFuture: <AppFuture at 0x7f64580ad358 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 121 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 121 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 121 launched with AppFuture: <AppFuture at 0x7f64580adb70 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 122 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 122 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 122 launched with AppFuture: <AppFuture at 0x7f64580b93c8 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 123 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 123 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 123 launched with AppFuture: <AppFuture at 0x7f64580b9be0 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 124 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 124 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 124 launched with AppFuture: <AppFuture at 0x7f6458044438 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 125 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 125 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 125 launched with AppFuture: <AppFuture at 0x7f6458044c50 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 126 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 126 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 126 launched with AppFuture: <AppFuture at 0x7f64580504a8 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 127 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 127 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 127 launched with AppFuture: <AppFuture at 0x7f6458050cc0 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 128 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 128 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 128 launched with AppFuture: <AppFuture at 0x7f645805a518 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 129 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 129 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 129 launched with AppFuture: <AppFuture at 0x7f645805ad30 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 130 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 130 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 130 launched with AppFuture: <AppFuture at 0x7f6458067588 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 131 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 131 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 131 launched with AppFuture: <AppFuture at 0x7f6458067da0 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 132 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 132 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 132 launched with AppFuture: <AppFuture at 0x7f64580715f8 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 133 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 133 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 133 launched with AppFuture: <AppFuture at 0x7f6458071e10 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 134 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 134 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 134 launched with AppFuture: <AppFuture at 0x7f645807d668 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 135 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 135 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 135 launched with AppFuture: <AppFuture at 0x7f645807de80 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 136 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 136 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 136 launched with AppFuture: <AppFuture at 0x7f644f5c96d8 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 137 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 137 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 137 launched with AppFuture: <AppFuture at 0x7f644f5c9ef0 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 138 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 138 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 138 launched with AppFuture: <AppFuture at 0x7f644f5d6748 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 139 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 139 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 139 launched with AppFuture: <AppFuture at 0x7f644f5d6f60 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 140 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 140 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 140 launched with AppFuture: <AppFuture at 0x7f644f5e17b8 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 141 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 141 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 141 launched with AppFuture: <AppFuture at 0x7f644f5e1fd0 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 142 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 142 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 142 launched with AppFuture: <AppFuture at 0x7f644f5ec828 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 143 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 143 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 143 launched with AppFuture: <AppFuture at 0x7f644f5f6080 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 144 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 144 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 144 launched with AppFuture: <AppFuture at 0x7f644f5f6898 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 145 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 145 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 145 launched with AppFuture: <AppFuture at 0x7f644f5810f0 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 146 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 146 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 146 launched with AppFuture: <AppFuture at 0x7f644f581908 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 147 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 147 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 147 launched with AppFuture: <AppFuture at 0x7f644f58d160 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 148 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 148 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 148 launched with AppFuture: <AppFuture at 0x7f644f58d978 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 149 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 149 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 149 launched with AppFuture: <AppFuture at 0x7f644f5991d0 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 150 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 150 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:501 [DEBUG]  Task 150 launched with AppFuture: <AppFuture at 0x7f644f5999e8 state=pending>
+2018-07-06 10:37:41 parsl.dataflow.dflow:480 [INFO]  Task 151 submitted for App increment, waiting on tasks []
+2018-07-06 10:37:41 parsl.dataflow.dflow:286 [INFO]  Task 151 launched on executor midway_ipp
+2018-07-06 10:37:41 parsl.dataflow.dflow:591 [INFO]  DFK cleanup initiated
+2018-07-06 10:37:41 parsl.dataflow.dflow:538 [INFO]  Summary of tasks in DFK:
+2018-07-06 10:37:41 parsl.dataflow.dflow:569 [INFO]  Tasks in state States.running: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151
+2018-07-06 10:37:41 parsl.dataflow.dflow:576 [INFO]  End of summary
+2018-07-06 10:37:41 parsl.dataflow.dflow:615 [INFO]  Terminating flow_control and strategy threads
+2018-07-06 10:37:41 parsl.executors.ipp:282 [DEBUG]  IPP:Shutdown sequence: Attempting controller kill
+2018-07-06 10:37:41 parsl.executors.ipp_controller:142 [DEBUG]  Controller exited with 0
+2018-07-06 10:37:41 parsl.executors.ipp:292 [DEBUG]  Done with executor shutdown
+2018-07-06 10:37:41 parsl.data_provider.data_manager:66 [DEBUG]  Done with executor shutdown
+2018-07-06 10:37:41 parsl.dataflow.dflow:625 [INFO]  DFK cleanup complete

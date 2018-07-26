@@ -1,0 +1,10 @@
+slurmstepd-midway069: error: Job 47320279 exceeded memory limit (2020308 > 1945600), being killed
+/tmp/slurmd/job47320279/slurm_script: line 18:   849 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47320279/slurm_script: line 18:   781 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47320279/slurm_script: line 18:   857 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47320279/slurm_script: line 18:   875 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+slurmstepd-midway069: error: Exceeded job memory limit
+/tmp/slurmd/job47320279/slurm_script: line 18:   778 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+slurmstepd-midway069: error: *** JOB 47320279 ON midway069 CANCELLED AT 2018-07-06T15:25:13 ***
+/tmp/slurmd/job47320279/slurm_script: line 18:   876 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+slurmstepd-midway069: error: Detected 15 oom-kill event(s) in step 47320279.batch cgroup.

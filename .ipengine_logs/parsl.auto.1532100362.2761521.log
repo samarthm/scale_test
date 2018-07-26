@@ -1,0 +1,8 @@
+2018-07-20 10:26:05.470 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 10:26:05.465 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 10:26:05.516 [IPEngineApp] Registering with controller at tcp://10.50.180.72:34437
+2018-07-20 10:26:05.519 [IPEngineApp] Registering with controller at tcp://10.50.180.72:34437
+2018-07-20 10:26:05.621 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-20 10:26:05.630 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-20 10:26:05.638 [IPEngineApp] Completed registration with id 1
+2018-07-20 10:26:05.639 [IPEngineApp] Completed registration with id 0

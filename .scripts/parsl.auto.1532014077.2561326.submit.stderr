@@ -1,0 +1,4 @@
+/tmp/slurmd/job47682230/slurm_script: line 18: 30138 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682230/slurm_script: line 18: 30114 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+slurmstepd-midway034: error: *** JOB 47682230 ON midway034 CANCELLED AT 2018-07-19T10:29:38 ***
+slurmstepd-midway034: error: Detected 13 oom-kill event(s) in step 47682230.batch cgroup.

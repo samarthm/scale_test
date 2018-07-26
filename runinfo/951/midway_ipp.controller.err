@@ -1,0 +1,72 @@
+2018-07-11 13:28:22.770 [IPControllerApp] Created profile dir: '/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/951/profile_midway_ipp'
+2018-07-11 13:28:22.789 [IPControllerApp] Hub listening on tcp://*:51181 for registration.
+2018-07-11 13:28:22.791 [IPControllerApp] Hub using DB backend: 'DictDB'
+2018-07-11 13:28:23.054 [IPControllerApp] hub::created hub
+2018-07-11 13:28:23.054 [IPControllerApp] writing connection info to /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/951/profile_midway_ipp/security/ipcontroller-client.json
+2018-07-11 13:28:23.055 [IPControllerApp] writing connection info to /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/951/profile_midway_ipp/security/ipcontroller-engine.json
+2018-07-11 13:28:23.056 [IPControllerApp] task::using Python leastload Task scheduler
+2018-07-11 13:28:23.057 [IPControllerApp] Heartmonitor started
+2018-07-11 13:28:23.066 [IPControllerApp] Creating pid file: /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/951/profile_midway_ipp/pid/ipcontroller.pid
+2018-07-11 13:28:23.075 [scheduler] Scheduler started [leastload]
+2018-07-11 13:28:23.078 [IPControllerApp] client::client b'\x00k\x8bEg' requested 'connection_request'
+2018-07-11 13:28:23.078 [IPControllerApp] client::client [b'\x00k\x8bEg'] connected
+2018-07-11 13:28:24.194 [IPControllerApp] client::client b'\x00k\x8bEh' requested 'connection_request'
+2018-07-11 13:28:24.194 [IPControllerApp] client::client [b'\x00k\x8bEh'] connected
+2018-07-11 13:28:49.406 [IPControllerApp] client::client b'f72617db-72ebdf66c81ef098f463c466' requested 'registration_request'
+2018-07-11 13:28:49.407 [IPControllerApp] client::client b'a10fc67f-7bb341795eb764ddae297f58' requested 'registration_request'
+2018-07-11 13:28:53.060 [IPControllerApp] registration::finished registering engine 1:a10fc67f-7bb341795eb764ddae297f58
+2018-07-11 13:28:53.061 [IPControllerApp] engine::Engine Connected: 1
+2018-07-11 13:28:53.062 [IPControllerApp] registration::finished registering engine 0:f72617db-72ebdf66c81ef098f463c466
+2018-07-11 13:28:53.062 [IPControllerApp] engine::Engine Connected: 0
+2018-07-11 13:28:53.065 [IPControllerApp] task::task '6f5f4b7f-3d292e75eda9feaf4f08892d' arrived on 1
+2018-07-11 13:28:53.066 [IPControllerApp] task::task '52f0e1e8-827368dd54838f971d2e3467' arrived on 0
+2018-07-11 13:28:55.093 [IPControllerApp] task::task '1d10a1d2-455af1cf5b7430a5cba7a195' arrived on 1
+2018-07-11 13:28:55.094 [IPControllerApp] task::task '6f5f4b7f-3d292e75eda9feaf4f08892d' finished on 1
+2018-07-11 13:28:55.095 [IPControllerApp] task::task '411d7f81-08936978fdcf3f5e9f64a1d9' arrived on 0
+2018-07-11 13:28:55.096 [IPControllerApp] task::task '52f0e1e8-827368dd54838f971d2e3467' finished on 0
+2018-07-11 13:28:56.102 [IPControllerApp] task::task 'a2355309-3f973f978a00a3e547871664' arrived on 1
+2018-07-11 13:28:56.103 [IPControllerApp] task::task '1d10a1d2-455af1cf5b7430a5cba7a195' finished on 1
+2018-07-11 13:28:56.104 [IPControllerApp] task::task 'a3b4d780-1bc4c48fcdcfc2f33d074a3b' arrived on 0
+2018-07-11 13:28:56.105 [IPControllerApp] task::task '411d7f81-08936978fdcf3f5e9f64a1d9' finished on 0
+2018-07-11 13:28:57.111 [IPControllerApp] task::task 'bea56043-cf0ab1d631c64a0f7170cb6f' arrived on 1
+2018-07-11 13:28:57.112 [IPControllerApp] task::task 'a2355309-3f973f978a00a3e547871664' finished on 1
+2018-07-11 13:28:57.113 [IPControllerApp] task::task 'cb4acdfb-e4c927f5de0ec07a03928aa6' arrived on 0
+2018-07-11 13:28:57.114 [IPControllerApp] task::task 'a3b4d780-1bc4c48fcdcfc2f33d074a3b' finished on 0
+2018-07-11 13:28:58.121 [IPControllerApp] task::task '87798727-ce8f34eae94e7b5ff526f2aa' arrived on 0
+2018-07-11 13:28:58.121 [IPControllerApp] task::task 'cb4acdfb-e4c927f5de0ec07a03928aa6' finished on 0
+2018-07-11 13:28:58.122 [IPControllerApp] task::task '5ce06993-4b7cee7e4171a427543c5e1d' arrived on 1
+2018-07-11 13:28:58.123 [IPControllerApp] task::task 'bea56043-cf0ab1d631c64a0f7170cb6f' finished on 1
+2018-07-11 13:28:59.130 [IPControllerApp] task::task '6341fcad-aea6e6e36f62bba722dd5b52' arrived on 1
+2018-07-11 13:28:59.131 [IPControllerApp] task::task '5ce06993-4b7cee7e4171a427543c5e1d' finished on 1
+2018-07-11 13:28:59.131 [IPControllerApp] task::task '0f470276-3ef788aec02849ac97e07476' arrived on 0
+2018-07-11 13:28:59.133 [IPControllerApp] task::task '87798727-ce8f34eae94e7b5ff526f2aa' finished on 0
+2018-07-11 13:29:00.140 [IPControllerApp] task::task '042a43e7-695b256de586f2accdfabee6' arrived on 1
+2018-07-11 13:29:00.140 [IPControllerApp] task::task '6341fcad-aea6e6e36f62bba722dd5b52' finished on 1
+2018-07-11 13:29:00.141 [IPControllerApp] task::task 'afac68fa-86af4beb45e00194c192997d' arrived on 0
+2018-07-11 13:29:00.143 [IPControllerApp] task::task '0f470276-3ef788aec02849ac97e07476' finished on 0
+2018-07-11 13:29:01.149 [IPControllerApp] task::task 'de01af13-1450cb3aad0ce7114a719ac9' arrived on 0
+2018-07-11 13:29:01.150 [IPControllerApp] task::task 'afac68fa-86af4beb45e00194c192997d' finished on 0
+2018-07-11 13:29:01.150 [IPControllerApp] task::task '9c5bc141-959a4ffe55ec1aa1c282060d' arrived on 1
+2018-07-11 13:29:01.152 [IPControllerApp] task::task '042a43e7-695b256de586f2accdfabee6' finished on 1
+2018-07-11 13:29:02.158 [IPControllerApp] task::task '9a5a8216-95681524571238e1d24cf94e' arrived on 0
+2018-07-11 13:29:02.159 [IPControllerApp] task::task 'de01af13-1450cb3aad0ce7114a719ac9' finished on 0
+2018-07-11 13:29:02.160 [IPControllerApp] task::task '15771fb3-9a9ca0bb654c89753bc0c9c2' arrived on 1
+2018-07-11 13:29:02.161 [IPControllerApp] task::task '9c5bc141-959a4ffe55ec1aa1c282060d' finished on 1
+2018-07-11 13:29:03.167 [IPControllerApp] task::task '5bf71878-548c0efab0d74efe611ffdb4' arrived on 0
+2018-07-11 13:29:03.168 [IPControllerApp] task::task '9a5a8216-95681524571238e1d24cf94e' finished on 0
+2018-07-11 13:29:03.169 [IPControllerApp] task::task '7d590e4d-8eb931e6f1cbc22bc045fbbc' arrived on 1
+2018-07-11 13:29:03.170 [IPControllerApp] task::task '15771fb3-9a9ca0bb654c89753bc0c9c2' finished on 1
+2018-07-11 13:29:04.176 [IPControllerApp] task::task '4fbf29a6-10cde0e807266d119dff9fbe' arrived on 0
+2018-07-11 13:29:04.177 [IPControllerApp] task::task '5bf71878-548c0efab0d74efe611ffdb4' finished on 0
+2018-07-11 13:29:04.178 [IPControllerApp] task::task 'c4f85def-6ccea474866366eb503c0cbc' arrived on 1
+2018-07-11 13:29:04.179 [IPControllerApp] task::task '7d590e4d-8eb931e6f1cbc22bc045fbbc' finished on 1
+2018-07-11 13:29:05.186 [IPControllerApp] task::task '1f4013b8-aef71d5f21ac630d24d4a5d8' arrived on 0
+2018-07-11 13:29:05.187 [IPControllerApp] task::task '4fbf29a6-10cde0e807266d119dff9fbe' finished on 0
+2018-07-11 13:29:05.188 [IPControllerApp] task::task 'f782d80d-c201b07a8205493173cc1b91' arrived on 1
+2018-07-11 13:29:05.190 [IPControllerApp] task::task 'c4f85def-6ccea474866366eb503c0cbc' finished on 1
+2018-07-11 13:29:06.195 [IPControllerApp] task::task '0c606441-c3a57b88f48cc7f19fc6a887' arrived on 0
+2018-07-11 13:29:06.196 [IPControllerApp] task::task '1f4013b8-aef71d5f21ac630d24d4a5d8' finished on 0
+2018-07-11 13:29:06.199 [IPControllerApp] task::task 'f782d80d-c201b07a8205493173cc1b91' finished on 1
+2018-07-11 13:29:07.200 [IPControllerApp] task::task '0c606441-c3a57b88f48cc7f19fc6a887' finished on 0
+2018-07-11 13:29:07.316 [IPControllerApp] CRITICAL | Received signal 15, shutting down
+2018-07-11 13:29:07.317 [IPControllerApp] CRITICAL | terminating children...

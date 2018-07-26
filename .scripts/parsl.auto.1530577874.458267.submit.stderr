@@ -1,0 +1,11 @@
+/tmp/slurmd/job47239083/slurm_script: line 18: 22153 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47239083/slurm_script: line 18: 22126 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47239083/slurm_script: line 18: 22128 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47239083/slurm_script: line 18: 22129 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47239083/slurm_script: line 18: 22130 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47239083/slurm_script: line 18: 22131 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47239083/slurm_script: line 18: 22133 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+slurmstepd-midway014: error: Job 47239083 exceeded memory limit (2095896 > 1945600), being killed
+slurmstepd-midway014: error: Exceeded job memory limit
+slurmstepd-midway014: error: *** JOB 47239083 ON midway014 CANCELLED AT 2018-07-03T21:49:58 ***
+slurmstepd-midway014: error: Detected 1653 oom-kill event(s) in step 47239083.batch cgroup.

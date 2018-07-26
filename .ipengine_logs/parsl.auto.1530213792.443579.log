@@ -1,0 +1,24 @@
+2018-06-28 14:23:18.450 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-06-28 14:23:18.454 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-06-28 14:23:18.482 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-06-28 14:23:18.519 [IPEngineApp] Registering with controller at tcp://10.50.180.71:43647
+2018-06-28 14:23:18.547 [IPEngineApp] Registering with controller at tcp://10.50.180.71:43647
+2018-06-28 14:23:18.551 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-06-28 14:23:18.561 [IPEngineApp] Registering with controller at tcp://10.50.180.71:43647
+2018-06-28 14:23:18.611 [IPEngineApp] Registering with controller at tcp://10.50.180.71:43647
+2018-06-28 14:23:18.745 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-06-28 14:23:18.764 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-06-28 14:23:18.773 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-06-28 14:23:18.775 [IPEngineApp] Completed registration with id 17
+2018-06-28 14:23:18.789 [IPEngineApp] Completed registration with id 18
+2018-06-28 14:23:18.799 [IPEngineApp] Completed registration with id 22
+2018-06-28 14:23:18.804 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-06-28 14:23:18.810 [IPEngineApp] Completed registration with id 27
+2018-06-28 14:23:30.789 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2018-06-28 14:23:30.809 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2018-06-28 14:23:30.817 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2018-06-28 14:23:30.849 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2018-06-28 14:23:33.799 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (2 time(s) in a row).
+2018-06-28 14:23:33.818 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (2 time(s) in a row).
+2018-06-28 14:23:33.827 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (2 time(s) in a row).
+2018-06-28 14:23:33.858 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (2 time(s) in a row).

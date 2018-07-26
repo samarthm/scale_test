@@ -1,0 +1,16 @@
+/tmp/slurmd/job47319640/slurm_script: line 18:  8771 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47319640/slurm_script: line 18:  8669 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47319640/slurm_script: line 18:  8750 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47319640/slurm_script: line 18:  8666 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47319640/slurm_script: line 18:  8665 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+slurmstepd-midway193: error: Job 47319640 exceeded memory limit (2361852 > 1945600), being killed
+/tmp/slurmd/job47319640/slurm_script: line 18:  8670 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47319640/slurm_script: line 18:  8768 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+slurmstepd-midway193: error: Exceeded job memory limit
+/tmp/slurmd/job47319640/slurm_script: line 18:  8680 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47319640/slurm_script: line 18:  8702 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47319640/slurm_script: line 18:  8671 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47319640/slurm_script: line 18:  8674 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+slurmstepd-midway193: error: *** JOB 47319640 ON midway193 CANCELLED AT 2018-07-06T15:18:35 ***
+/tmp/slurmd/job47319640/slurm_script: line 18:  8675 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+slurmstepd-midway193: error: Detected 2979 oom-kill event(s) in step 47319640.batch cgroup.

@@ -1,0 +1,28 @@
+2018-07-20 04:54:43.385 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 04:54:43.389 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 04:54:43.392 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 04:54:43.397 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 04:54:43.600 [IPEngineApp] Registering with controller at tcp://10.50.180.71:61343
+2018-07-20 04:54:43.604 [IPEngineApp] Registering with controller at tcp://10.50.180.71:61343
+2018-07-20 04:54:43.607 [IPEngineApp] Registering with controller at tcp://10.50.180.71:61343
+2018-07-20 04:54:43.609 [IPEngineApp] Registering with controller at tcp://10.50.180.71:61343
+2018-07-20 04:54:43.899 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-20 04:54:43.909 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-20 04:54:43.913 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-20 04:54:43.907 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-20 04:54:43.925 [IPEngineApp] Completed registration with id 3
+2018-07-20 04:54:43.926 [IPEngineApp] Completed registration with id 0
+2018-07-20 04:54:43.927 [IPEngineApp] Completed registration with id 1
+2018-07-20 04:54:43.929 [IPEngineApp] Completed registration with id 2
+2018-07-20 06:17:49.714 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 06:17:49.716 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 06:17:49.714 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 06:17:49.715 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 06:17:49.915 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 06:17:49.919 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 06:17:49.922 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 06:17:49.925 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 06:17:54.923 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 06:17:54.923 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 06:17:54.928 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 06:17:54.928 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds

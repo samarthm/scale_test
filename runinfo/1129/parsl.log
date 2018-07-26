@@ -1,0 +1,128 @@
+2018-07-17 10:51:51 parsl.dataflow.dflow:71 [INFO]  Parsl version: 0.5.1
+2018-07-17 10:51:51 parsl.dataflow.dflow:72 [INFO]  Libsubmit version: 0.5.0-a0
+2018-07-17 10:51:51 parsl.dataflow.usage_tracking.usage:125 [DEBUG]  Tracking status: True
+2018-07-17 10:51:51 parsl.dataflow.usage_tracking.usage:126 [DEBUG]  Testing mode   : False
+2018-07-17 10:51:51 parsl.dataflow.memoization:52 [INFO]  App caching initialized
+2018-07-17 10:51:51 parsl.executors.ipp_controller:83 [DEBUG]  Starting ipcontroller with 'ipcontroller --ipython-dir=/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1129 --ip=* --profile=midway_ipp   '
+2018-07-17 10:51:54 parsl.executors.ipp:97 [DEBUG]  Waiting for /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1129/profile_midway_ipp/security/ipcontroller-client.json
+2018-07-17 10:51:54 parsl.executors.ipp:114 [DEBUG]  Starting IPyParallelExecutor with provider:
+SlurmProvider(
+    'sandyb',
+    channel=LocalChannel(
+        envs={}, 
+        script_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/.scripts', 
+        userhome='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress'
+    ), 
+    cmd_timeout=10, 
+    init_blocks=1, 
+    label='slurm', 
+    launcher=<libsubmit.launchers.launchers.SingleNodeLauncher object at 0x7f58072a1cf8>, 
+    max_blocks=1, 
+    min_blocks=1, 
+    nodes_per_block=1, 
+    overrides='module load Anaconda3/5.1.0; export PARSL_TESTING=True', 
+    parallelism=0.5, 
+    script_dir='parsl_scripts', 
+    tasks_per_node=1, 
+    walltime=11
+)
+2018-07-17 10:51:54 parsl.executors.ipp:119 [DEBUG]  Launched block: 0:47586576
+2018-07-17 10:51:54 parsl.executors.ipp:134 [DEBUG]  Starting executor
+2018-07-17 10:51:54 parsl.dataflow.strategy:120 [DEBUG]  Scaling strategy: simple
+2018-07-17 10:51:54 parsl.dataflow.dflow:480 [INFO]  Task 0 submitted for App sleeper, waiting on tasks []
+2018-07-17 10:51:54 parsl.dataflow.dflow:286 [INFO]  Task 0 launched on executor midway_ipp
+2018-07-17 10:51:54 parsl.dataflow.dflow:501 [DEBUG]  Task 0 launched with AppFuture: <AppFuture at 0x7f57f17cabe0 state=pending>
+2018-07-17 10:51:55 parsl.dataflow.strategy:175 [DEBUG]  Tasks:1 Slots:1 Parallelism:0.5
+2018-07-17 10:52:00 parsl.dataflow.strategy:175 [DEBUG]  Tasks:1 Slots:1 Parallelism:0.5
+2018-07-17 10:52:05 parsl.dataflow.dflow:185 [INFO]  Task 0 completed
+2018-07-17 10:52:05 parsl.dataflow.dflow:480 [INFO]  Task 1 submitted for App sleeper, waiting on tasks []
+2018-07-17 10:52:05 parsl.dataflow.dflow:286 [INFO]  Task 1 launched on executor midway_ipp
+2018-07-17 10:52:05 parsl.dataflow.dflow:501 [DEBUG]  Task 1 launched with AppFuture: <AppFuture at 0x7f57f17df438 state=pending>
+2018-07-17 10:52:05 parsl.dataflow.strategy:175 [DEBUG]  Tasks:1 Slots:1 Parallelism:0.5
+2018-07-17 10:52:07 parsl.dataflow.dflow:185 [INFO]  Task 1 completed
+2018-07-17 10:52:07 parsl.dataflow.dflow:480 [INFO]  Task 2 submitted for App sleeper, waiting on tasks []
+2018-07-17 10:52:07 parsl.dataflow.dflow:286 [INFO]  Task 2 launched on executor midway_ipp
+2018-07-17 10:52:07 parsl.dataflow.dflow:501 [DEBUG]  Task 2 launched with AppFuture: <AppFuture at 0x7f57f17dfcc0 state=pending>
+2018-07-17 10:52:09 parsl.dataflow.dflow:185 [INFO]  Task 2 completed
+2018-07-17 10:52:09 parsl.dataflow.dflow:480 [INFO]  Task 3 submitted for App sleeper, waiting on tasks []
+2018-07-17 10:52:09 parsl.dataflow.dflow:286 [INFO]  Task 3 launched on executor midway_ipp
+2018-07-17 10:52:09 parsl.dataflow.dflow:501 [DEBUG]  Task 3 launched with AppFuture: <AppFuture at 0x7f57f176e5c0 state=pending>
+2018-07-17 10:52:10 parsl.dataflow.strategy:175 [DEBUG]  Tasks:1 Slots:1 Parallelism:0.5
+2018-07-17 10:52:11 parsl.dataflow.dflow:185 [INFO]  Task 3 completed
+2018-07-17 10:52:11 parsl.dataflow.dflow:480 [INFO]  Task 4 submitted for App sleeper, waiting on tasks []
+2018-07-17 10:52:11 parsl.dataflow.dflow:286 [INFO]  Task 4 launched on executor midway_ipp
+2018-07-17 10:52:11 parsl.dataflow.dflow:501 [DEBUG]  Task 4 launched with AppFuture: <AppFuture at 0x7f57f176ed68 state=pending>
+2018-07-17 10:52:13 parsl.dataflow.dflow:185 [INFO]  Task 4 completed
+2018-07-17 10:52:13 parsl.dataflow.dflow:480 [INFO]  Task 5 submitted for App sleeper, waiting on tasks []
+2018-07-17 10:52:13 parsl.dataflow.dflow:286 [INFO]  Task 5 launched on executor midway_ipp
+2018-07-17 10:52:13 parsl.dataflow.dflow:501 [DEBUG]  Task 5 launched with AppFuture: <AppFuture at 0x7f57f177a5f8 state=pending>
+2018-07-17 10:52:15 parsl.dataflow.dflow:185 [INFO]  Task 5 completed
+2018-07-17 10:52:15 parsl.dataflow.dflow:480 [INFO]  Task 6 submitted for App sleeper, waiting on tasks []
+2018-07-17 10:52:15 parsl.dataflow.dflow:286 [INFO]  Task 6 launched on executor midway_ipp
+2018-07-17 10:52:15 parsl.dataflow.dflow:501 [DEBUG]  Task 6 launched with AppFuture: <AppFuture at 0x7f57f177ae48 state=pending>
+2018-07-17 10:52:16 parsl.dataflow.strategy:175 [DEBUG]  Tasks:1 Slots:1 Parallelism:0.5
+2018-07-17 10:52:17 parsl.dataflow.dflow:185 [INFO]  Task 6 completed
+2018-07-17 10:52:17 parsl.dataflow.dflow:480 [INFO]  Task 7 submitted for App sleeper, waiting on tasks []
+2018-07-17 10:52:17 parsl.dataflow.dflow:286 [INFO]  Task 7 launched on executor midway_ipp
+2018-07-17 10:52:17 parsl.dataflow.dflow:501 [DEBUG]  Task 7 launched with AppFuture: <AppFuture at 0x7f57f17846d8 state=pending>
+2018-07-17 10:52:19 parsl.dataflow.dflow:185 [INFO]  Task 7 completed
+2018-07-17 10:52:19 parsl.dataflow.dflow:480 [INFO]  Task 8 submitted for App sleeper, waiting on tasks []
+2018-07-17 10:52:19 parsl.dataflow.dflow:286 [INFO]  Task 8 launched on executor midway_ipp
+2018-07-17 10:52:19 parsl.dataflow.dflow:501 [DEBUG]  Task 8 launched with AppFuture: <AppFuture at 0x7f57f1784f28 state=pending>
+2018-07-17 10:52:21 parsl.dataflow.dflow:185 [INFO]  Task 8 completed
+2018-07-17 10:52:21 parsl.dataflow.dflow:480 [INFO]  Task 9 submitted for App sleeper, waiting on tasks []
+2018-07-17 10:52:21 parsl.dataflow.dflow:286 [INFO]  Task 9 launched on executor midway_ipp
+2018-07-17 10:52:21 parsl.dataflow.dflow:501 [DEBUG]  Task 9 launched with AppFuture: <AppFuture at 0x7f57f17917f0 state=pending>
+2018-07-17 10:52:21 parsl.dataflow.strategy:175 [DEBUG]  Tasks:1 Slots:1 Parallelism:0.5
+2018-07-17 10:52:23 parsl.dataflow.dflow:185 [INFO]  Task 9 completed
+2018-07-17 10:52:23 parsl.dataflow.dflow:480 [INFO]  Task 10 submitted for App sleeper, waiting on tasks []
+2018-07-17 10:52:23 parsl.dataflow.dflow:286 [INFO]  Task 10 launched on executor midway_ipp
+2018-07-17 10:52:23 parsl.dataflow.dflow:501 [DEBUG]  Task 10 launched with AppFuture: <AppFuture at 0x7f57f179e048 state=pending>
+2018-07-17 10:52:25 parsl.dataflow.dflow:185 [INFO]  Task 10 completed
+2018-07-17 10:52:25 parsl.dataflow.dflow:480 [INFO]  Task 11 submitted for App sleeper, waiting on tasks []
+2018-07-17 10:52:25 parsl.dataflow.dflow:286 [INFO]  Task 11 launched on executor midway_ipp
+2018-07-17 10:52:25 parsl.dataflow.dflow:501 [DEBUG]  Task 11 launched with AppFuture: <AppFuture at 0x7f57f179e898 state=pending>
+2018-07-17 10:52:26 parsl.dataflow.strategy:175 [DEBUG]  Tasks:1 Slots:1 Parallelism:0.5
+2018-07-17 10:52:27 parsl.dataflow.dflow:185 [INFO]  Task 11 completed
+2018-07-17 10:52:27 parsl.dataflow.dflow:480 [INFO]  Task 12 submitted for App sleeper, waiting on tasks []
+2018-07-17 10:52:27 parsl.dataflow.dflow:286 [INFO]  Task 12 launched on executor midway_ipp
+2018-07-17 10:52:27 parsl.dataflow.dflow:501 [DEBUG]  Task 12 launched with AppFuture: <AppFuture at 0x7f57f17a6128 state=pending>
+2018-07-17 10:52:29 parsl.dataflow.dflow:185 [INFO]  Task 12 completed
+2018-07-17 10:52:29 parsl.dataflow.dflow:480 [INFO]  Task 13 submitted for App sleeper, waiting on tasks []
+2018-07-17 10:52:29 parsl.dataflow.dflow:286 [INFO]  Task 13 launched on executor midway_ipp
+2018-07-17 10:52:29 parsl.dataflow.dflow:501 [DEBUG]  Task 13 launched with AppFuture: <AppFuture at 0x7f57f17a6978 state=pending>
+2018-07-17 10:52:30 parsl.dataflow.strategy:175 [DEBUG]  Tasks:1 Slots:1 Parallelism:0.5
+2018-07-17 10:52:31 parsl.dataflow.dflow:185 [INFO]  Task 13 completed
+2018-07-17 10:52:31 parsl.dataflow.dflow:480 [INFO]  Task 14 submitted for App sleeper, waiting on tasks []
+2018-07-17 10:52:31 parsl.dataflow.dflow:286 [INFO]  Task 14 launched on executor midway_ipp
+2018-07-17 10:52:31 parsl.dataflow.dflow:501 [DEBUG]  Task 14 launched with AppFuture: <AppFuture at 0x7f57f172f208 state=pending>
+2018-07-17 10:52:33 parsl.dataflow.dflow:185 [INFO]  Task 14 completed
+2018-07-17 10:52:33 parsl.dataflow.dflow:480 [INFO]  Task 15 submitted for App sleeper, waiting on tasks []
+2018-07-17 10:52:33 parsl.dataflow.dflow:286 [INFO]  Task 15 launched on executor midway_ipp
+2018-07-17 10:52:33 parsl.dataflow.dflow:501 [DEBUG]  Task 15 launched with AppFuture: <AppFuture at 0x7f57f172fa58 state=pending>
+2018-07-17 10:52:35 parsl.dataflow.dflow:185 [INFO]  Task 15 completed
+2018-07-17 10:52:35 parsl.dataflow.dflow:480 [INFO]  Task 16 submitted for App sleeper, waiting on tasks []
+2018-07-17 10:52:35 parsl.dataflow.dflow:286 [INFO]  Task 16 launched on executor midway_ipp
+2018-07-17 10:52:35 parsl.dataflow.dflow:501 [DEBUG]  Task 16 launched with AppFuture: <AppFuture at 0x7f57f173d2e8 state=pending>
+2018-07-17 10:52:35 parsl.dataflow.strategy:175 [DEBUG]  Tasks:1 Slots:1 Parallelism:0.5
+2018-07-17 10:52:37 parsl.dataflow.dflow:185 [INFO]  Task 16 completed
+2018-07-17 10:52:37 parsl.dataflow.dflow:480 [INFO]  Task 17 submitted for App sleeper, waiting on tasks []
+2018-07-17 10:52:37 parsl.dataflow.dflow:286 [INFO]  Task 17 launched on executor midway_ipp
+2018-07-17 10:52:37 parsl.dataflow.dflow:501 [DEBUG]  Task 17 launched with AppFuture: <AppFuture at 0x7f57f173db38 state=pending>
+2018-07-17 10:52:39 parsl.dataflow.dflow:185 [INFO]  Task 17 completed
+2018-07-17 10:52:39 parsl.dataflow.dflow:480 [INFO]  Task 18 submitted for App sleeper, waiting on tasks []
+2018-07-17 10:52:39 parsl.dataflow.dflow:286 [INFO]  Task 18 launched on executor midway_ipp
+2018-07-17 10:52:39 parsl.dataflow.dflow:501 [DEBUG]  Task 18 launched with AppFuture: <AppFuture at 0x7f57f17473c8 state=pending>
+2018-07-17 10:52:40 parsl.dataflow.strategy:175 [DEBUG]  Tasks:1 Slots:1 Parallelism:0.5
+2018-07-17 10:52:41 parsl.dataflow.dflow:591 [INFO]  DFK cleanup initiated
+2018-07-17 10:52:41 parsl.dataflow.dflow:538 [INFO]  Summary of tasks in DFK:
+2018-07-17 10:52:41 parsl.dataflow.dflow:569 [INFO]  Tasks in state States.running: 18
+2018-07-17 10:52:41 parsl.dataflow.dflow:569 [INFO]  Tasks in state States.done: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17
+2018-07-17 10:52:41 parsl.dataflow.dflow:576 [INFO]  End of summary
+2018-07-17 10:52:41 parsl.dataflow.dflow:615 [INFO]  Terminating flow_control and strategy threads
+2018-07-17 10:52:41 parsl.dataflow.dflow:185 [INFO]  Task 18 completed
+2018-07-17 10:52:41 parsl.executors.ipp:282 [DEBUG]  IPP:Shutdown sequence: Attempting controller kill
+2018-07-17 10:52:41 parsl.executors.ipp_controller:142 [DEBUG]  Controller exited with 0
+2018-07-17 10:52:41 parsl.executors.ipp:292 [DEBUG]  Done with executor shutdown
+2018-07-17 10:52:41 parsl.data_provider.data_manager:66 [DEBUG]  Done with executor shutdown
+2018-07-17 10:52:41 parsl.dataflow.dflow:625 [INFO]  DFK cleanup complete

@@ -1,0 +1,12 @@
+/tmp/slurmd/job47252694/slurm_script: line 18:  2123 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47252694/slurm_script: line 18:  2178 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47252694/slurm_script: line 18:  2177 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47252694/slurm_script: line 18:  2109 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47252694/slurm_script: line 18:  2142 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47252694/slurm_script: line 18:  2119 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47252694/slurm_script: line 18:  2163 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+slurmstepd-midway002: error: Job 47252694 exceeded memory limit (1969656 > 1945600), being killed
+/tmp/slurmd/job47252694/slurm_script: line 18:  2140 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+slurmstepd-midway002: error: Exceeded job memory limit
+/tmp/slurmd/job47252694/slurm_script: line 18:  2159 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+slurmstepd-midway002: error: *** JOB 47252694 ON midway002 CANCELLED AT 2018-07-06T11:37:41 ***

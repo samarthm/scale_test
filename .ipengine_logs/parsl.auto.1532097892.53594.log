@@ -1,0 +1,191 @@
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 6, in <module>
+    from pkg_resources import load_entry_point
+  File "/home/madduru/.local/lib/python3.6/site-packages/pkg_resources/__init__.py", line 41, in <module>
+    import inspect
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 780, in get_code
+  File "<frozen importlib._bootstrap_external>", line 833, in get_data
+OSError: [Errno 14] Bad address
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 6, in <module>
+    from pkg_resources import load_entry_point
+  File "/home/madduru/.local/lib/python3.6/site-packages/pkg_resources/__init__.py", line 3088, in <module>
+    @_call_aside
+  File "/home/madduru/.local/lib/python3.6/site-packages/pkg_resources/__init__.py", line 3072, in _call_aside
+    f(*args, **kwargs)
+  File "/home/madduru/.local/lib/python3.6/site-packages/pkg_resources/__init__.py", line 3124, in _initialize_master_working_set
+    list(map(working_set.add_entry, sys.path))
+  File "/home/madduru/.local/lib/python3.6/site-packages/pkg_resources/__init__.py", line 614, in add_entry
+    for dist in find_distributions(entry, True):
+  File "/home/madduru/.local/lib/python3.6/site-packages/pkg_resources/__init__.py", line 1964, in find_on_path
+    for dist in factory(fullpath):
+  File "/home/madduru/.local/lib/python3.6/site-packages/pkg_resources/__init__.py", line 2034, in distributions_from_metadata
+    root, entry, metadata, precedence=DEVELOP_DIST,
+  File "/home/madduru/.local/lib/python3.6/site-packages/pkg_resources/__init__.py", line 2473, in from_location
+    py_version=py_version, platform=platform, **kw
+  File "/home/madduru/.local/lib/python3.6/site-packages/pkg_resources/__init__.py", line 2835, in _reload_version
+    md_version = _version_from_file(self._get_metadata(self.PKG_INFO))
+  File "/home/madduru/.local/lib/python3.6/site-packages/pkg_resources/__init__.py", line 2437, in _version_from_file
+    line = next(iter(version_lines), '')
+  File "/home/madduru/.local/lib/python3.6/site-packages/pkg_resources/__init__.py", line 2627, in _get_metadata
+    for line in self.get_metadata_lines(name):
+  File "/home/madduru/.local/lib/python3.6/site-packages/pkg_resources/__init__.py", line 1408, in get_metadata_lines
+    return yield_lines(self.get_metadata(name))
+  File "/home/madduru/.local/lib/python3.6/site-packages/pkg_resources/__init__.py", line 1404, in get_metadata
+    value = self._get(self._fn(self.egg_info, name))
+  File "/home/madduru/.local/lib/python3.6/site-packages/pkg_resources/__init__.py", line 1517, in _get
+    return stream.read()
+OSError: [Errno 14] Bad address
+2018-07-20 09:50:17.172 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:17.181 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:17.186 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:17.191 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:17.196 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:17.201 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:17.206 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:17.211 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:17.216 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:17.221 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:17.226 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:17.231 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:17.236 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:17.241 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:17.291 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:17.387 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:17.388 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:17.255 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:17.250 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:17.271 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:17.348 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:17.301 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:17.404 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:17.366 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:17.364 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:17.333 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:17.320 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:17.329 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:17.261 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:17.325 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:17.317 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:17.281 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:18.616 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:18.620 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:18.623 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:18.626 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:18.629 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:18.632 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:18.635 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:18.638 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:18.641 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:18.644 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:18.647 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:18.650 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:18.653 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:18.656 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:18.659 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:18.663 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:18.667 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:18.672 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:18.675 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:18.678 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:18.683 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:18.687 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:18.694 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:18.703 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:18.707 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:18.713 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:18.716 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:18.719 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:18.731 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:18.739 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:18.750 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:18.769 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:18.780 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:19.199 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:19.229 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:19.240 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:19.246 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:19.253 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:19.260 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:19.265 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:19.288 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:19.295 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:19.300 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:19.304 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:19.307 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:19.311 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:19.212 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:19.322 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:19.324 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:19.326 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:19.681 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:19.687 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:19.690 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:19.693 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:19.697 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:19.700 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:19.702 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:19.711 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:19.714 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:19.717 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:19.720 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:19.724 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:19.727 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:19.730 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:19.744 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:19.788 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:19.827 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-20 09:50:19.851 [IPEngineApp] Registering with controller at tcp://10.50.180.72:64053
+2018-07-20 09:50:23.624 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:23.626 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:23.630 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:23.632 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:23.635 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:23.638 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:23.642 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:23.644 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:23.647 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:23.650 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:23.653 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:23.656 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:23.659 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:23.662 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:23.665 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:23.669 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:23.674 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:23.679 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:23.682 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:23.685 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:23.689 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:23.694 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:23.700 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:23.709 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:23.719 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:23.722 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:23.726 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:23.738 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:23.776 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:23.786 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:24.205 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:24.302 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:24.310 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:24.691 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:24.696 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:24.701 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:24.702 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:24.706 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:24.707 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:24.709 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:24.718 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:24.724 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:24.725 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:24.730 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:24.731 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:24.736 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:24.741 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:24.795 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-07-20 09:50:24.858 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds

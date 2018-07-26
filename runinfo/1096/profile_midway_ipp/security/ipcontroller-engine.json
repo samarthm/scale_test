@@ -1,0 +1,16 @@
+{
+  "ssh": "",
+  "interface": "tcp://*",
+  "registration": 39232,
+  "control": 51570,
+  "mux": 57128,
+  "hb_ping": 55911,
+  "hb_pong": 64724,
+  "task": 33756,
+  "iopub": 39037,
+  "key": "62c8e1e0-5807be66f73524cfb7718cd5",
+  "location": "midway-login1",
+  "pack": "json",
+  "unpack": "json",
+  "signature_scheme": "hmac-sha256"
+}

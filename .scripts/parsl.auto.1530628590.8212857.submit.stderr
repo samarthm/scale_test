@@ -1,0 +1,5 @@
+/tmp/slurmd/job47252683/slurm_script: line 18: 11026 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47252683/slurm_script: line 18: 11028 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47252683/slurm_script: line 18: 11029 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+slurmstepd-midway011: error: *** JOB 47252683 ON midway011 CANCELLED AT 2018-07-05T07:07:56 DUE TO TIME LIMIT ***
+slurmstepd-midway011: error: Detected 774 oom-kill event(s) in step 47252683.batch cgroup.

@@ -1,0 +1,12 @@
+2018-06-28 16:23:02.238 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-06-28 16:23:02.239 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-06-28 16:23:02.268 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-06-28 16:23:02.301 [IPEngineApp] Registering with controller at tcp://10.50.180.71:50985
+2018-06-28 16:23:02.336 [IPEngineApp] Registering with controller at tcp://10.50.180.71:50985
+2018-06-28 16:23:02.339 [IPEngineApp] Registering with controller at tcp://10.50.180.71:50985
+2018-06-28 16:23:02.385 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-06-28 16:23:02.408 [IPEngineApp] Registering with controller at tcp://10.50.180.71:50985
+2018-06-28 16:23:07.308 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-06-28 16:23:07.342 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-06-28 16:23:07.343 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds
+2018-06-28 16:23:07.414 [IPEngineApp] CRITICAL | Registration timed out after 5.0 seconds

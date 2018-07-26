@@ -1,0 +1,4 @@
+slurmstepd-midway222: error: Job 47692262 exceeded memory limit (1954252 > 1945600), being killed
+/tmp/slurmd/job47692262/slurm_script: line 18: 21104 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+slurmstepd-midway222: error: Exceeded job memory limit
+slurmstepd-midway222: error: *** JOB 47692262 ON midway222 CANCELLED AT 2018-07-19T13:52:17 ***

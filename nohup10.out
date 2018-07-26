@@ -1,0 +1,156 @@
+pkill: 2114 - Operation not permitted
+pkill: 2115 - Operation not permitted
+pkill: 2118 - Operation not permitted
+pkill: 2121 - Operation not permitted
+pkill: 26538 - Operation not permitted
+pkill: 26606 - Operation not permitted
+pkill: 26607 - Operation not permitted
+pkill: 26610 - Operation not permitted
+pkill: 26615 - Operation not permitted
+pkill: 26620 - Operation not permitted
+pkill: 26675 - Operation not permitted
+pkill: 26676 - Operation not permitted
+pkill: 26679 - Operation not permitted
+pkill: 26684 - Operation not permitted
+pkill: 28219 - Operation not permitted
+pkill: 28368 - Operation not permitted
+pkill: 28369 - Operation not permitted
+pkill: 28372 - Operation not permitted
+pkill: 28375 - Operation not permitted
+test
+we are on trial 0
+DEBUG:parsl.executors.ipp:Starting IPyParallelExecutor with provider:
+SlurmProvider(
+    'sandyb',
+    channel=LocalChannel(
+        envs={}, 
+        script_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/.scripts', 
+        userhome='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress'
+    ), 
+    cmd_timeout=10, 
+    init_blocks=1, 
+    label='slurm', 
+    launcher=<libsubmit.launchers.launchers.SingleNodeLauncher object at 0x7fb599798e80>, 
+    max_blocks=1, 
+    min_blocks=1, 
+    nodes_per_block=1, 
+    overrides='module load Anaconda3/5.1.0; export PARSL_TESTING=True', 
+    parallelism=0.5, 
+    script_dir='parsl_scripts', 
+    tasks_per_node=16, 
+    walltime=601
+)
+DEBUG:parsl.executors.ipp:Launched block: 0:47792902
+DEBUG:parsl.executors.ipp:Starting executor
+DEBUG:parsl.dataflow.strategy:Scaling strategy: simple
+DEBUG:parsl.dataflow.strategy:Tasks:0 Slots:16 Parallelism:0.5
+DEBUG:parsl.dataflow.strategy:Tasks:0 Slots:16 Parallelism:0.5
+DEBUG:parsl.dataflow.strategy:Tasks:0 Slots:16 Parallelism:0.5
+DEBUG:parsl.dataflow.strategy:Tasks:0 Slots:16 Parallelism:0.5
+DEBUG:parsl.dataflow.strategy:Tasks:0 Slots:16 Parallelism:0.5
+DEBUG:parsl.dataflow.strategy:Tasks:0 Slots:16 Parallelism:0.5
+DEBUG:parsl.config:Checkpoint period only has an effect with checkpoint_mode='periodic'
+DEBUG:parsl.dataflow.dflow:Starting DataFlowKernel with config
+Config(
+    app_cache=True, 
+    checkpoint_files=None, 
+    checkpoint_mode=None, 
+    checkpoint_period='00:30:00', 
+    data_management_max_threads=10, 
+    executors=[IPyParallelExecutor(
+        container_image=None, 
+        controller=Controller(
+            interfaces=None, 
+            ipython_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1280', 
+            log=True, 
+            mode='auto', 
+            port=None, 
+            port_range=None, 
+            profile='midway_ipp', 
+            public_ip=None, 
+            reuse=False
+        ), 
+        engine_dir='.', 
+        engine_file='~/.ipython/profile_default/security/ipcontroller-engine.json', 
+        label='midway_ipp', 
+        managed=True, 
+        provider=SlurmProvider(
+            'sandyb',
+            channel=LocalChannel(
+                envs={}, 
+                script_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/.scripts', 
+                userhome='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress'
+            ), 
+            cmd_timeout=10, 
+            init_blocks=1, 
+            label='slurm', 
+            launcher=<libsubmit.launchers.launchers.SingleNodeLauncher object at 0x7fb599798e80>, 
+            max_blocks=1, 
+            min_blocks=1, 
+            nodes_per_block=1, 
+            overrides='module load Anaconda3/5.1.0; export PARSL_TESTING=True', 
+            parallelism=0.5, 
+            script_dir='parsl_scripts', 
+            tasks_per_node=32, 
+            walltime=601
+        ), 
+        storage_access=[], 
+        working_dir=None
+    )], 
+    lazy_errors=True, 
+    retries=0, 
+    run_dir='runinfo', 
+    strategy='simple', 
+    usage_tracking=True
+)
+DEBUG:parsl.dataflow.rundirs:Parsl run initializing in rundir:runinfo/1281
+INFO:parsl.dataflow.dflow:Parsl version: 0.5.1
+INFO:parsl.dataflow.dflow:Libsubmit version: 0.5.0-a0
+DEBUG:parsl.dataflow.usage_tracking.usage:Tracking status: True
+DEBUG:parsl.dataflow.usage_tracking.usage:Testing mode   : False
+[]
+INFO:parsl.dataflow.memoization:App caching initialized
+DEBUG:parsl.executors.ipp_controller:Starting ipcontroller with 'ipcontroller --ipython-dir=/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1281 --ip=* --profile=midway_ipp   '
+DEBUG:parsl.dataflow.strategy:Tasks:0 Slots:16 Parallelism:0.5
+DEBUG:parsl.executors.ipp:Waiting for /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1281/profile_midway_ipp/security/ipcontroller-client.json
+DEBUG:parsl.executors.ipp:Starting IPyParallelExecutor with provider:
+SlurmProvider(
+    'sandyb',
+    channel=LocalChannel(
+        envs={}, 
+        script_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/.scripts', 
+        userhome='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress'
+    ), 
+    cmd_timeout=10, 
+    init_blocks=1, 
+    label='slurm', 
+    launcher=<libsubmit.launchers.launchers.SingleNodeLauncher object at 0x7fb599798e80>, 
+    max_blocks=1, 
+    min_blocks=1, 
+    nodes_per_block=1, 
+    overrides='module load Anaconda3/5.1.0; export PARSL_TESTING=True', 
+    parallelism=0.5, 
+    script_dir='parsl_scripts', 
+    tasks_per_node=32, 
+    walltime=601
+)
+DEBUG:parsl.executors.ipp:Launched block: 0:47792940
+DEBUG:parsl.executors.ipp:Starting executor
+DEBUG:parsl.dataflow.strategy:Scaling strategy: simple
+DEBUG:parsl.dataflow.strategy:Tasks:0 Slots:32 Parallelism:0.5
+DEBUG:parsl.dataflow.strategy:Tasks:0 Slots:16 Parallelism:0.5
+DEBUG:parsl.dataflow.strategy:Tasks:0 Slots:32 Parallelism:0.5
+DEBUG:parsl.dataflow.strategy:Tasks:0 Slots:16 Parallelism:0.5
+DEBUG:parsl.dataflow.strategy:Tasks:0 Slots:32 Parallelism:0.5
+DEBUG:parsl.dataflow.strategy:Tasks:0 Slots:16 Parallelism:0.5
+DEBUG:parsl.dataflow.strategy:Tasks:0 Slots:32 Parallelism:0.5
+DEBUG:parsl.dataflow.strategy:Tasks:0 Slots:16 Parallelism:0.5
+DEBUG:parsl.dataflow.strategy:Tasks:0 Slots:32 Parallelism:0.5
+DEBUG:parsl.dataflow.strategy:Tasks:0 Slots:16 Parallelism:0.5
+DEBUG:parsl.dataflow.strategy:Tasks:0 Slots:32 Parallelism:0.5
+DEBUG:parsl.dataflow.strategy:Tasks:0 Slots:16 Parallelism:0.5
+DEBUG:parsl.dataflow.strategy:Tasks:0 Slots:32 Parallelism:0.5
+DEBUG:parsl.dataflow.strategy:Tasks:0 Slots:16 Parallelism:0.5
+DEBUG:parsl.dataflow.strategy:Tasks:0 Slots:32 Parallelism:0.5
+DEBUG:parsl.dataflow.strategy:Tasks:0 Slots:16 Parallelism:0.5
+DEBUG:parsl.dataflow.strategy:Tasks:0 Slots:32 Parallelism:0.5

@@ -1,0 +1,22 @@
+/tmp/slurmd/job47252689/slurm_script: line 18:  1010 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47252689/slurm_script: line 18:  1011 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47252689/slurm_script: line 18:  1014 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47252689/slurm_script: line 18:  1015 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47252689/slurm_script: line 18:  1013 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47252689/slurm_script: line 18:  1032 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47252689/slurm_script: line 18:  1016 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47252689/slurm_script: line 18:  1017 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47252689/slurm_script: line 18:  1064 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47252689/slurm_script: line 18:  1038 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47252689/slurm_script: line 18:  1034 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47252689/slurm_script: line 18:  1050 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47252689/slurm_script: line 18:  1022 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47252689/slurm_script: line 18:  1018 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47252689/slurm_script: line 18:  1019 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47252689/slurm_script: line 18:  1020 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47252689/slurm_script: line 18:  1023 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47252689/slurm_script: line 18:  1024 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+slurmstepd-midway011: error: Job 47252689 exceeded memory limit (1973436 > 1945600), being killed
+slurmstepd-midway011: error: Exceeded job memory limit
+slurmstepd-midway011: error: *** JOB 47252689 ON midway011 CANCELLED AT 2018-07-05T06:05:45 ***
+slurmstepd-midway011: error: Detected 4124 oom-kill event(s) in step 47252689.batch cgroup.

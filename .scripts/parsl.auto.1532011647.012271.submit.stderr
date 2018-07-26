@@ -1,0 +1,3 @@
+/tmp/slurmd/job47679418/slurm_script: line 18: 11486 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+slurmstepd-midway095: error: *** JOB 47679418 ON midway095 CANCELLED AT 2018-07-19T09:51:15 ***
+slurmstepd-midway095: error: Detected 237 oom-kill event(s) in step 47679418.batch cgroup.

@@ -1,0 +1,24 @@
+2018-07-03 09:35:26.817 [IPControllerApp] Created profile dir: '/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/401/profile_midway_ipp'
+2018-07-03 09:35:26.834 [IPControllerApp] Hub listening on tcp://*:35153 for registration.
+2018-07-03 09:35:26.836 [IPControllerApp] Hub using DB backend: 'DictDB'
+2018-07-03 09:35:27.098 [IPControllerApp] hub::created hub
+2018-07-03 09:35:27.099 [IPControllerApp] writing connection info to /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/401/profile_midway_ipp/security/ipcontroller-client.json
+2018-07-03 09:35:27.100 [IPControllerApp] writing connection info to /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/401/profile_midway_ipp/security/ipcontroller-engine.json
+2018-07-03 09:35:27.100 [IPControllerApp] task::using Python leastload Task scheduler
+2018-07-03 09:35:27.101 [IPControllerApp] Heartmonitor started
+2018-07-03 09:35:27.110 [IPControllerApp] Creating pid file: /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/401/profile_midway_ipp/pid/ipcontroller.pid
+Process Process-1:
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/controller/scheduler.py", line 811, in launch_scheduler
+    ins.bind(in_addr)
+  File "zmq/backend/cython/socket.pyx", line 547, in zmq.backend.cython.socket.Socket.bind
+  File "zmq/backend/cython/checkrc.pxd", line 25, in zmq.backend.cython.checkrc._check_rc
+zmq.error.ZMQError: Address already in use
+2018-07-03 09:35:28.254 [IPControllerApp] client::client b'\x00k\x8bEg' requested 'connection_request'
+2018-07-03 09:35:28.254 [IPControllerApp] client::client [b'\x00k\x8bEg'] connected
+2018-07-03 09:35:30.092 [IPControllerApp] CRITICAL | Received signal 15, shutting down
+2018-07-03 09:35:30.093 [IPControllerApp] CRITICAL | terminating children...

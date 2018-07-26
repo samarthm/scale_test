@@ -1,0 +1,36 @@
+2018-07-19 13:12:39.290 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 13:12:39.315 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 13:12:39.320 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 13:12:39.311 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 13:12:39.295 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 13:12:39.301 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 13:12:39.306 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 13:12:39.326 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 13:12:39.804 [IPEngineApp] Registering with controller at tcp://10.50.180.72:59895
+2018-07-19 13:12:39.808 [IPEngineApp] Registering with controller at tcp://10.50.180.72:59895
+2018-07-19 13:12:39.813 [IPEngineApp] Registering with controller at tcp://10.50.180.72:59895
+2018-07-19 13:12:39.816 [IPEngineApp] Registering with controller at tcp://10.50.180.72:59895
+2018-07-19 13:12:39.821 [IPEngineApp] Registering with controller at tcp://10.50.180.72:59895
+2018-07-19 13:12:39.825 [IPEngineApp] Registering with controller at tcp://10.50.180.72:59895
+2018-07-19 13:12:39.829 [IPEngineApp] Registering with controller at tcp://10.50.180.72:59895
+2018-07-19 13:12:39.833 [IPEngineApp] Registering with controller at tcp://10.50.180.72:59895
+2018-07-19 13:12:40.638 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-19 13:12:40.642 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-19 13:12:40.648 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-19 13:12:40.652 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-19 13:12:40.656 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-19 13:12:40.630 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-19 13:12:40.667 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-19 13:12:40.600 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-19 13:12:40.698 [IPEngineApp] Completed registration with id 3
+2018-07-19 13:12:40.701 [IPEngineApp] Completed registration with id 2
+2018-07-19 13:12:40.706 [IPEngineApp] Completed registration with id 4
+2018-07-19 13:12:40.708 [IPEngineApp] Completed registration with id 6
+2018-07-19 13:12:40.711 [IPEngineApp] Completed registration with id 1
+2018-07-19 13:12:40.716 [IPEngineApp] Completed registration with id 7
+2018-07-19 13:12:40.717 [IPEngineApp] Completed registration with id 5
+2018-07-19 13:12:40.720 [IPEngineApp] Completed registration with id 0
+2018-07-19 13:14:50.070 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2018-07-19 13:14:50.074 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2018-07-19 13:14:50.080 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2018-07-19 13:14:50.092 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).

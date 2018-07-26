@@ -1,0 +1,31 @@
+/tmp/slurmd/job47742648/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47742648/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47742648/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47742648/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47742648/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47742648/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47742648/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47742648/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47742648/slurm_script: fork: Resource temporarily unavailable
+/tmp/slurmd/job47742648/slurm_script: line 18:  4456 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47742648/slurm_script: line 18:  5791 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+slurmstepd-midway199: error: Job 47742648 exceeded memory limit (2232200 > 1945600), being killed
+/tmp/slurmd/job47742648/slurm_script: line 18:  4457 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47742648/slurm_script: line 18:  6184 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47742648/slurm_script: line 18:  4458 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+slurmstepd-midway199: error: Exceeded job memory limit
+/tmp/slurmd/job47742648/slurm_script: line 18:  6189 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47742648/slurm_script: line 18:  4460 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47742648/slurm_script: line 18:  4461 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47742648/slurm_script: line 18:  6207 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47742648/slurm_script: line 18:  4462 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47742648/slurm_script: line 18:  4466 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+slurmstepd-midway199: error: *** JOB 47742648 ON midway199 CANCELLED AT 2018-07-20T06:38:44 ***
+/tmp/slurmd/job47742648/slurm_script: line 18:  4469 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47742648/slurm_script: line 18:  4470 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47742648/slurm_script: line 18:  6183 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47742648/slurm_script: line 18:  4471 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47742648/slurm_script: line 18:  4474 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47742648/slurm_script: line 18:  5936 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47742648/slurm_script: line 18:  4475 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+slurmstepd-midway199: error: Detected 59141 oom-kill event(s) in step 47742648.batch cgroup.

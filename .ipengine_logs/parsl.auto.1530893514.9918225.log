@@ -1,0 +1,35 @@
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.local/lib/python3.6/site-packages/pkg_resources/__init__.py", line 480, in load_entry_point
+    return get_distribution(dist).load_entry_point(group, name)
+  File "/home/madduru/.local/lib/python3.6/site-packages/pkg_resources/__init__.py", line 2693, in load_entry_point
+    return ep.load()
+  File "/home/madduru/.local/lib/python3.6/site-packages/pkg_resources/__init__.py", line 2324, in load
+    return self.resolve()
+  File "/home/madduru/.local/lib/python3.6/site-packages/pkg_resources/__init__.py", line 2330, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/__init__.py", line 17, in <module>
+    from .serialize import *
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/serialize/__init__.py", line 5, in <module>
+    from .serialize import (
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/serialize/serialize.py", line 26, in <module>
+    from jupyter_client.session import MAX_ITEMS, MAX_BYTES
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/jupyter_client/session.py", line 61, in <module>
+    from jupyter_client.jsonutil import extract_dates, squash_dates, date_default
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/jupyter_client/jsonutil.py", line 11, in <module>
+    from dateutil.parser import parse as _dateutil_parse
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/dateutil/parser/__init__.py", line 2, in <module>
+    from ._parser import parse, parser, parserinfo
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/dateutil/parser/_parser.py", line 50, in <module>
+    from .. import tz
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/dateutil/tz/__init__.py", line 2, in <module>
+    from .tz import *
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 951, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 894, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1157, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1129, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1245, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1285, in _fill_cache
+OSError: [Errno 14] Bad address: '/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/dateutil/tz'

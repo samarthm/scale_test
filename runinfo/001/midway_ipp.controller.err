@@ -1,0 +1,76 @@
+2018-06-28 14:19:56.794 [IPControllerApp] Created profile dir: '/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/001/profile_midway_ipp'
+2018-06-28 14:19:56.811 [IPControllerApp] Hub listening on tcp://*:36199 for registration.
+2018-06-28 14:19:56.812 [IPControllerApp] Hub using DB backend: 'DictDB'
+2018-06-28 14:19:57.072 [IPControllerApp] hub::created hub
+2018-06-28 14:19:57.073 [IPControllerApp] writing connection info to /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/001/profile_midway_ipp/security/ipcontroller-client.json
+2018-06-28 14:19:57.074 [IPControllerApp] writing connection info to /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/001/profile_midway_ipp/security/ipcontroller-engine.json
+2018-06-28 14:19:57.075 [IPControllerApp] task::using Python leastload Task scheduler
+2018-06-28 14:19:57.075 [IPControllerApp] Heartmonitor started
+2018-06-28 14:19:57.082 [IPControllerApp] Creating pid file: /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/001/profile_midway_ipp/pid/ipcontroller.pid
+2018-06-28 14:19:57.091 [scheduler] Scheduler started [leastload]
+2018-06-28 14:19:57.093 [IPControllerApp] client::client b'\x00k\x8bEg' requested 'connection_request'
+2018-06-28 14:19:57.093 [IPControllerApp] client::client [b'\x00k\x8bEg'] connected
+2018-06-28 14:19:57.263 [IPControllerApp] client::client b'\x00k\x8bEh' requested 'connection_request'
+2018-06-28 14:19:57.263 [IPControllerApp] client::client [b'\x00k\x8bEh'] connected
+2018-06-28 14:20:03.430 [IPControllerApp] client::client b'57947065-b48a641d6f854bf12f8f564b' requested 'registration_request'
+2018-06-28 14:20:03.432 [IPControllerApp] client::client b'ee88abc2-c554f89a5c10fd553fb336a6' requested 'registration_request'
+2018-06-28 14:20:03.433 [IPControllerApp] client::client b'b449718b-04ae28e2a049e00596269a6c' requested 'registration_request'
+2018-06-28 14:20:03.434 [IPControllerApp] client::client b'2b45ad91-31d9e69f421a65eebc1cb18a' requested 'registration_request'
+2018-06-28 14:20:09.079 [IPControllerApp] registration::finished registering engine 0:57947065-b48a641d6f854bf12f8f564b
+2018-06-28 14:20:09.079 [IPControllerApp] engine::Engine Connected: 0
+2018-06-28 14:20:09.081 [IPControllerApp] registration::finished registering engine 1:ee88abc2-c554f89a5c10fd553fb336a6
+2018-06-28 14:20:09.081 [IPControllerApp] engine::Engine Connected: 1
+2018-06-28 14:20:09.082 [IPControllerApp] registration::finished registering engine 2:b449718b-04ae28e2a049e00596269a6c
+2018-06-28 14:20:09.082 [IPControllerApp] engine::Engine Connected: 2
+2018-06-28 14:20:09.082 [IPControllerApp] registration::finished registering engine 3:2b45ad91-31d9e69f421a65eebc1cb18a
+2018-06-28 14:20:09.083 [IPControllerApp] engine::Engine Connected: 3
+2018-06-28 14:31:06.078 [IPControllerApp] heartbeat::missed b'2b45ad91-31d9e69f421a65eebc1cb18a' : 1
+2018-06-28 14:31:06.079 [IPControllerApp] heartbeat::missed b'ee88abc2-c554f89a5c10fd553fb336a6' : 1
+2018-06-28 14:31:06.079 [IPControllerApp] heartbeat::missed b'57947065-b48a641d6f854bf12f8f564b' : 1
+2018-06-28 14:31:06.079 [IPControllerApp] heartbeat::missed b'b449718b-04ae28e2a049e00596269a6c' : 1
+2018-06-28 14:31:09.078 [IPControllerApp] heartbeat::missed b'2b45ad91-31d9e69f421a65eebc1cb18a' : 2
+2018-06-28 14:31:09.079 [IPControllerApp] heartbeat::missed b'ee88abc2-c554f89a5c10fd553fb336a6' : 2
+2018-06-28 14:31:09.079 [IPControllerApp] heartbeat::missed b'57947065-b48a641d6f854bf12f8f564b' : 2
+2018-06-28 14:31:09.079 [IPControllerApp] heartbeat::missed b'b449718b-04ae28e2a049e00596269a6c' : 2
+2018-06-28 14:31:12.078 [IPControllerApp] heartbeat::missed b'2b45ad91-31d9e69f421a65eebc1cb18a' : 3
+2018-06-28 14:31:12.079 [IPControllerApp] heartbeat::missed b'ee88abc2-c554f89a5c10fd553fb336a6' : 3
+2018-06-28 14:31:12.079 [IPControllerApp] heartbeat::missed b'57947065-b48a641d6f854bf12f8f564b' : 3
+2018-06-28 14:31:12.079 [IPControllerApp] heartbeat::missed b'b449718b-04ae28e2a049e00596269a6c' : 3
+2018-06-28 14:31:15.078 [IPControllerApp] heartbeat::missed b'2b45ad91-31d9e69f421a65eebc1cb18a' : 4
+2018-06-28 14:31:15.079 [IPControllerApp] heartbeat::missed b'ee88abc2-c554f89a5c10fd553fb336a6' : 4
+2018-06-28 14:31:15.079 [IPControllerApp] heartbeat::missed b'57947065-b48a641d6f854bf12f8f564b' : 4
+2018-06-28 14:31:15.079 [IPControllerApp] heartbeat::missed b'b449718b-04ae28e2a049e00596269a6c' : 4
+2018-06-28 14:31:18.076 [IPControllerApp] heartbeat::missed b'2b45ad91-31d9e69f421a65eebc1cb18a' : 5
+2018-06-28 14:31:18.077 [IPControllerApp] heartbeat::missed b'ee88abc2-c554f89a5c10fd553fb336a6' : 5
+2018-06-28 14:31:18.077 [IPControllerApp] heartbeat::missed b'57947065-b48a641d6f854bf12f8f564b' : 5
+2018-06-28 14:31:18.077 [IPControllerApp] heartbeat::missed b'b449718b-04ae28e2a049e00596269a6c' : 5
+2018-06-28 14:31:21.079 [IPControllerApp] heartbeat::missed b'2b45ad91-31d9e69f421a65eebc1cb18a' : 6
+2018-06-28 14:31:21.079 [IPControllerApp] heartbeat::missed b'ee88abc2-c554f89a5c10fd553fb336a6' : 6
+2018-06-28 14:31:21.079 [IPControllerApp] heartbeat::missed b'57947065-b48a641d6f854bf12f8f564b' : 6
+2018-06-28 14:31:21.079 [IPControllerApp] heartbeat::missed b'b449718b-04ae28e2a049e00596269a6c' : 6
+2018-06-28 14:31:24.079 [IPControllerApp] heartbeat::missed b'2b45ad91-31d9e69f421a65eebc1cb18a' : 7
+2018-06-28 14:31:24.079 [IPControllerApp] heartbeat::missed b'ee88abc2-c554f89a5c10fd553fb336a6' : 7
+2018-06-28 14:31:24.079 [IPControllerApp] heartbeat::missed b'57947065-b48a641d6f854bf12f8f564b' : 7
+2018-06-28 14:31:24.079 [IPControllerApp] heartbeat::missed b'b449718b-04ae28e2a049e00596269a6c' : 7
+2018-06-28 14:31:27.078 [IPControllerApp] heartbeat::missed b'2b45ad91-31d9e69f421a65eebc1cb18a' : 8
+2018-06-28 14:31:27.079 [IPControllerApp] heartbeat::missed b'ee88abc2-c554f89a5c10fd553fb336a6' : 8
+2018-06-28 14:31:27.079 [IPControllerApp] heartbeat::missed b'57947065-b48a641d6f854bf12f8f564b' : 8
+2018-06-28 14:31:27.079 [IPControllerApp] heartbeat::missed b'b449718b-04ae28e2a049e00596269a6c' : 8
+2018-06-28 14:31:30.079 [IPControllerApp] heartbeat::missed b'2b45ad91-31d9e69f421a65eebc1cb18a' : 9
+2018-06-28 14:31:30.079 [IPControllerApp] heartbeat::missed b'ee88abc2-c554f89a5c10fd553fb336a6' : 9
+2018-06-28 14:31:30.079 [IPControllerApp] heartbeat::missed b'57947065-b48a641d6f854bf12f8f564b' : 9
+2018-06-28 14:31:30.079 [IPControllerApp] heartbeat::missed b'b449718b-04ae28e2a049e00596269a6c' : 9
+2018-06-28 14:31:33.079 [IPControllerApp] heartbeat::missed b'2b45ad91-31d9e69f421a65eebc1cb18a' : 10
+2018-06-28 14:31:33.079 [IPControllerApp] heartbeat::missed b'ee88abc2-c554f89a5c10fd553fb336a6' : 10
+2018-06-28 14:31:33.079 [IPControllerApp] heartbeat::missed b'57947065-b48a641d6f854bf12f8f564b' : 10
+2018-06-28 14:31:33.079 [IPControllerApp] heartbeat::missed b'b449718b-04ae28e2a049e00596269a6c' : 10
+2018-06-28 14:31:36.079 [IPControllerApp] heartbeat::missed b'2b45ad91-31d9e69f421a65eebc1cb18a' : 11
+2018-06-28 14:31:36.079 [IPControllerApp] heartbeat::missed b'ee88abc2-c554f89a5c10fd553fb336a6' : 11
+2018-06-28 14:31:36.079 [IPControllerApp] heartbeat::missed b'57947065-b48a641d6f854bf12f8f564b' : 11
+2018-06-28 14:31:36.079 [IPControllerApp] heartbeat::missed b'b449718b-04ae28e2a049e00596269a6c' : 11
+2018-06-28 14:31:36.080 [IPControllerApp] registration::unregister_engine(3)
+2018-06-28 14:31:36.082 [IPControllerApp] registration::unregister_engine(1)
+2018-06-28 14:31:36.083 [IPControllerApp] registration::unregister_engine(0)
+2018-06-28 14:31:36.084 [IPControllerApp] registration::unregister_engine(2)
+2018-07-05 11:36:29.226 [IPControllerApp] CRITICAL | Received signal 15, shutting down
+2018-07-05 11:36:29.226 [IPControllerApp] CRITICAL | terminating children...

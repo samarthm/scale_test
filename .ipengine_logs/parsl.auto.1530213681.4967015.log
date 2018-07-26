@@ -1,0 +1,20 @@
+2018-06-28 14:21:28.806 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-06-28 14:21:28.808 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-06-28 14:21:28.817 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-06-28 14:21:28.821 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-06-28 14:21:28.867 [IPEngineApp] Registering with controller at tcp://10.50.180.71:44514
+2018-06-28 14:21:28.883 [IPEngineApp] Registering with controller at tcp://10.50.180.71:44514
+2018-06-28 14:21:28.899 [IPEngineApp] Registering with controller at tcp://10.50.180.71:44514
+2018-06-28 14:21:28.910 [IPEngineApp] Registering with controller at tcp://10.50.180.71:44514
+2018-06-28 14:21:29.083 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-06-28 14:21:29.098 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-06-28 14:21:29.115 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-06-28 14:21:29.123 [IPEngineApp] Completed registration with id 8
+2018-06-28 14:21:29.125 [IPEngineApp] Completed registration with id 6
+2018-06-28 14:21:29.128 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-06-28 14:21:29.133 [IPEngineApp] Completed registration with id 9
+2018-06-28 14:21:29.137 [IPEngineApp] Completed registration with id 10
+2018-06-28 14:21:38.116 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2018-06-28 14:21:38.131 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2018-06-28 14:21:38.148 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2018-06-28 14:21:38.161 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).

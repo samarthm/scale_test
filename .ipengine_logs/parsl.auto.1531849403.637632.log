@@ -1,0 +1,21 @@
+2018-07-17 12:43:27.288 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-17 12:43:27.292 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-17 12:43:27.344 [IPEngineApp] Registering with controller at tcp://10.50.180.71:35898
+2018-07-17 12:43:27.347 [IPEngineApp] Registering with controller at tcp://10.50.180.71:35898
+2018-07-17 12:43:27.456 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-17 12:43:27.462 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-17 12:43:27.470 [IPEngineApp] Completed registration with id 6
+2018-07-17 12:43:27.471 [IPEngineApp] Completed registration with id 7
+2018-07-17 12:44:09.599 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2018-07-17 12:44:15.625 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2018-07-17 12:44:21.639 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2018-07-17 12:44:27.665 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2018-07-17 12:44:33.679 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2018-07-17 12:44:39.705 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2018-07-17 12:44:45.719 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2018-07-17 12:44:51.745 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2018-07-17 12:44:57.759 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2018-07-17 12:45:03.786 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2018-07-17 12:45:09.799 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2018-07-17 12:45:15.825 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2018-07-17 12:45:21.838 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).

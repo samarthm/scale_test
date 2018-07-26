@@ -1,0 +1,2 @@
+slurmstepd-midway256: error: Job 47676576 exceeded memory limit (2120996 > 1945600), being killed
+slurmstepd-midway256: error: *** JOB 47676576 ON midway256 CANCELLED AT 2018-07-19T06:26:31 ***

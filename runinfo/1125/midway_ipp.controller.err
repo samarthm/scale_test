@@ -1,0 +1,20 @@
+2018-07-16 14:27:27.722 [IPControllerApp] Created profile dir: '/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1125/profile_midway_ipp'
+2018-07-16 14:27:27.748 [IPControllerApp] Hub listening on tcp://*:65449 for registration.
+2018-07-16 14:27:27.751 [IPControllerApp] Hub using DB backend: 'DictDB'
+2018-07-16 14:27:28.014 [IPControllerApp] hub::created hub
+2018-07-16 14:27:28.014 [IPControllerApp] writing connection info to /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1125/profile_midway_ipp/security/ipcontroller-client.json
+2018-07-16 14:27:28.015 [IPControllerApp] writing connection info to /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1125/profile_midway_ipp/security/ipcontroller-engine.json
+2018-07-16 14:27:28.016 [IPControllerApp] task::using Python leastload Task scheduler
+2018-07-16 14:27:28.016 [IPControllerApp] Heartmonitor started
+2018-07-16 14:27:28.028 [IPControllerApp] Creating pid file: /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1125/profile_midway_ipp/pid/ipcontroller.pid
+2018-07-16 14:27:28.037 [scheduler] Scheduler started [leastload]
+2018-07-16 14:27:28.040 [IPControllerApp] client::client b'\x00k\x8bEg' requested 'connection_request'
+2018-07-16 14:27:28.040 [IPControllerApp] client::client [b'\x00k\x8bEg'] connected
+2018-07-16 14:27:28.996 [IPControllerApp] client::client b'\x00k\x8bEh' requested 'connection_request'
+2018-07-16 14:27:28.997 [IPControllerApp] client::client [b'\x00k\x8bEh'] connected
+2018-07-16 14:27:33.330 [IPControllerApp] client::client b'16dd7608-1a9ef2f0139a819ffd2df0aa' requested 'registration_request'
+2018-07-16 14:27:37.021 [IPControllerApp] registration::finished registering engine 0:16dd7608-1a9ef2f0139a819ffd2df0aa
+2018-07-16 14:27:37.022 [IPControllerApp] engine::Engine Connected: 0
+2018-07-16 14:27:37.026 [IPControllerApp] task::task '5a738d42-fe0675a213d34a84b8c5e24c' arrived on 0
+2018-07-16 14:27:37.596 [IPControllerApp] CRITICAL | Received signal 15, shutting down
+2018-07-16 14:27:37.596 [IPControllerApp] CRITICAL | terminating children...

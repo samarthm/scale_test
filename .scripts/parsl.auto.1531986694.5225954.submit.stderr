@@ -1,0 +1,13 @@
+slurmstepd-midway095: error: Job 47669250 exceeded memory limit (2308724 > 1945600), being killed
+slurmstepd-midway095: error: Exceeded job memory limit
+slurmstepd-midway095: error: *** JOB 47669250 ON midway095 CANCELLED AT 2018-07-19T02:52:15 ***
+/tmp/slurmd/job47669250/slurm_script: line 18:   689 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47669250/slurm_script: line 18:   697 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47669250/slurm_script: line 18:   688 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47669250/slurm_script: line 18:   685 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47669250/slurm_script: line 18:   671 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47669250/slurm_script: line 18:   699 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47669250/slurm_script: line 18:   669 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47669250/slurm_script: line 18:   680 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47669250/slurm_script: line 18:   648 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47669250/slurm_script: line 18:   696 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1

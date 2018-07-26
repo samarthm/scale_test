@@ -1,0 +1,40 @@
+2018-06-28 14:24:47.572 [IPControllerApp] Created profile dir: '/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/025/profile_midway_ipp'
+2018-06-28 14:24:47.589 [IPControllerApp] Hub listening on tcp://*:38627 for registration.
+2018-06-28 14:24:47.591 [IPControllerApp] Hub using DB backend: 'DictDB'
+2018-06-28 14:24:47.852 [IPControllerApp] hub::created hub
+2018-06-28 14:24:47.852 [IPControllerApp] writing connection info to /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/025/profile_midway_ipp/security/ipcontroller-client.json
+2018-06-28 14:24:47.853 [IPControllerApp] writing connection info to /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/025/profile_midway_ipp/security/ipcontroller-engine.json
+2018-06-28 14:24:47.854 [IPControllerApp] task::using Python leastload Task scheduler
+2018-06-28 14:24:47.854 [IPControllerApp] Heartmonitor started
+2018-06-28 14:24:47.862 [IPControllerApp] Creating pid file: /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/025/profile_midway_ipp/pid/ipcontroller.pid
+2018-06-28 14:24:47.871 [scheduler] Scheduler started [leastload]
+2018-06-28 14:24:47.873 [IPControllerApp] client::client b'\x00k\x8bEg' requested 'connection_request'
+2018-06-28 14:24:47.873 [IPControllerApp] client::client [b'\x00k\x8bEg'] connected
+2018-06-28 14:24:48.025 [IPControllerApp] client::client b'\x00k\x8bEh' requested 'connection_request'
+2018-06-28 14:24:48.025 [IPControllerApp] client::client [b'\x00k\x8bEh'] connected
+2018-06-28 14:24:52.793 [IPControllerApp] client::client b'da57b303-e6b681513ae87d4a8ea1b0ea' requested 'registration_request'
+2018-06-28 14:24:52.795 [IPControllerApp] client::client b'16ffef37-3898d24a20c4b793f6113a9c' requested 'registration_request'
+2018-06-28 14:24:52.796 [IPControllerApp] client::client b'38588077-8fdb50d98a584d82baa8a874' requested 'registration_request'
+2018-06-28 14:24:52.798 [IPControllerApp] client::client b'b3f975f9-9a96c035f30789ed0c1a3507' requested 'registration_request'
+2018-06-28 14:24:52.856 [IPControllerApp] client::client b'd45824dc-126e5a4b0e624bd2d62929b8' requested 'registration_request'
+2018-06-28 14:24:52.858 [IPControllerApp] client::client b'de90d979-3aec0385786ab4f04eb24b80' requested 'registration_request'
+2018-06-28 14:24:52.896 [IPControllerApp] client::client b'd497db93-2715a9ccc32e279acbbbfbf7' requested 'registration_request'
+2018-06-28 14:24:52.921 [IPControllerApp] client::client b'8023e394-02b1d8ef6c731712faac59b8' requested 'registration_request'
+2018-06-28 14:24:52.926 [IPControllerApp] client::client b'14bafff6-c907fce55b00f4301bb10553' requested 'registration_request'
+2018-06-28 14:24:52.929 [IPControllerApp] client::client b'e0f19c12-b1c31a12c0bc29e56fed0e4b' requested 'registration_request'
+2018-06-28 14:24:52.935 [IPControllerApp] client::client b'6bc31389-7363c73b0caf985cd05848a9' requested 'registration_request'
+2018-06-28 14:24:52.937 [IPControllerApp] client::client b'88d5666f-e4ad7026b4dd2a04d97742ef' requested 'registration_request'
+2018-06-28 14:24:52.938 [IPControllerApp] client::client b'51c124e6-f3ab2cd960b7430e78e06d7d' requested 'registration_request'
+2018-06-28 14:24:52.946 [IPControllerApp] client::client b'90efcf32-a7ca93375149df48168e7f6b' requested 'registration_request'
+2018-06-28 14:24:52.957 [IPControllerApp] client::client b'902e677f-0fb6fe30c35b9f6421f5a07a' requested 'registration_request'
+2018-06-28 14:24:52.960 [IPControllerApp] client::client b'615bceed-dbae005c92b14611a48b8676' requested 'registration_request'
+2018-06-28 14:24:52.966 [IPControllerApp] client::client b'370e53f0-6b01a866ed9598709d84717c' requested 'registration_request'
+2018-06-28 14:24:52.978 [IPControllerApp] client::client b'dc9480e6-9f15b8a4984dfbee8f834fe8' requested 'registration_request'
+2018-06-28 14:24:52.986 [IPControllerApp] client::client b'ea088238-676ef11ab6845a1787429edc' requested 'registration_request'
+2018-06-28 14:24:53.014 [IPControllerApp] client::client b'b7285832-6adc3a6b0d5d0c34c0475f5e' requested 'registration_request'
+2018-06-28 14:24:53.016 [IPControllerApp] client::client b'49ca955d-12c4984d02310811f93dd4ca' requested 'registration_request'
+2018-06-28 14:24:53.017 [IPControllerApp] client::client b'549bf977-e8c718a8c0f34cb274ca41ef' requested 'registration_request'
+2018-06-28 14:24:53.184 [IPControllerApp] client::client b'83e61955-0561c114f3cadb25a024281e' requested 'registration_request'
+2018-06-28 14:24:53.196 [IPControllerApp] client::client b'ad3dda27-f2a8cf05e8f244c792ceb0f3' requested 'registration_request'
+2018-06-28 14:24:55.110 [IPControllerApp] CRITICAL | Received signal 15, shutting down
+2018-06-28 14:24:55.111 [IPControllerApp] CRITICAL | terminating children...

@@ -1,0 +1,32 @@
+2018-07-02 13:15:10.285 [IPControllerApp] Created profile dir: '/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/057/profile_midway_ipp'
+2018-07-02 13:15:10.301 [IPControllerApp] Hub listening on tcp://*:64194 for registration.
+2018-07-02 13:15:10.303 [IPControllerApp] Hub using DB backend: 'DictDB'
+2018-07-02 13:15:10.566 [IPControllerApp] hub::created hub
+2018-07-02 13:15:10.566 [IPControllerApp] writing connection info to /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/057/profile_midway_ipp/security/ipcontroller-client.json
+2018-07-02 13:15:10.567 [IPControllerApp] writing connection info to /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/057/profile_midway_ipp/security/ipcontroller-engine.json
+2018-07-02 13:15:10.568 [IPControllerApp] task::using Python leastload Task scheduler
+2018-07-02 13:15:10.568 [IPControllerApp] Heartmonitor started
+2018-07-02 13:15:10.577 [IPControllerApp] Creating pid file: /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/057/profile_midway_ipp/pid/ipcontroller.pid
+2018-07-02 13:15:10.585 [scheduler] Scheduler started [leastload]
+2018-07-02 13:15:10.587 [IPControllerApp] client::client b'\x00k\x8bEg' requested 'connection_request'
+2018-07-02 13:15:10.587 [IPControllerApp] client::client [b'\x00k\x8bEg'] connected
+2018-07-02 13:15:11.756 [IPControllerApp] client::client b'\x00k\x8bEh' requested 'connection_request'
+2018-07-02 13:15:11.756 [IPControllerApp] client::client [b'\x00k\x8bEh'] connected
+2018-07-02 13:15:18.792 [IPControllerApp] client::client b'97a71dfd-14499381c3f9327e906baaaf' requested 'registration_request'
+2018-07-02 13:15:18.793 [IPControllerApp] client::client b'a13b4bd3-73fa04e11da7e04de4494cbd' requested 'registration_request'
+2018-07-02 13:15:18.794 [IPControllerApp] client::client b'423ff225-f6fcce1436e0a964fe52a98c' requested 'registration_request'
+2018-07-02 13:15:18.795 [IPControllerApp] client::client b'828c5df5-fa6da7868549caabc93e6468' requested 'registration_request'
+2018-07-02 13:15:22.569 [IPControllerApp] registration::finished registering engine 2:423ff225-f6fcce1436e0a964fe52a98c
+2018-07-02 13:15:22.570 [IPControllerApp] engine::Engine Connected: 2
+2018-07-02 13:15:22.571 [IPControllerApp] registration::finished registering engine 3:828c5df5-fa6da7868549caabc93e6468
+2018-07-02 13:15:22.572 [IPControllerApp] engine::Engine Connected: 3
+2018-07-02 13:15:22.572 [IPControllerApp] registration::finished registering engine 1:a13b4bd3-73fa04e11da7e04de4494cbd
+2018-07-02 13:15:22.573 [IPControllerApp] engine::Engine Connected: 1
+2018-07-02 13:15:22.573 [IPControllerApp] registration::finished registering engine 0:97a71dfd-14499381c3f9327e906baaaf
+2018-07-02 13:15:22.573 [IPControllerApp] engine::Engine Connected: 0
+2018-07-02 13:15:22.576 [IPControllerApp] task::task '2452b6d6-7dcd157b3b01bfb5a440a186' arrived on 2
+2018-07-02 13:15:22.577 [IPControllerApp] task::task '2f956b79-604d739372613e992e3d1170' arrived on 3
+2018-07-02 13:15:22.578 [IPControllerApp] task::task '9e4c1305-dc52362f0c90798553210835' arrived on 1
+2018-07-02 13:15:22.579 [IPControllerApp] task::task '0a1c5eb7-11f8ece4d937a7d43551e259' arrived on 0
+2018-07-02 13:15:25.275 [IPControllerApp] CRITICAL | Received signal 15, shutting down
+2018-07-02 13:15:25.275 [IPControllerApp] CRITICAL | terminating children...

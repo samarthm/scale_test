@@ -1,0 +1,1 @@
+/tmp/slurmd/job47677583/slurm_script: line 18:  1785 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1

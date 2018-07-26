@@ -1,0 +1,66 @@
+2018-07-16 10:00:56.764 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-16 10:00:56.846 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-16 10:00:56.848 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-16 10:00:56.849 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-16 10:00:56.830 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-16 10:00:56.835 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-16 10:00:56.881 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-16 10:00:56.863 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-16 10:00:56.853 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-16 10:00:56.909 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-16 10:00:56.917 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-16 10:00:56.920 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-16 10:00:56.862 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-16 10:00:56.986 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-16 10:00:57.041 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-16 10:00:57.158 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-16 10:00:57.201 [IPEngineApp] Registering with controller at tcp://10.50.180.71:51116
+2018-07-16 10:00:57.203 [IPEngineApp] Registering with controller at tcp://10.50.180.71:51116
+2018-07-16 10:00:57.212 [IPEngineApp] Registering with controller at tcp://10.50.180.71:51116
+2018-07-16 10:00:57.214 [IPEngineApp] Registering with controller at tcp://10.50.180.71:51116
+2018-07-16 10:00:57.217 [IPEngineApp] Registering with controller at tcp://10.50.180.71:51116
+2018-07-16 10:00:57.227 [IPEngineApp] Registering with controller at tcp://10.50.180.71:51116
+2018-07-16 10:00:57.240 [IPEngineApp] Registering with controller at tcp://10.50.180.71:51116
+2018-07-16 10:00:57.255 [IPEngineApp] Registering with controller at tcp://10.50.180.71:51116
+2018-07-16 10:00:57.258 [IPEngineApp] Registering with controller at tcp://10.50.180.71:51116
+2018-07-16 10:00:57.273 [IPEngineApp] Registering with controller at tcp://10.50.180.71:51116
+2018-07-16 10:00:57.279 [IPEngineApp] Registering with controller at tcp://10.50.180.71:51116
+2018-07-16 10:00:57.284 [IPEngineApp] Registering with controller at tcp://10.50.180.71:51116
+2018-07-16 10:00:57.288 [IPEngineApp] Registering with controller at tcp://10.50.180.71:51116
+2018-07-16 10:00:57.299 [IPEngineApp] Registering with controller at tcp://10.50.180.71:51116
+2018-07-16 10:00:57.339 [IPEngineApp] Registering with controller at tcp://10.50.180.71:51116
+2018-07-16 10:00:57.522 [IPEngineApp] Registering with controller at tcp://10.50.180.71:51116
+2018-07-16 10:00:57.984 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-16 10:00:58.084 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-16 10:00:58.030 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-16 10:00:58.100 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-16 10:00:58.118 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-16 10:00:58.055 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-16 10:00:58.132 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-16 10:00:58.149 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-16 10:00:58.152 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-16 10:00:58.157 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-16 10:00:58.169 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-16 10:00:58.184 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-16 10:00:58.187 [IPEngineApp] Completed registration with id 0
+2018-07-16 10:00:58.188 [IPEngineApp] Completed registration with id 1
+2018-07-16 10:00:58.190 [IPEngineApp] Completed registration with id 3
+2018-07-16 10:00:58.196 [IPEngineApp] Completed registration with id 4
+2018-07-16 10:00:58.198 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-16 10:00:58.201 [IPEngineApp] Completed registration with id 2
+2018-07-16 10:00:58.214 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-16 10:00:58.216 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-16 10:00:58.221 [IPEngineApp] Completed registration with id 5
+2018-07-16 10:00:58.223 [IPEngineApp] Completed registration with id 6
+2018-07-16 10:00:58.225 [IPEngineApp] Completed registration with id 7
+2018-07-16 10:00:58.228 [IPEngineApp] Completed registration with id 8
+2018-07-16 10:00:58.239 [IPEngineApp] Completed registration with id 9
+2018-07-16 10:00:58.242 [IPEngineApp] Completed registration with id 10
+2018-07-16 10:00:58.244 [IPEngineApp] Completed registration with id 11
+2018-07-16 10:00:58.251 [IPEngineApp] Completed registration with id 12
+2018-07-16 10:00:58.255 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-16 10:00:58.258 [IPEngineApp] Completed registration with id 13
+2018-07-16 10:00:58.259 [IPEngineApp] Completed registration with id 14
+2018-07-16 10:00:58.265 [IPEngineApp] Completed registration with id 15
+2018-07-16 10:11:42.311 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2018-07-16 10:11:42.326 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).

@@ -1,0 +1,1074 @@
+2018-07-19 10:29:45 parsl.dataflow.dflow:71 [INFO]  Parsl version: 0.5.1
+2018-07-19 10:29:45 parsl.dataflow.dflow:72 [INFO]  Libsubmit version: 0.5.0-a0
+2018-07-19 10:29:45 parsl.dataflow.usage_tracking.usage:125 [DEBUG]  Tracking status: True
+2018-07-19 10:29:45 parsl.dataflow.usage_tracking.usage:126 [DEBUG]  Testing mode   : False
+2018-07-19 10:29:45 parsl.dataflow.memoization:52 [INFO]  App caching initialized
+2018-07-19 10:29:45 parsl.executors.ipp_controller:83 [DEBUG]  Starting ipcontroller with 'ipcontroller --ipython-dir=/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1206 --ip=* --profile=midway_ipp   '
+2018-07-19 10:29:47 parsl.executors.ipp:97 [DEBUG]  Waiting for /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1206/profile_midway_ipp/security/ipcontroller-client.json
+2018-07-19 10:29:47 parsl.executors.ipp:114 [DEBUG]  Starting IPyParallelExecutor with provider:
+SlurmProvider(
+    'sandyb',
+    channel=LocalChannel(
+        envs={}, 
+        script_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/.scripts', 
+        userhome='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress'
+    ), 
+    cmd_timeout=10, 
+    init_blocks=1, 
+    label='slurm', 
+    launcher=<libsubmit.launchers.launchers.SingleNodeLauncher object at 0x7f51dc925e80>, 
+    max_blocks=1, 
+    min_blocks=1, 
+    nodes_per_block=1, 
+    overrides='module load Anaconda3/5.1.0; export PARSL_TESTING=True', 
+    parallelism=0.5, 
+    script_dir='parsl_scripts', 
+    tasks_per_node=8, 
+    walltime=601
+)
+2018-07-19 10:29:47 parsl.executors.ipp:119 [DEBUG]  Launched block: 0:47682266
+2018-07-19 10:29:47 parsl.executors.ipp:134 [DEBUG]  Starting executor
+2018-07-19 10:29:47 parsl.dataflow.strategy:120 [DEBUG]  Scaling strategy: simple
+2018-07-19 10:29:47 parsl.dataflow.dflow:591 [INFO]  DFK cleanup initiated
+2018-07-19 10:29:47 parsl.dataflow.dflow:538 [INFO]  Summary of tasks in DFK:
+2018-07-19 10:29:47 parsl.dataflow.dflow:576 [INFO]  End of summary
+2018-07-19 10:29:47 parsl.dataflow.dflow:615 [INFO]  Terminating flow_control and strategy threads
+2018-07-19 10:29:47 parsl.executors.ipp:282 [DEBUG]  IPP:Shutdown sequence: Attempting controller kill
+2018-07-19 10:29:48 parsl.executors.ipp_controller:142 [DEBUG]  Controller exited with 0
+2018-07-19 10:29:48 parsl.executors.ipp:292 [DEBUG]  Done with executor shutdown
+2018-07-19 10:29:48 parsl.data_provider.data_manager:66 [DEBUG]  Done with executor shutdown
+2018-07-19 10:29:48 parsl.dataflow.dflow:625 [INFO]  DFK cleanup complete
+2018-07-19 10:29:48 parsl.config:65 [DEBUG]  Checkpoint period only has an effect with checkpoint_mode='periodic'
+2018-07-19 10:29:48 parsl.dataflow.dflow:66 [DEBUG]  Starting DataFlowKernel with config
+Config(
+    app_cache=True, 
+    checkpoint_files=None, 
+    checkpoint_mode=None, 
+    checkpoint_period='00:30:00', 
+    data_management_max_threads=10, 
+    executors=[IPyParallelExecutor(
+        container_image=None, 
+        controller=Controller(
+            interfaces=None, 
+            ipython_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1206', 
+            log=True, 
+            mode='auto', 
+            port=None, 
+            port_range=None, 
+            profile='midway_ipp', 
+            public_ip=None, 
+            reuse=False
+        ), 
+        engine_dir='.', 
+        engine_file='~/.ipython/profile_default/security/ipcontroller-engine.json', 
+        label='midway_ipp', 
+        managed=True, 
+        provider=SlurmProvider(
+            'sandyb',
+            channel=LocalChannel(
+                envs={}, 
+                script_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/.scripts', 
+                userhome='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress'
+            ), 
+            cmd_timeout=10, 
+            init_blocks=1, 
+            label='slurm', 
+            launcher=<libsubmit.launchers.launchers.SingleNodeLauncher object at 0x7f51dc925e80>, 
+            max_blocks=1, 
+            min_blocks=1, 
+            nodes_per_block=1, 
+            overrides='module load Anaconda3/5.1.0; export PARSL_TESTING=True', 
+            parallelism=0.5, 
+            script_dir='parsl_scripts', 
+            tasks_per_node=16, 
+            walltime=601
+        ), 
+        storage_access=[], 
+        working_dir=None
+    )], 
+    lazy_errors=True, 
+    retries=0, 
+    run_dir='runinfo', 
+    strategy='simple', 
+    usage_tracking=True
+)
+2018-07-19 10:29:48 parsl.dataflow.rundirs:36 [DEBUG]  Parsl run initializing in rundir:runinfo/1207
+2018-07-19 10:29:48 parsl.dataflow.dflow:71 [INFO]  Parsl version: 0.5.1
+2018-07-19 10:29:48 parsl.dataflow.dflow:72 [INFO]  Libsubmit version: 0.5.0-a0
+2018-07-19 10:29:48 parsl.dataflow.usage_tracking.usage:125 [DEBUG]  Tracking status: True
+2018-07-19 10:29:48 parsl.dataflow.usage_tracking.usage:126 [DEBUG]  Testing mode   : False
+2018-07-19 10:29:48 parsl.dataflow.memoization:52 [INFO]  App caching initialized
+2018-07-19 10:29:48 parsl.executors.ipp_controller:83 [DEBUG]  Starting ipcontroller with 'ipcontroller --ipython-dir=/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1207 --ip=* --profile=midway_ipp   '
+2018-07-19 10:29:49 parsl.executors.ipp:97 [DEBUG]  Waiting for /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1207/profile_midway_ipp/security/ipcontroller-client.json
+2018-07-19 10:29:49 parsl.executors.ipp:114 [DEBUG]  Starting IPyParallelExecutor with provider:
+SlurmProvider(
+    'sandyb',
+    channel=LocalChannel(
+        envs={}, 
+        script_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/.scripts', 
+        userhome='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress'
+    ), 
+    cmd_timeout=10, 
+    init_blocks=1, 
+    label='slurm', 
+    launcher=<libsubmit.launchers.launchers.SingleNodeLauncher object at 0x7f51dc925e80>, 
+    max_blocks=1, 
+    min_blocks=1, 
+    nodes_per_block=1, 
+    overrides='module load Anaconda3/5.1.0; export PARSL_TESTING=True', 
+    parallelism=0.5, 
+    script_dir='parsl_scripts', 
+    tasks_per_node=16, 
+    walltime=601
+)
+2018-07-19 10:29:49 parsl.executors.ipp:119 [DEBUG]  Launched block: 0:47682267
+2018-07-19 10:29:49 parsl.executors.ipp:134 [DEBUG]  Starting executor
+2018-07-19 10:29:49 parsl.dataflow.strategy:120 [DEBUG]  Scaling strategy: simple
+2018-07-19 10:29:49 parsl.dataflow.dflow:591 [INFO]  DFK cleanup initiated
+2018-07-19 10:29:49 parsl.dataflow.dflow:538 [INFO]  Summary of tasks in DFK:
+2018-07-19 10:29:49 parsl.dataflow.dflow:576 [INFO]  End of summary
+2018-07-19 10:29:49 parsl.dataflow.dflow:615 [INFO]  Terminating flow_control and strategy threads
+2018-07-19 10:29:49 parsl.executors.ipp:282 [DEBUG]  IPP:Shutdown sequence: Attempting controller kill
+2018-07-19 10:29:49 parsl.executors.ipp_controller:142 [DEBUG]  Controller exited with 0
+2018-07-19 10:29:49 parsl.executors.ipp:292 [DEBUG]  Done with executor shutdown
+2018-07-19 10:29:49 parsl.data_provider.data_manager:66 [DEBUG]  Done with executor shutdown
+2018-07-19 10:29:49 parsl.dataflow.dflow:625 [INFO]  DFK cleanup complete
+2018-07-19 10:29:49 parsl.config:65 [DEBUG]  Checkpoint period only has an effect with checkpoint_mode='periodic'
+2018-07-19 10:29:49 parsl.dataflow.dflow:66 [DEBUG]  Starting DataFlowKernel with config
+Config(
+    app_cache=True, 
+    checkpoint_files=None, 
+    checkpoint_mode=None, 
+    checkpoint_period='00:30:00', 
+    data_management_max_threads=10, 
+    executors=[IPyParallelExecutor(
+        container_image=None, 
+        controller=Controller(
+            interfaces=None, 
+            ipython_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1207', 
+            log=True, 
+            mode='auto', 
+            port=None, 
+            port_range=None, 
+            profile='midway_ipp', 
+            public_ip=None, 
+            reuse=False
+        ), 
+        engine_dir='.', 
+        engine_file='~/.ipython/profile_default/security/ipcontroller-engine.json', 
+        label='midway_ipp', 
+        managed=True, 
+        provider=SlurmProvider(
+            'sandyb',
+            channel=LocalChannel(
+                envs={}, 
+                script_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/.scripts', 
+                userhome='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress'
+            ), 
+            cmd_timeout=10, 
+            init_blocks=1, 
+            label='slurm', 
+            launcher=<libsubmit.launchers.launchers.SingleNodeLauncher object at 0x7f51dc925e80>, 
+            max_blocks=1, 
+            min_blocks=1, 
+            nodes_per_block=1, 
+            overrides='module load Anaconda3/5.1.0; export PARSL_TESTING=True', 
+            parallelism=0.5, 
+            script_dir='parsl_scripts', 
+            tasks_per_node=32, 
+            walltime=601
+        ), 
+        storage_access=[], 
+        working_dir=None
+    )], 
+    lazy_errors=True, 
+    retries=0, 
+    run_dir='runinfo', 
+    strategy='simple', 
+    usage_tracking=True
+)
+2018-07-19 10:29:49 parsl.dataflow.rundirs:36 [DEBUG]  Parsl run initializing in rundir:runinfo/1208
+2018-07-19 10:29:49 parsl.dataflow.dflow:71 [INFO]  Parsl version: 0.5.1
+2018-07-19 10:29:49 parsl.dataflow.dflow:72 [INFO]  Libsubmit version: 0.5.0-a0
+2018-07-19 10:29:49 parsl.dataflow.usage_tracking.usage:125 [DEBUG]  Tracking status: True
+2018-07-19 10:29:49 parsl.dataflow.usage_tracking.usage:126 [DEBUG]  Testing mode   : False
+2018-07-19 10:29:49 parsl.dataflow.memoization:52 [INFO]  App caching initialized
+2018-07-19 10:29:49 parsl.executors.ipp_controller:83 [DEBUG]  Starting ipcontroller with 'ipcontroller --ipython-dir=/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1208 --ip=* --profile=midway_ipp   '
+2018-07-19 10:29:52 parsl.executors.ipp:97 [DEBUG]  Waiting for /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1208/profile_midway_ipp/security/ipcontroller-client.json
+2018-07-19 10:29:52 parsl.executors.ipp:114 [DEBUG]  Starting IPyParallelExecutor with provider:
+SlurmProvider(
+    'sandyb',
+    channel=LocalChannel(
+        envs={}, 
+        script_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/.scripts', 
+        userhome='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress'
+    ), 
+    cmd_timeout=10, 
+    init_blocks=1, 
+    label='slurm', 
+    launcher=<libsubmit.launchers.launchers.SingleNodeLauncher object at 0x7f51dc925e80>, 
+    max_blocks=1, 
+    min_blocks=1, 
+    nodes_per_block=1, 
+    overrides='module load Anaconda3/5.1.0; export PARSL_TESTING=True', 
+    parallelism=0.5, 
+    script_dir='parsl_scripts', 
+    tasks_per_node=32, 
+    walltime=601
+)
+2018-07-19 10:29:52 parsl.executors.ipp:119 [DEBUG]  Launched block: 0:47682268
+2018-07-19 10:29:52 parsl.executors.ipp:134 [DEBUG]  Starting executor
+2018-07-19 10:29:52 parsl.dataflow.strategy:120 [DEBUG]  Scaling strategy: simple
+2018-07-19 10:29:52 parsl.dataflow.dflow:591 [INFO]  DFK cleanup initiated
+2018-07-19 10:29:52 parsl.dataflow.dflow:538 [INFO]  Summary of tasks in DFK:
+2018-07-19 10:29:52 parsl.dataflow.dflow:576 [INFO]  End of summary
+2018-07-19 10:29:52 parsl.dataflow.dflow:615 [INFO]  Terminating flow_control and strategy threads
+2018-07-19 10:29:52 parsl.executors.ipp:282 [DEBUG]  IPP:Shutdown sequence: Attempting controller kill
+2018-07-19 10:29:52 parsl.executors.ipp_controller:142 [DEBUG]  Controller exited with 0
+2018-07-19 10:29:52 parsl.executors.ipp:292 [DEBUG]  Done with executor shutdown
+2018-07-19 10:29:52 parsl.data_provider.data_manager:66 [DEBUG]  Done with executor shutdown
+2018-07-19 10:29:52 parsl.dataflow.dflow:625 [INFO]  DFK cleanup complete
+2018-07-19 10:29:52 parsl.config:65 [DEBUG]  Checkpoint period only has an effect with checkpoint_mode='periodic'
+2018-07-19 10:29:52 parsl.dataflow.dflow:66 [DEBUG]  Starting DataFlowKernel with config
+Config(
+    app_cache=True, 
+    checkpoint_files=None, 
+    checkpoint_mode=None, 
+    checkpoint_period='00:30:00', 
+    data_management_max_threads=10, 
+    executors=[IPyParallelExecutor(
+        container_image=None, 
+        controller=Controller(
+            interfaces=None, 
+            ipython_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1208', 
+            log=True, 
+            mode='auto', 
+            port=None, 
+            port_range=None, 
+            profile='midway_ipp', 
+            public_ip=None, 
+            reuse=False
+        ), 
+        engine_dir='.', 
+        engine_file='~/.ipython/profile_default/security/ipcontroller-engine.json', 
+        label='midway_ipp', 
+        managed=True, 
+        provider=SlurmProvider(
+            'sandyb',
+            channel=LocalChannel(
+                envs={}, 
+                script_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/.scripts', 
+                userhome='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress'
+            ), 
+            cmd_timeout=10, 
+            init_blocks=1, 
+            label='slurm', 
+            launcher=<libsubmit.launchers.launchers.SingleNodeLauncher object at 0x7f51dc925e80>, 
+            max_blocks=1, 
+            min_blocks=1, 
+            nodes_per_block=1, 
+            overrides='module load Anaconda3/5.1.0; export PARSL_TESTING=True', 
+            parallelism=0.5, 
+            script_dir='parsl_scripts', 
+            tasks_per_node=64, 
+            walltime=601
+        ), 
+        storage_access=[], 
+        working_dir=None
+    )], 
+    lazy_errors=True, 
+    retries=0, 
+    run_dir='runinfo', 
+    strategy='simple', 
+    usage_tracking=True
+)
+2018-07-19 10:29:52 parsl.dataflow.rundirs:36 [DEBUG]  Parsl run initializing in rundir:runinfo/1209
+2018-07-19 10:29:52 parsl.dataflow.dflow:71 [INFO]  Parsl version: 0.5.1
+2018-07-19 10:29:52 parsl.dataflow.dflow:72 [INFO]  Libsubmit version: 0.5.0-a0
+2018-07-19 10:29:52 parsl.dataflow.usage_tracking.usage:125 [DEBUG]  Tracking status: True
+2018-07-19 10:29:52 parsl.dataflow.usage_tracking.usage:126 [DEBUG]  Testing mode   : False
+2018-07-19 10:29:52 parsl.dataflow.memoization:52 [INFO]  App caching initialized
+2018-07-19 10:29:52 parsl.executors.ipp_controller:83 [DEBUG]  Starting ipcontroller with 'ipcontroller --ipython-dir=/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1209 --ip=* --profile=midway_ipp   '
+2018-07-19 10:29:55 parsl.executors.ipp:97 [DEBUG]  Waiting for /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1209/profile_midway_ipp/security/ipcontroller-client.json
+2018-07-19 10:29:55 parsl.executors.ipp:114 [DEBUG]  Starting IPyParallelExecutor with provider:
+SlurmProvider(
+    'sandyb',
+    channel=LocalChannel(
+        envs={}, 
+        script_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/.scripts', 
+        userhome='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress'
+    ), 
+    cmd_timeout=10, 
+    init_blocks=1, 
+    label='slurm', 
+    launcher=<libsubmit.launchers.launchers.SingleNodeLauncher object at 0x7f51dc925e80>, 
+    max_blocks=1, 
+    min_blocks=1, 
+    nodes_per_block=1, 
+    overrides='module load Anaconda3/5.1.0; export PARSL_TESTING=True', 
+    parallelism=0.5, 
+    script_dir='parsl_scripts', 
+    tasks_per_node=64, 
+    walltime=601
+)
+2018-07-19 10:29:55 parsl.executors.ipp:119 [DEBUG]  Launched block: 0:47682269
+2018-07-19 10:29:55 parsl.executors.ipp:134 [DEBUG]  Starting executor
+2018-07-19 10:29:55 parsl.dataflow.strategy:120 [DEBUG]  Scaling strategy: simple
+2018-07-19 10:29:55 parsl.dataflow.dflow:591 [INFO]  DFK cleanup initiated
+2018-07-19 10:29:55 parsl.dataflow.dflow:538 [INFO]  Summary of tasks in DFK:
+2018-07-19 10:29:55 parsl.dataflow.dflow:576 [INFO]  End of summary
+2018-07-19 10:29:55 parsl.dataflow.dflow:615 [INFO]  Terminating flow_control and strategy threads
+2018-07-19 10:29:55 parsl.executors.ipp:282 [DEBUG]  IPP:Shutdown sequence: Attempting controller kill
+2018-07-19 10:29:55 parsl.executors.ipp_controller:142 [DEBUG]  Controller exited with 0
+2018-07-19 10:29:55 parsl.executors.ipp:292 [DEBUG]  Done with executor shutdown
+2018-07-19 10:29:55 parsl.data_provider.data_manager:66 [DEBUG]  Done with executor shutdown
+2018-07-19 10:29:55 parsl.dataflow.dflow:625 [INFO]  DFK cleanup complete
+2018-07-19 10:29:55 parsl.config:65 [DEBUG]  Checkpoint period only has an effect with checkpoint_mode='periodic'
+2018-07-19 10:29:55 parsl.dataflow.dflow:66 [DEBUG]  Starting DataFlowKernel with config
+Config(
+    app_cache=True, 
+    checkpoint_files=None, 
+    checkpoint_mode=None, 
+    checkpoint_period='00:30:00', 
+    data_management_max_threads=10, 
+    executors=[IPyParallelExecutor(
+        container_image=None, 
+        controller=Controller(
+            interfaces=None, 
+            ipython_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1209', 
+            log=True, 
+            mode='auto', 
+            port=None, 
+            port_range=None, 
+            profile='midway_ipp', 
+            public_ip=None, 
+            reuse=False
+        ), 
+        engine_dir='.', 
+        engine_file='~/.ipython/profile_default/security/ipcontroller-engine.json', 
+        label='midway_ipp', 
+        managed=True, 
+        provider=SlurmProvider(
+            'sandyb',
+            channel=LocalChannel(
+                envs={}, 
+                script_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/.scripts', 
+                userhome='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress'
+            ), 
+            cmd_timeout=10, 
+            init_blocks=1, 
+            label='slurm', 
+            launcher=<libsubmit.launchers.launchers.SingleNodeLauncher object at 0x7f51dc925e80>, 
+            max_blocks=1, 
+            min_blocks=1, 
+            nodes_per_block=1, 
+            overrides='module load Anaconda3/5.1.0; export PARSL_TESTING=True', 
+            parallelism=0.5, 
+            script_dir='parsl_scripts', 
+            tasks_per_node=128, 
+            walltime=601
+        ), 
+        storage_access=[], 
+        working_dir=None
+    )], 
+    lazy_errors=True, 
+    retries=0, 
+    run_dir='runinfo', 
+    strategy='simple', 
+    usage_tracking=True
+)
+2018-07-19 10:29:55 parsl.dataflow.rundirs:36 [DEBUG]  Parsl run initializing in rundir:runinfo/1210
+2018-07-19 10:29:55 parsl.dataflow.dflow:71 [INFO]  Parsl version: 0.5.1
+2018-07-19 10:29:55 parsl.dataflow.dflow:72 [INFO]  Libsubmit version: 0.5.0-a0
+2018-07-19 10:29:55 parsl.dataflow.usage_tracking.usage:125 [DEBUG]  Tracking status: True
+2018-07-19 10:29:55 parsl.dataflow.usage_tracking.usage:126 [DEBUG]  Testing mode   : False
+2018-07-19 10:29:55 parsl.dataflow.memoization:52 [INFO]  App caching initialized
+2018-07-19 10:29:55 parsl.executors.ipp_controller:83 [DEBUG]  Starting ipcontroller with 'ipcontroller --ipython-dir=/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1210 --ip=* --profile=midway_ipp   '
+2018-07-19 10:29:58 parsl.executors.ipp:97 [DEBUG]  Waiting for /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1210/profile_midway_ipp/security/ipcontroller-client.json
+2018-07-19 10:29:58 parsl.executors.ipp:114 [DEBUG]  Starting IPyParallelExecutor with provider:
+SlurmProvider(
+    'sandyb',
+    channel=LocalChannel(
+        envs={}, 
+        script_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/.scripts', 
+        userhome='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress'
+    ), 
+    cmd_timeout=10, 
+    init_blocks=1, 
+    label='slurm', 
+    launcher=<libsubmit.launchers.launchers.SingleNodeLauncher object at 0x7f51dc925e80>, 
+    max_blocks=1, 
+    min_blocks=1, 
+    nodes_per_block=1, 
+    overrides='module load Anaconda3/5.1.0; export PARSL_TESTING=True', 
+    parallelism=0.5, 
+    script_dir='parsl_scripts', 
+    tasks_per_node=128, 
+    walltime=601
+)
+2018-07-19 10:29:58 parsl.executors.ipp:119 [DEBUG]  Launched block: 0:47682270
+2018-07-19 10:29:58 parsl.executors.ipp:134 [DEBUG]  Starting executor
+2018-07-19 10:29:58 parsl.dataflow.strategy:120 [DEBUG]  Scaling strategy: simple
+2018-07-19 10:29:58 parsl.dataflow.dflow:591 [INFO]  DFK cleanup initiated
+2018-07-19 10:29:58 parsl.dataflow.dflow:538 [INFO]  Summary of tasks in DFK:
+2018-07-19 10:29:58 parsl.dataflow.dflow:576 [INFO]  End of summary
+2018-07-19 10:29:58 parsl.dataflow.dflow:615 [INFO]  Terminating flow_control and strategy threads
+2018-07-19 10:29:58 parsl.executors.ipp:282 [DEBUG]  IPP:Shutdown sequence: Attempting controller kill
+2018-07-19 10:29:58 parsl.executors.ipp_controller:142 [DEBUG]  Controller exited with 0
+2018-07-19 10:29:58 parsl.executors.ipp:292 [DEBUG]  Done with executor shutdown
+2018-07-19 10:29:58 parsl.data_provider.data_manager:66 [DEBUG]  Done with executor shutdown
+2018-07-19 10:29:58 parsl.dataflow.dflow:625 [INFO]  DFK cleanup complete
+2018-07-19 10:29:58 parsl.config:65 [DEBUG]  Checkpoint period only has an effect with checkpoint_mode='periodic'
+2018-07-19 10:29:58 parsl.dataflow.dflow:66 [DEBUG]  Starting DataFlowKernel with config
+Config(
+    app_cache=True, 
+    checkpoint_files=None, 
+    checkpoint_mode=None, 
+    checkpoint_period='00:30:00', 
+    data_management_max_threads=10, 
+    executors=[IPyParallelExecutor(
+        container_image=None, 
+        controller=Controller(
+            interfaces=None, 
+            ipython_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1210', 
+            log=True, 
+            mode='auto', 
+            port=None, 
+            port_range=None, 
+            profile='midway_ipp', 
+            public_ip=None, 
+            reuse=False
+        ), 
+        engine_dir='.', 
+        engine_file='~/.ipython/profile_default/security/ipcontroller-engine.json', 
+        label='midway_ipp', 
+        managed=True, 
+        provider=SlurmProvider(
+            'sandyb',
+            channel=LocalChannel(
+                envs={}, 
+                script_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/.scripts', 
+                userhome='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress'
+            ), 
+            cmd_timeout=10, 
+            init_blocks=1, 
+            label='slurm', 
+            launcher=<libsubmit.launchers.launchers.SingleNodeLauncher object at 0x7f51dc925e80>, 
+            max_blocks=1, 
+            min_blocks=1, 
+            nodes_per_block=1, 
+            overrides='module load Anaconda3/5.1.0; export PARSL_TESTING=True', 
+            parallelism=0.5, 
+            script_dir='parsl_scripts', 
+            tasks_per_node=256, 
+            walltime=601
+        ), 
+        storage_access=[], 
+        working_dir=None
+    )], 
+    lazy_errors=True, 
+    retries=0, 
+    run_dir='runinfo', 
+    strategy='simple', 
+    usage_tracking=True
+)
+2018-07-19 10:29:58 parsl.dataflow.rundirs:36 [DEBUG]  Parsl run initializing in rundir:runinfo/1211
+2018-07-19 10:29:58 parsl.dataflow.dflow:71 [INFO]  Parsl version: 0.5.1
+2018-07-19 10:29:58 parsl.dataflow.dflow:72 [INFO]  Libsubmit version: 0.5.0-a0
+2018-07-19 10:29:58 parsl.dataflow.usage_tracking.usage:125 [DEBUG]  Tracking status: True
+2018-07-19 10:29:58 parsl.dataflow.usage_tracking.usage:126 [DEBUG]  Testing mode   : False
+2018-07-19 10:29:58 parsl.dataflow.memoization:52 [INFO]  App caching initialized
+2018-07-19 10:29:58 parsl.executors.ipp_controller:83 [DEBUG]  Starting ipcontroller with 'ipcontroller --ipython-dir=/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1211 --ip=* --profile=midway_ipp   '
+2018-07-19 10:30:00 parsl.executors.ipp:97 [DEBUG]  Waiting for /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1211/profile_midway_ipp/security/ipcontroller-client.json
+2018-07-19 10:30:00 parsl.executors.ipp:114 [DEBUG]  Starting IPyParallelExecutor with provider:
+SlurmProvider(
+    'sandyb',
+    channel=LocalChannel(
+        envs={}, 
+        script_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/.scripts', 
+        userhome='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress'
+    ), 
+    cmd_timeout=10, 
+    init_blocks=1, 
+    label='slurm', 
+    launcher=<libsubmit.launchers.launchers.SingleNodeLauncher object at 0x7f51dc925e80>, 
+    max_blocks=1, 
+    min_blocks=1, 
+    nodes_per_block=1, 
+    overrides='module load Anaconda3/5.1.0; export PARSL_TESTING=True', 
+    parallelism=0.5, 
+    script_dir='parsl_scripts', 
+    tasks_per_node=256, 
+    walltime=601
+)
+2018-07-19 10:30:00 parsl.executors.ipp:119 [DEBUG]  Launched block: 0:47682271
+2018-07-19 10:30:00 parsl.executors.ipp:134 [DEBUG]  Starting executor
+2018-07-19 10:30:00 parsl.dataflow.strategy:120 [DEBUG]  Scaling strategy: simple
+2018-07-19 10:30:00 parsl.dataflow.dflow:591 [INFO]  DFK cleanup initiated
+2018-07-19 10:30:00 parsl.dataflow.dflow:538 [INFO]  Summary of tasks in DFK:
+2018-07-19 10:30:00 parsl.dataflow.dflow:576 [INFO]  End of summary
+2018-07-19 10:30:01 parsl.dataflow.dflow:615 [INFO]  Terminating flow_control and strategy threads
+2018-07-19 10:30:01 parsl.executors.ipp:282 [DEBUG]  IPP:Shutdown sequence: Attempting controller kill
+2018-07-19 10:30:01 parsl.executors.ipp_controller:142 [DEBUG]  Controller exited with 0
+2018-07-19 10:30:01 parsl.executors.ipp:292 [DEBUG]  Done with executor shutdown
+2018-07-19 10:30:01 parsl.data_provider.data_manager:66 [DEBUG]  Done with executor shutdown
+2018-07-19 10:30:01 parsl.dataflow.dflow:625 [INFO]  DFK cleanup complete
+2018-07-19 10:30:01 parsl.config:65 [DEBUG]  Checkpoint period only has an effect with checkpoint_mode='periodic'
+2018-07-19 10:30:01 parsl.dataflow.dflow:66 [DEBUG]  Starting DataFlowKernel with config
+Config(
+    app_cache=True, 
+    checkpoint_files=None, 
+    checkpoint_mode=None, 
+    checkpoint_period='00:30:00', 
+    data_management_max_threads=10, 
+    executors=[IPyParallelExecutor(
+        container_image=None, 
+        controller=Controller(
+            interfaces=None, 
+            ipython_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1211', 
+            log=True, 
+            mode='auto', 
+            port=None, 
+            port_range=None, 
+            profile='midway_ipp', 
+            public_ip=None, 
+            reuse=False
+        ), 
+        engine_dir='.', 
+        engine_file='~/.ipython/profile_default/security/ipcontroller-engine.json', 
+        label='midway_ipp', 
+        managed=True, 
+        provider=SlurmProvider(
+            'sandyb',
+            channel=LocalChannel(
+                envs={}, 
+                script_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/.scripts', 
+                userhome='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress'
+            ), 
+            cmd_timeout=10, 
+            init_blocks=1, 
+            label='slurm', 
+            launcher=<libsubmit.launchers.launchers.SingleNodeLauncher object at 0x7f51dc925e80>, 
+            max_blocks=1, 
+            min_blocks=1, 
+            nodes_per_block=1, 
+            overrides='module load Anaconda3/5.1.0; export PARSL_TESTING=True', 
+            parallelism=0.5, 
+            script_dir='parsl_scripts', 
+            tasks_per_node=512, 
+            walltime=601
+        ), 
+        storage_access=[], 
+        working_dir=None
+    )], 
+    lazy_errors=True, 
+    retries=0, 
+    run_dir='runinfo', 
+    strategy='simple', 
+    usage_tracking=True
+)
+2018-07-19 10:30:01 parsl.dataflow.rundirs:36 [DEBUG]  Parsl run initializing in rundir:runinfo/1212
+2018-07-19 10:30:01 parsl.dataflow.dflow:71 [INFO]  Parsl version: 0.5.1
+2018-07-19 10:30:01 parsl.dataflow.dflow:72 [INFO]  Libsubmit version: 0.5.0-a0
+2018-07-19 10:30:01 parsl.dataflow.usage_tracking.usage:125 [DEBUG]  Tracking status: True
+2018-07-19 10:30:01 parsl.dataflow.usage_tracking.usage:126 [DEBUG]  Testing mode   : False
+2018-07-19 10:30:01 parsl.dataflow.memoization:52 [INFO]  App caching initialized
+2018-07-19 10:30:01 parsl.executors.ipp_controller:83 [DEBUG]  Starting ipcontroller with 'ipcontroller --ipython-dir=/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1212 --ip=* --profile=midway_ipp   '
+2018-07-19 10:30:03 parsl.executors.ipp:97 [DEBUG]  Waiting for /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1212/profile_midway_ipp/security/ipcontroller-client.json
+2018-07-19 10:30:03 parsl.executors.ipp:114 [DEBUG]  Starting IPyParallelExecutor with provider:
+SlurmProvider(
+    'sandyb',
+    channel=LocalChannel(
+        envs={}, 
+        script_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/.scripts', 
+        userhome='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress'
+    ), 
+    cmd_timeout=10, 
+    init_blocks=1, 
+    label='slurm', 
+    launcher=<libsubmit.launchers.launchers.SingleNodeLauncher object at 0x7f51dc925e80>, 
+    max_blocks=1, 
+    min_blocks=1, 
+    nodes_per_block=1, 
+    overrides='module load Anaconda3/5.1.0; export PARSL_TESTING=True', 
+    parallelism=0.5, 
+    script_dir='parsl_scripts', 
+    tasks_per_node=512, 
+    walltime=601
+)
+2018-07-19 10:30:03 parsl.executors.ipp:119 [DEBUG]  Launched block: 0:47682273
+2018-07-19 10:30:03 parsl.executors.ipp:134 [DEBUG]  Starting executor
+2018-07-19 10:30:03 parsl.dataflow.strategy:120 [DEBUG]  Scaling strategy: simple
+2018-07-19 10:30:03 parsl.dataflow.dflow:591 [INFO]  DFK cleanup initiated
+2018-07-19 10:30:03 parsl.dataflow.dflow:538 [INFO]  Summary of tasks in DFK:
+2018-07-19 10:30:03 parsl.dataflow.dflow:576 [INFO]  End of summary
+2018-07-19 10:30:03 parsl.dataflow.dflow:615 [INFO]  Terminating flow_control and strategy threads
+2018-07-19 10:30:04 parsl.executors.ipp:282 [DEBUG]  IPP:Shutdown sequence: Attempting controller kill
+2018-07-19 10:30:04 parsl.executors.ipp_controller:142 [DEBUG]  Controller exited with 0
+2018-07-19 10:30:04 parsl.executors.ipp:292 [DEBUG]  Done with executor shutdown
+2018-07-19 10:30:04 parsl.data_provider.data_manager:66 [DEBUG]  Done with executor shutdown
+2018-07-19 10:30:04 parsl.dataflow.dflow:625 [INFO]  DFK cleanup complete
+2018-07-19 10:30:07 parsl.config:65 [DEBUG]  Checkpoint period only has an effect with checkpoint_mode='periodic'
+2018-07-19 10:30:07 parsl.dataflow.dflow:66 [DEBUG]  Starting DataFlowKernel with config
+Config(
+    app_cache=True, 
+    checkpoint_files=None, 
+    checkpoint_mode=None, 
+    checkpoint_period='00:30:00', 
+    data_management_max_threads=10, 
+    executors=[IPyParallelExecutor(
+        container_image=None, 
+        controller=Controller(
+            interfaces=None, 
+            ipython_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1212', 
+            log=True, 
+            mode='auto', 
+            port=None, 
+            port_range=None, 
+            profile='midway_ipp', 
+            public_ip=None, 
+            reuse=False
+        ), 
+        engine_dir='.', 
+        engine_file='~/.ipython/profile_default/security/ipcontroller-engine.json', 
+        label='midway_ipp', 
+        managed=True, 
+        provider=SlurmProvider(
+            'sandyb',
+            channel=LocalChannel(
+                envs={}, 
+                script_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/.scripts', 
+                userhome='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress'
+            ), 
+            cmd_timeout=10, 
+            init_blocks=1, 
+            label='slurm', 
+            launcher=<libsubmit.launchers.launchers.SingleNodeLauncher object at 0x7f51dc925e80>, 
+            max_blocks=1, 
+            min_blocks=1, 
+            nodes_per_block=1, 
+            overrides='module load Anaconda3/5.1.0; export PARSL_TESTING=True', 
+            parallelism=0.5, 
+            script_dir='parsl_scripts', 
+            tasks_per_node=8, 
+            walltime=601
+        ), 
+        storage_access=[], 
+        working_dir=None
+    )], 
+    lazy_errors=True, 
+    retries=0, 
+    run_dir='runinfo', 
+    strategy='simple', 
+    usage_tracking=True
+)
+2018-07-19 10:30:07 parsl.dataflow.rundirs:36 [DEBUG]  Parsl run initializing in rundir:runinfo/1213
+2018-07-19 10:30:07 parsl.dataflow.dflow:71 [INFO]  Parsl version: 0.5.1
+2018-07-19 10:30:07 parsl.dataflow.dflow:72 [INFO]  Libsubmit version: 0.5.0-a0
+2018-07-19 10:30:07 parsl.dataflow.usage_tracking.usage:125 [DEBUG]  Tracking status: True
+2018-07-19 10:30:07 parsl.dataflow.usage_tracking.usage:126 [DEBUG]  Testing mode   : False
+2018-07-19 10:30:07 parsl.dataflow.memoization:52 [INFO]  App caching initialized
+2018-07-19 10:30:07 parsl.executors.ipp_controller:83 [DEBUG]  Starting ipcontroller with 'ipcontroller --ipython-dir=/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1213 --ip=* --profile=midway_ipp   '
+2018-07-19 10:30:09 parsl.executors.ipp:97 [DEBUG]  Waiting for /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1213/profile_midway_ipp/security/ipcontroller-client.json
+2018-07-19 10:30:09 parsl.executors.ipp:114 [DEBUG]  Starting IPyParallelExecutor with provider:
+SlurmProvider(
+    'sandyb',
+    channel=LocalChannel(
+        envs={}, 
+        script_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/.scripts', 
+        userhome='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress'
+    ), 
+    cmd_timeout=10, 
+    init_blocks=1, 
+    label='slurm', 
+    launcher=<libsubmit.launchers.launchers.SingleNodeLauncher object at 0x7f51dc925e80>, 
+    max_blocks=1, 
+    min_blocks=1, 
+    nodes_per_block=1, 
+    overrides='module load Anaconda3/5.1.0; export PARSL_TESTING=True', 
+    parallelism=0.5, 
+    script_dir='parsl_scripts', 
+    tasks_per_node=8, 
+    walltime=601
+)
+2018-07-19 10:30:10 parsl.executors.ipp:119 [DEBUG]  Launched block: 0:47682274
+2018-07-19 10:30:10 parsl.executors.ipp:134 [DEBUG]  Starting executor
+2018-07-19 10:30:10 parsl.dataflow.strategy:120 [DEBUG]  Scaling strategy: simple
+2018-07-19 10:30:10 parsl.dataflow.dflow:591 [INFO]  DFK cleanup initiated
+2018-07-19 10:30:10 parsl.dataflow.dflow:538 [INFO]  Summary of tasks in DFK:
+2018-07-19 10:30:10 parsl.dataflow.dflow:576 [INFO]  End of summary
+2018-07-19 10:30:10 parsl.dataflow.dflow:615 [INFO]  Terminating flow_control and strategy threads
+2018-07-19 10:30:12 parsl.executors.ipp:282 [DEBUG]  IPP:Shutdown sequence: Attempting controller kill
+2018-07-19 10:30:12 parsl.executors.ipp_controller:142 [DEBUG]  Controller exited with 0
+2018-07-19 10:30:12 parsl.executors.ipp:292 [DEBUG]  Done with executor shutdown
+2018-07-19 10:30:12 parsl.data_provider.data_manager:66 [DEBUG]  Done with executor shutdown
+2018-07-19 10:30:12 parsl.dataflow.dflow:625 [INFO]  DFK cleanup complete
+2018-07-19 10:30:12 parsl.config:65 [DEBUG]  Checkpoint period only has an effect with checkpoint_mode='periodic'
+2018-07-19 10:30:12 parsl.dataflow.dflow:66 [DEBUG]  Starting DataFlowKernel with config
+Config(
+    app_cache=True, 
+    checkpoint_files=None, 
+    checkpoint_mode=None, 
+    checkpoint_period='00:30:00', 
+    data_management_max_threads=10, 
+    executors=[IPyParallelExecutor(
+        container_image=None, 
+        controller=Controller(
+            interfaces=None, 
+            ipython_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1213', 
+            log=True, 
+            mode='auto', 
+            port=None, 
+            port_range=None, 
+            profile='midway_ipp', 
+            public_ip=None, 
+            reuse=False
+        ), 
+        engine_dir='.', 
+        engine_file='~/.ipython/profile_default/security/ipcontroller-engine.json', 
+        label='midway_ipp', 
+        managed=True, 
+        provider=SlurmProvider(
+            'sandyb',
+            channel=LocalChannel(
+                envs={}, 
+                script_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/.scripts', 
+                userhome='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress'
+            ), 
+            cmd_timeout=10, 
+            init_blocks=1, 
+            label='slurm', 
+            launcher=<libsubmit.launchers.launchers.SingleNodeLauncher object at 0x7f51dc925e80>, 
+            max_blocks=1, 
+            min_blocks=1, 
+            nodes_per_block=1, 
+            overrides='module load Anaconda3/5.1.0; export PARSL_TESTING=True', 
+            parallelism=0.5, 
+            script_dir='parsl_scripts', 
+            tasks_per_node=16, 
+            walltime=601
+        ), 
+        storage_access=[], 
+        working_dir=None
+    )], 
+    lazy_errors=True, 
+    retries=0, 
+    run_dir='runinfo', 
+    strategy='simple', 
+    usage_tracking=True
+)
+2018-07-19 10:30:12 parsl.dataflow.rundirs:36 [DEBUG]  Parsl run initializing in rundir:runinfo/1214
+2018-07-19 10:30:13 parsl.dataflow.dflow:71 [INFO]  Parsl version: 0.5.1
+2018-07-19 10:30:13 parsl.dataflow.dflow:72 [INFO]  Libsubmit version: 0.5.0-a0
+2018-07-19 10:30:13 parsl.dataflow.usage_tracking.usage:125 [DEBUG]  Tracking status: True
+2018-07-19 10:30:13 parsl.dataflow.usage_tracking.usage:126 [DEBUG]  Testing mode   : False
+2018-07-19 10:30:13 parsl.dataflow.memoization:52 [INFO]  App caching initialized
+2018-07-19 10:30:13 parsl.executors.ipp_controller:83 [DEBUG]  Starting ipcontroller with 'ipcontroller --ipython-dir=/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1214 --ip=* --profile=midway_ipp   '
+2018-07-19 10:30:15 parsl.executors.ipp:97 [DEBUG]  Waiting for /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1214/profile_midway_ipp/security/ipcontroller-client.json
+2018-07-19 10:30:15 parsl.executors.ipp:114 [DEBUG]  Starting IPyParallelExecutor with provider:
+SlurmProvider(
+    'sandyb',
+    channel=LocalChannel(
+        envs={}, 
+        script_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/.scripts', 
+        userhome='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress'
+    ), 
+    cmd_timeout=10, 
+    init_blocks=1, 
+    label='slurm', 
+    launcher=<libsubmit.launchers.launchers.SingleNodeLauncher object at 0x7f51dc925e80>, 
+    max_blocks=1, 
+    min_blocks=1, 
+    nodes_per_block=1, 
+    overrides='module load Anaconda3/5.1.0; export PARSL_TESTING=True', 
+    parallelism=0.5, 
+    script_dir='parsl_scripts', 
+    tasks_per_node=16, 
+    walltime=601
+)
+2018-07-19 10:30:15 parsl.executors.ipp:119 [DEBUG]  Launched block: 0:47682278
+2018-07-19 10:30:15 parsl.executors.ipp:134 [DEBUG]  Starting executor
+2018-07-19 10:30:15 parsl.dataflow.strategy:120 [DEBUG]  Scaling strategy: simple
+2018-07-19 10:30:15 parsl.dataflow.dflow:591 [INFO]  DFK cleanup initiated
+2018-07-19 10:30:15 parsl.dataflow.dflow:538 [INFO]  Summary of tasks in DFK:
+2018-07-19 10:30:15 parsl.dataflow.dflow:576 [INFO]  End of summary
+2018-07-19 10:30:15 parsl.dataflow.dflow:615 [INFO]  Terminating flow_control and strategy threads
+2018-07-19 10:30:17 parsl.executors.ipp:282 [DEBUG]  IPP:Shutdown sequence: Attempting controller kill
+2018-07-19 10:30:17 parsl.executors.ipp_controller:142 [DEBUG]  Controller exited with 0
+2018-07-19 10:30:17 parsl.executors.ipp:292 [DEBUG]  Done with executor shutdown
+2018-07-19 10:30:17 parsl.data_provider.data_manager:66 [DEBUG]  Done with executor shutdown
+2018-07-19 10:30:17 parsl.dataflow.dflow:625 [INFO]  DFK cleanup complete
+2018-07-19 10:30:17 parsl.config:65 [DEBUG]  Checkpoint period only has an effect with checkpoint_mode='periodic'
+2018-07-19 10:30:17 parsl.dataflow.dflow:66 [DEBUG]  Starting DataFlowKernel with config
+Config(
+    app_cache=True, 
+    checkpoint_files=None, 
+    checkpoint_mode=None, 
+    checkpoint_period='00:30:00', 
+    data_management_max_threads=10, 
+    executors=[IPyParallelExecutor(
+        container_image=None, 
+        controller=Controller(
+            interfaces=None, 
+            ipython_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1214', 
+            log=True, 
+            mode='auto', 
+            port=None, 
+            port_range=None, 
+            profile='midway_ipp', 
+            public_ip=None, 
+            reuse=False
+        ), 
+        engine_dir='.', 
+        engine_file='~/.ipython/profile_default/security/ipcontroller-engine.json', 
+        label='midway_ipp', 
+        managed=True, 
+        provider=SlurmProvider(
+            'sandyb',
+            channel=LocalChannel(
+                envs={}, 
+                script_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/.scripts', 
+                userhome='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress'
+            ), 
+            cmd_timeout=10, 
+            init_blocks=1, 
+            label='slurm', 
+            launcher=<libsubmit.launchers.launchers.SingleNodeLauncher object at 0x7f51dc925e80>, 
+            max_blocks=1, 
+            min_blocks=1, 
+            nodes_per_block=1, 
+            overrides='module load Anaconda3/5.1.0; export PARSL_TESTING=True', 
+            parallelism=0.5, 
+            script_dir='parsl_scripts', 
+            tasks_per_node=32, 
+            walltime=601
+        ), 
+        storage_access=[], 
+        working_dir=None
+    )], 
+    lazy_errors=True, 
+    retries=0, 
+    run_dir='runinfo', 
+    strategy='simple', 
+    usage_tracking=True
+)
+2018-07-19 10:30:18 parsl.dataflow.rundirs:36 [DEBUG]  Parsl run initializing in rundir:runinfo/1215
+2018-07-19 10:30:18 parsl.dataflow.dflow:71 [INFO]  Parsl version: 0.5.1
+2018-07-19 10:30:18 parsl.dataflow.dflow:72 [INFO]  Libsubmit version: 0.5.0-a0
+2018-07-19 10:30:18 parsl.dataflow.usage_tracking.usage:125 [DEBUG]  Tracking status: True
+2018-07-19 10:30:18 parsl.dataflow.usage_tracking.usage:126 [DEBUG]  Testing mode   : False
+2018-07-19 10:30:18 parsl.dataflow.memoization:52 [INFO]  App caching initialized
+2018-07-19 10:30:18 parsl.executors.ipp_controller:83 [DEBUG]  Starting ipcontroller with 'ipcontroller --ipython-dir=/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1215 --ip=* --profile=midway_ipp   '
+2018-07-19 10:30:20 parsl.executors.ipp:97 [DEBUG]  Waiting for /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1215/profile_midway_ipp/security/ipcontroller-client.json
+2018-07-19 10:30:20 parsl.executors.ipp:114 [DEBUG]  Starting IPyParallelExecutor with provider:
+SlurmProvider(
+    'sandyb',
+    channel=LocalChannel(
+        envs={}, 
+        script_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/.scripts', 
+        userhome='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress'
+    ), 
+    cmd_timeout=10, 
+    init_blocks=1, 
+    label='slurm', 
+    launcher=<libsubmit.launchers.launchers.SingleNodeLauncher object at 0x7f51dc925e80>, 
+    max_blocks=1, 
+    min_blocks=1, 
+    nodes_per_block=1, 
+    overrides='module load Anaconda3/5.1.0; export PARSL_TESTING=True', 
+    parallelism=0.5, 
+    script_dir='parsl_scripts', 
+    tasks_per_node=32, 
+    walltime=601
+)
+2018-07-19 10:30:20 parsl.executors.ipp:119 [DEBUG]  Launched block: 0:47682280
+2018-07-19 10:30:20 parsl.executors.ipp:134 [DEBUG]  Starting executor
+2018-07-19 10:30:20 parsl.dataflow.strategy:120 [DEBUG]  Scaling strategy: simple
+2018-07-19 10:30:20 parsl.dataflow.dflow:591 [INFO]  DFK cleanup initiated
+2018-07-19 10:30:20 parsl.dataflow.dflow:538 [INFO]  Summary of tasks in DFK:
+2018-07-19 10:30:20 parsl.dataflow.dflow:576 [INFO]  End of summary
+2018-07-19 10:30:20 parsl.dataflow.dflow:615 [INFO]  Terminating flow_control and strategy threads
+2018-07-19 10:30:22 parsl.executors.ipp:282 [DEBUG]  IPP:Shutdown sequence: Attempting controller kill
+2018-07-19 10:30:23 parsl.executors.ipp_controller:142 [DEBUG]  Controller exited with 0
+2018-07-19 10:30:23 parsl.executors.ipp:292 [DEBUG]  Done with executor shutdown
+2018-07-19 10:30:23 parsl.data_provider.data_manager:66 [DEBUG]  Done with executor shutdown
+2018-07-19 10:30:23 parsl.dataflow.dflow:625 [INFO]  DFK cleanup complete
+2018-07-19 10:30:23 parsl.config:65 [DEBUG]  Checkpoint period only has an effect with checkpoint_mode='periodic'
+2018-07-19 10:30:23 parsl.dataflow.dflow:66 [DEBUG]  Starting DataFlowKernel with config
+Config(
+    app_cache=True, 
+    checkpoint_files=None, 
+    checkpoint_mode=None, 
+    checkpoint_period='00:30:00', 
+    data_management_max_threads=10, 
+    executors=[IPyParallelExecutor(
+        container_image=None, 
+        controller=Controller(
+            interfaces=None, 
+            ipython_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1215', 
+            log=True, 
+            mode='auto', 
+            port=None, 
+            port_range=None, 
+            profile='midway_ipp', 
+            public_ip=None, 
+            reuse=False
+        ), 
+        engine_dir='.', 
+        engine_file='~/.ipython/profile_default/security/ipcontroller-engine.json', 
+        label='midway_ipp', 
+        managed=True, 
+        provider=SlurmProvider(
+            'sandyb',
+            channel=LocalChannel(
+                envs={}, 
+                script_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/.scripts', 
+                userhome='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress'
+            ), 
+            cmd_timeout=10, 
+            init_blocks=1, 
+            label='slurm', 
+            launcher=<libsubmit.launchers.launchers.SingleNodeLauncher object at 0x7f51dc925e80>, 
+            max_blocks=1, 
+            min_blocks=1, 
+            nodes_per_block=1, 
+            overrides='module load Anaconda3/5.1.0; export PARSL_TESTING=True', 
+            parallelism=0.5, 
+            script_dir='parsl_scripts', 
+            tasks_per_node=64, 
+            walltime=601
+        ), 
+        storage_access=[], 
+        working_dir=None
+    )], 
+    lazy_errors=True, 
+    retries=0, 
+    run_dir='runinfo', 
+    strategy='simple', 
+    usage_tracking=True
+)
+2018-07-19 10:30:23 parsl.dataflow.rundirs:36 [DEBUG]  Parsl run initializing in rundir:runinfo/1216
+2018-07-19 10:30:23 parsl.dataflow.dflow:71 [INFO]  Parsl version: 0.5.1
+2018-07-19 10:30:23 parsl.dataflow.dflow:72 [INFO]  Libsubmit version: 0.5.0-a0
+2018-07-19 10:30:23 parsl.dataflow.usage_tracking.usage:125 [DEBUG]  Tracking status: True
+2018-07-19 10:30:23 parsl.dataflow.usage_tracking.usage:126 [DEBUG]  Testing mode   : False
+2018-07-19 10:30:23 parsl.dataflow.memoization:52 [INFO]  App caching initialized
+2018-07-19 10:30:23 parsl.executors.ipp_controller:83 [DEBUG]  Starting ipcontroller with 'ipcontroller --ipython-dir=/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1216 --ip=* --profile=midway_ipp   '
+2018-07-19 10:30:25 parsl.executors.ipp:97 [DEBUG]  Waiting for /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1216/profile_midway_ipp/security/ipcontroller-client.json
+2018-07-19 10:30:25 parsl.executors.ipp:114 [DEBUG]  Starting IPyParallelExecutor with provider:
+SlurmProvider(
+    'sandyb',
+    channel=LocalChannel(
+        envs={}, 
+        script_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/.scripts', 
+        userhome='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress'
+    ), 
+    cmd_timeout=10, 
+    init_blocks=1, 
+    label='slurm', 
+    launcher=<libsubmit.launchers.launchers.SingleNodeLauncher object at 0x7f51dc925e80>, 
+    max_blocks=1, 
+    min_blocks=1, 
+    nodes_per_block=1, 
+    overrides='module load Anaconda3/5.1.0; export PARSL_TESTING=True', 
+    parallelism=0.5, 
+    script_dir='parsl_scripts', 
+    tasks_per_node=64, 
+    walltime=601
+)
+2018-07-19 10:30:25 parsl.executors.ipp:119 [DEBUG]  Launched block: 0:47682281
+2018-07-19 10:30:25 parsl.executors.ipp:134 [DEBUG]  Starting executor
+2018-07-19 10:30:25 parsl.dataflow.strategy:120 [DEBUG]  Scaling strategy: simple
+2018-07-19 10:30:25 parsl.dataflow.dflow:591 [INFO]  DFK cleanup initiated
+2018-07-19 10:30:25 parsl.dataflow.dflow:538 [INFO]  Summary of tasks in DFK:
+2018-07-19 10:30:25 parsl.dataflow.dflow:576 [INFO]  End of summary
+2018-07-19 10:30:25 parsl.dataflow.dflow:615 [INFO]  Terminating flow_control and strategy threads
+2018-07-19 10:30:25 parsl.executors.ipp:282 [DEBUG]  IPP:Shutdown sequence: Attempting controller kill
+2018-07-19 10:30:25 parsl.executors.ipp_controller:142 [DEBUG]  Controller exited with 0
+2018-07-19 10:30:25 parsl.executors.ipp:292 [DEBUG]  Done with executor shutdown
+2018-07-19 10:30:25 parsl.data_provider.data_manager:66 [DEBUG]  Done with executor shutdown
+2018-07-19 10:30:25 parsl.dataflow.dflow:625 [INFO]  DFK cleanup complete
+2018-07-19 10:30:25 parsl.config:65 [DEBUG]  Checkpoint period only has an effect with checkpoint_mode='periodic'
+2018-07-19 10:30:25 parsl.dataflow.dflow:66 [DEBUG]  Starting DataFlowKernel with config
+Config(
+    app_cache=True, 
+    checkpoint_files=None, 
+    checkpoint_mode=None, 
+    checkpoint_period='00:30:00', 
+    data_management_max_threads=10, 
+    executors=[IPyParallelExecutor(
+        container_image=None, 
+        controller=Controller(
+            interfaces=None, 
+            ipython_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1216', 
+            log=True, 
+            mode='auto', 
+            port=None, 
+            port_range=None, 
+            profile='midway_ipp', 
+            public_ip=None, 
+            reuse=False
+        ), 
+        engine_dir='.', 
+        engine_file='~/.ipython/profile_default/security/ipcontroller-engine.json', 
+        label='midway_ipp', 
+        managed=True, 
+        provider=SlurmProvider(
+            'sandyb',
+            channel=LocalChannel(
+                envs={}, 
+                script_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/.scripts', 
+                userhome='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress'
+            ), 
+            cmd_timeout=10, 
+            init_blocks=1, 
+            label='slurm', 
+            launcher=<libsubmit.launchers.launchers.SingleNodeLauncher object at 0x7f51dc925e80>, 
+            max_blocks=1, 
+            min_blocks=1, 
+            nodes_per_block=1, 
+            overrides='module load Anaconda3/5.1.0; export PARSL_TESTING=True', 
+            parallelism=0.5, 
+            script_dir='parsl_scripts', 
+            tasks_per_node=128, 
+            walltime=601
+        ), 
+        storage_access=[], 
+        working_dir=None
+    )], 
+    lazy_errors=True, 
+    retries=0, 
+    run_dir='runinfo', 
+    strategy='simple', 
+    usage_tracking=True
+)
+2018-07-19 10:30:25 parsl.dataflow.rundirs:36 [DEBUG]  Parsl run initializing in rundir:runinfo/1217
+2018-07-19 10:30:25 parsl.dataflow.dflow:71 [INFO]  Parsl version: 0.5.1
+2018-07-19 10:30:25 parsl.dataflow.dflow:72 [INFO]  Libsubmit version: 0.5.0-a0
+2018-07-19 10:30:26 parsl.dataflow.usage_tracking.usage:125 [DEBUG]  Tracking status: True
+2018-07-19 10:30:26 parsl.dataflow.usage_tracking.usage:126 [DEBUG]  Testing mode   : False
+2018-07-19 10:30:26 parsl.dataflow.memoization:52 [INFO]  App caching initialized
+2018-07-19 10:30:26 parsl.executors.ipp_controller:83 [DEBUG]  Starting ipcontroller with 'ipcontroller --ipython-dir=/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1217 --ip=* --profile=midway_ipp   '
+2018-07-19 10:30:28 parsl.executors.ipp:97 [DEBUG]  Waiting for /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1217/profile_midway_ipp/security/ipcontroller-client.json
+2018-07-19 10:30:28 parsl.executors.ipp:114 [DEBUG]  Starting IPyParallelExecutor with provider:
+SlurmProvider(
+    'sandyb',
+    channel=LocalChannel(
+        envs={}, 
+        script_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/.scripts', 
+        userhome='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress'
+    ), 
+    cmd_timeout=10, 
+    init_blocks=1, 
+    label='slurm', 
+    launcher=<libsubmit.launchers.launchers.SingleNodeLauncher object at 0x7f51dc925e80>, 
+    max_blocks=1, 
+    min_blocks=1, 
+    nodes_per_block=1, 
+    overrides='module load Anaconda3/5.1.0; export PARSL_TESTING=True', 
+    parallelism=0.5, 
+    script_dir='parsl_scripts', 
+    tasks_per_node=128, 
+    walltime=601
+)
+2018-07-19 10:30:38 parsl.executors.ipp:126 [ERROR]  Scaling out failed: 'NoneType' object has no attribute 'strip'

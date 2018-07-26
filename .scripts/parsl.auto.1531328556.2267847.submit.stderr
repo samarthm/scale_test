@@ -1,0 +1,5 @@
+/tmp/slurmd/job47404818/slurm_script: line 18: 13811 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+slurmstepd-midway072: error: Job 47404818 exceeded memory limit (2087760 > 1945600), being killed
+slurmstepd-midway072: error: Exceeded job memory limit
+slurmstepd-midway072: error: *** JOB 47404818 ON midway072 CANCELLED AT 2018-07-11T12:04:00 ***
+slurmstepd-midway072: error: Detected 439 oom-kill event(s) in step 47404818.batch cgroup.

@@ -1,0 +1,584 @@
+2018-07-13 14:46:18.002 [IPControllerApp] Created profile dir: '/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1071/profile_midway_ipp'
+2018-07-13 14:46:18.018 [IPControllerApp] Hub listening on tcp://*:65461 for registration.
+2018-07-13 14:46:18.020 [IPControllerApp] Hub using DB backend: 'DictDB'
+2018-07-13 14:46:18.283 [IPControllerApp] hub::created hub
+2018-07-13 14:46:18.283 [IPControllerApp] writing connection info to /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1071/profile_midway_ipp/security/ipcontroller-client.json
+2018-07-13 14:46:18.284 [IPControllerApp] writing connection info to /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1071/profile_midway_ipp/security/ipcontroller-engine.json
+2018-07-13 14:46:18.285 [IPControllerApp] task::using Python leastload Task scheduler
+2018-07-13 14:46:18.286 [IPControllerApp] Heartmonitor started
+2018-07-13 14:46:18.294 [IPControllerApp] Creating pid file: /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/1071/profile_midway_ipp/pid/ipcontroller.pid
+2018-07-13 14:46:18.303 [scheduler] Scheduler started [leastload]
+2018-07-13 14:46:18.305 [IPControllerApp] client::client b'\x00k\x8bEg' requested 'connection_request'
+2018-07-13 14:46:18.305 [IPControllerApp] client::client [b'\x00k\x8bEg'] connected
+2018-07-13 14:46:19.323 [IPControllerApp] client::client b'\x00k\x8bEh' requested 'connection_request'
+2018-07-13 14:46:19.323 [IPControllerApp] client::client [b'\x00k\x8bEh'] connected
+2018-07-13 14:47:52.359 [IPControllerApp] client::client b'353d32c1-bba7aaf9aaf6c0c179966659' requested 'registration_request'
+2018-07-13 14:47:52.391 [IPControllerApp] client::client b'7cc0a83b-394a59847e03812d6382b33a' requested 'registration_request'
+2018-07-13 14:47:52.392 [IPControllerApp] client::client b'a4fffa4e-bb292f2acd75141044a34726' requested 'registration_request'
+2018-07-13 14:47:52.397 [IPControllerApp] client::client b'a729376e-8d33e63ec528b0dd2b899571' requested 'registration_request'
+2018-07-13 14:47:52.408 [IPControllerApp] client::client b'2837291c-75e870052c186635b527991e' requested 'registration_request'
+2018-07-13 14:47:57.532 [IPControllerApp] client::client b'ca274f31-93ee5624d1842e0ea83f54d4' requested 'registration_request'
+2018-07-13 14:47:57.543 [IPControllerApp] client::client b'5066113a-1005336e5044bc469ee6a177' requested 'registration_request'
+2018-07-13 14:47:57.611 [IPControllerApp] client::client b'048bc7a6-5ca92e5fe6841e68ff129d48' requested 'registration_request'
+2018-07-13 14:47:57.613 [IPControllerApp] client::client b'3cbc3593-7100732e6920bd4cf2ea4c72' requested 'registration_request'
+2018-07-13 14:47:57.650 [IPControllerApp] client::client b'102f2e32-a4d8a46a6353e2197f514d31' requested 'registration_request'
+2018-07-13 14:47:57.675 [IPControllerApp] client::client b'e038d784-0ea761aa8c5ca1ea3fa2f7ec' requested 'registration_request'
+2018-07-13 14:47:57.689 [IPControllerApp] client::client b'8bd92868-1b4a2bfb9d64c3aa1178f957' requested 'registration_request'
+2018-07-13 14:47:57.690 [IPControllerApp] client::client b'f40212b3-014de9065eebbd2d4d360adb' requested 'registration_request'
+2018-07-13 14:47:57.691 [IPControllerApp] client::client b'bfa63c95-b1d941f45f1e4264213fdbc1' requested 'registration_request'
+2018-07-13 14:47:57.697 [IPControllerApp] client::client b'b95023e7-bb94254275b4cce55b456e75' requested 'registration_request'
+2018-07-13 14:47:57.698 [IPControllerApp] client::client b'677e45f9-f835d00481c52b174559a339' requested 'registration_request'
+2018-07-13 14:47:57.699 [IPControllerApp] client::client b'545e19fe-71277352f5a723b2ef7cc8e7' requested 'registration_request'
+2018-07-13 14:47:57.707 [IPControllerApp] client::client b'57ccf5f0-fe09420528fe8708e1a9109b' requested 'registration_request'
+2018-07-13 14:47:57.710 [IPControllerApp] client::client b'4688e094-493079393556803c0efa17f8' requested 'registration_request'
+2018-07-13 14:47:57.717 [IPControllerApp] client::client b'3bd5591f-7ffc31a36fa964074422a216' requested 'registration_request'
+2018-07-13 14:47:57.723 [IPControllerApp] client::client b'218d8f21-cf824ef947c064385bb06c94' requested 'registration_request'
+2018-07-13 14:47:57.734 [IPControllerApp] client::client b'a0c8ee4a-51c0345a1a9e828f146d1bbb' requested 'registration_request'
+2018-07-13 14:47:57.749 [IPControllerApp] client::client b'94ff3c2e-474a17ac865df84de1be9343' requested 'registration_request'
+2018-07-13 14:47:57.760 [IPControllerApp] client::client b'96be70c0-5ee703714edd4112f50249b6' requested 'registration_request'
+2018-07-13 14:47:57.770 [IPControllerApp] client::client b'6a295ba7-91b791a404bd83b6904c1bab' requested 'registration_request'
+2018-07-13 14:47:57.781 [IPControllerApp] client::client b'2b13b791-3b94fd4012d0a3c0b5bece09' requested 'registration_request'
+2018-07-13 14:47:57.788 [IPControllerApp] client::client b'bf5dc456-50e2caeb930ff32a34a611f7' requested 'registration_request'
+2018-07-13 14:47:57.854 [IPControllerApp] client::client b'e32c77dd-d0591354f9c0fc9756d1e563' requested 'registration_request'
+2018-07-13 14:47:57.878 [IPControllerApp] client::client b'079f4074-441e9e7eeaddb2b7ec9a4200' requested 'registration_request'
+2018-07-13 14:47:58.003 [IPControllerApp] client::client b'eb4695ca-d0ad5f870b275296ea9c840b' requested 'registration_request'
+2018-07-13 14:47:58.485 [IPControllerApp] client::client b'c7640aa5-5ba5ccc448101ead86e93723' requested 'registration_request'
+2018-07-13 14:47:58.539 [IPControllerApp] client::client b'3e1f6d26-799258cac12f5a30c0ebaa01' requested 'registration_request'
+2018-07-13 14:47:59.901 [IPControllerApp] client::client b'8a152062-28301da1cedcf06c2ea0c1d9' requested 'registration_request'
+2018-07-13 14:48:00.103 [IPControllerApp] client::client b'53146d77-e92b9dfef0a841cb2532bf01' requested 'registration_request'
+2018-07-13 14:48:00.113 [IPControllerApp] client::client b'e38beadb-ea4be532502ae8ae6ab6dc08' requested 'registration_request'
+2018-07-13 14:48:00.368 [IPControllerApp] client::client b'a1c4f115-984ccc5a3229bf87c5d02b37' requested 'registration_request'
+2018-07-13 14:48:00.510 [IPControllerApp] client::client b'0b0611a2-024f21c2653694205eab21a5' requested 'registration_request'
+2018-07-13 14:48:00.696 [IPControllerApp] client::client b'f74ac4af-041b48160b388f56478949c0' requested 'registration_request'
+2018-07-13 14:48:00.818 [IPControllerApp] client::client b'0ae9bdf1-f42301a2be8d804398c01f2e' requested 'registration_request'
+2018-07-13 14:48:00.876 [IPControllerApp] client::client b'98cf4fa0-ac1e106328896ba3454fc3fa' requested 'registration_request'
+2018-07-13 14:48:01.203 [IPControllerApp] client::client b'fff65f68-8baaa55b9e8fa7711a7806a7' requested 'registration_request'
+2018-07-13 14:48:01.220 [IPControllerApp] client::client b'c2b1d1a9-e8aaa2b90e2b7fcb3d1db3dc' requested 'registration_request'
+2018-07-13 14:48:01.416 [IPControllerApp] client::client b'93530861-74861a67a6e16232131b9e53' requested 'registration_request'
+2018-07-13 14:48:01.432 [IPControllerApp] client::client b'da9c107c-d609e0be83d0cdaf949939f8' requested 'registration_request'
+2018-07-13 14:48:03.287 [IPControllerApp] registration::finished registering engine 20:218d8f21-cf824ef947c064385bb06c94
+2018-07-13 14:48:03.288 [IPControllerApp] engine::Engine Connected: 20
+2018-07-13 14:48:03.289 [IPControllerApp] registration::finished registering engine 21:a0c8ee4a-51c0345a1a9e828f146d1bbb
+2018-07-13 14:48:03.289 [IPControllerApp] engine::Engine Connected: 21
+2018-07-13 14:48:03.290 [IPControllerApp] registration::finished registering engine 22:94ff3c2e-474a17ac865df84de1be9343
+2018-07-13 14:48:03.290 [IPControllerApp] engine::Engine Connected: 22
+2018-07-13 14:48:03.290 [IPControllerApp] registration::finished registering engine 24:6a295ba7-91b791a404bd83b6904c1bab
+2018-07-13 14:48:03.290 [IPControllerApp] engine::Engine Connected: 24
+2018-07-13 14:48:03.291 [IPControllerApp] registration::finished registering engine 14:b95023e7-bb94254275b4cce55b456e75
+2018-07-13 14:48:03.291 [IPControllerApp] engine::Engine Connected: 14
+2018-07-13 14:48:03.291 [IPControllerApp] registration::finished registering engine 31:3e1f6d26-799258cac12f5a30c0ebaa01
+2018-07-13 14:48:03.292 [IPControllerApp] engine::Engine Connected: 31
+2018-07-13 14:48:03.292 [IPControllerApp] registration::finished registering engine 0:353d32c1-bba7aaf9aaf6c0c179966659
+2018-07-13 14:48:03.292 [IPControllerApp] engine::Engine Connected: 0
+2018-07-13 14:48:03.292 [IPControllerApp] registration::finished registering engine 27:e32c77dd-d0591354f9c0fc9756d1e563
+2018-07-13 14:48:03.293 [IPControllerApp] engine::Engine Connected: 27
+2018-07-13 14:48:03.293 [IPControllerApp] registration::finished registering engine 25:2b13b791-3b94fd4012d0a3c0b5bece09
+2018-07-13 14:48:03.293 [IPControllerApp] engine::Engine Connected: 25
+2018-07-13 14:48:03.294 [IPControllerApp] registration::finished registering engine 3:a729376e-8d33e63ec528b0dd2b899571
+2018-07-13 14:48:03.294 [IPControllerApp] engine::Engine Connected: 3
+2018-07-13 14:48:03.294 [IPControllerApp] registration::finished registering engine 9:102f2e32-a4d8a46a6353e2197f514d31
+2018-07-13 14:48:03.295 [IPControllerApp] engine::Engine Connected: 9
+2018-07-13 14:48:03.295 [IPControllerApp] registration::finished registering engine 4:2837291c-75e870052c186635b527991e
+2018-07-13 14:48:03.295 [IPControllerApp] engine::Engine Connected: 4
+2018-07-13 14:48:03.296 [IPControllerApp] registration::finished registering engine 17:57ccf5f0-fe09420528fe8708e1a9109b
+2018-07-13 14:48:03.296 [IPControllerApp] engine::Engine Connected: 17
+2018-07-13 14:48:03.296 [IPControllerApp] registration::finished registering engine 10:e038d784-0ea761aa8c5ca1ea3fa2f7ec
+2018-07-13 14:48:03.296 [IPControllerApp] engine::Engine Connected: 10
+2018-07-13 14:48:03.297 [IPControllerApp] registration::finished registering engine 33:53146d77-e92b9dfef0a841cb2532bf01
+2018-07-13 14:48:03.297 [IPControllerApp] engine::Engine Connected: 33
+2018-07-13 14:48:03.297 [IPControllerApp] registration::finished registering engine 34:e38beadb-ea4be532502ae8ae6ab6dc08
+2018-07-13 14:48:03.298 [IPControllerApp] engine::Engine Connected: 34
+2018-07-13 14:48:03.298 [IPControllerApp] registration::finished registering engine 18:4688e094-493079393556803c0efa17f8
+2018-07-13 14:48:03.298 [IPControllerApp] engine::Engine Connected: 18
+2018-07-13 14:48:03.299 [IPControllerApp] registration::finished registering engine 28:079f4074-441e9e7eeaddb2b7ec9a4200
+2018-07-13 14:48:03.299 [IPControllerApp] engine::Engine Connected: 28
+2018-07-13 14:48:03.300 [IPControllerApp] registration::finished registering engine 16:545e19fe-71277352f5a723b2ef7cc8e7
+2018-07-13 14:48:03.300 [IPControllerApp] engine::Engine Connected: 16
+2018-07-13 14:48:03.300 [IPControllerApp] registration::finished registering engine 23:96be70c0-5ee703714edd4112f50249b6
+2018-07-13 14:48:03.300 [IPControllerApp] engine::Engine Connected: 23
+2018-07-13 14:48:03.301 [IPControllerApp] registration::finished registering engine 12:f40212b3-014de9065eebbd2d4d360adb
+2018-07-13 14:48:03.301 [IPControllerApp] engine::Engine Connected: 12
+2018-07-13 14:48:03.301 [IPControllerApp] registration::finished registering engine 11:8bd92868-1b4a2bfb9d64c3aa1178f957
+2018-07-13 14:48:03.302 [IPControllerApp] engine::Engine Connected: 11
+2018-07-13 14:48:03.302 [IPControllerApp] registration::finished registering engine 26:bf5dc456-50e2caeb930ff32a34a611f7
+2018-07-13 14:48:03.302 [IPControllerApp] engine::Engine Connected: 26
+2018-07-13 14:48:03.303 [IPControllerApp] registration::finished registering engine 13:bfa63c95-b1d941f45f1e4264213fdbc1
+2018-07-13 14:48:03.303 [IPControllerApp] engine::Engine Connected: 13
+2018-07-13 14:48:03.303 [IPControllerApp] registration::finished registering engine 30:c7640aa5-5ba5ccc448101ead86e93723
+2018-07-13 14:48:03.303 [IPControllerApp] engine::Engine Connected: 30
+2018-07-13 14:48:03.304 [IPControllerApp] registration::finished registering engine 29:eb4695ca-d0ad5f870b275296ea9c840b
+2018-07-13 14:48:03.304 [IPControllerApp] engine::Engine Connected: 29
+2018-07-13 14:48:03.305 [IPControllerApp] registration::finished registering engine 15:677e45f9-f835d00481c52b174559a339
+2018-07-13 14:48:03.305 [IPControllerApp] engine::Engine Connected: 15
+2018-07-13 14:48:03.305 [IPControllerApp] registration::finished registering engine 2:a4fffa4e-bb292f2acd75141044a34726
+2018-07-13 14:48:03.305 [IPControllerApp] engine::Engine Connected: 2
+2018-07-13 14:48:03.306 [IPControllerApp] registration::finished registering engine 19:3bd5591f-7ffc31a36fa964074422a216
+2018-07-13 14:48:03.306 [IPControllerApp] engine::Engine Connected: 19
+2018-07-13 14:48:03.306 [IPControllerApp] registration::finished registering engine 32:8a152062-28301da1cedcf06c2ea0c1d9
+2018-07-13 14:48:03.307 [IPControllerApp] engine::Engine Connected: 32
+2018-07-13 14:48:03.307 [IPControllerApp] registration::finished registering engine 1:7cc0a83b-394a59847e03812d6382b33a
+2018-07-13 14:48:03.307 [IPControllerApp] engine::Engine Connected: 1
+2018-07-13 14:48:03.308 [IPControllerApp] registration::finished registering engine 7:048bc7a6-5ca92e5fe6841e68ff129d48
+2018-07-13 14:48:03.308 [IPControllerApp] engine::Engine Connected: 7
+2018-07-13 14:48:03.314 [IPControllerApp] task::task 'e3374cc2-b10221e6f61653d5b352f1dc' arrived on 20
+2018-07-13 14:48:03.315 [IPControllerApp] task::task '531b7e67-d718b1023424baf2ac4f6be5' arrived on 21
+2018-07-13 14:48:03.315 [IPControllerApp] task::task '926b5bf5-12479e3b7fc88f72a274c260' arrived on 22
+2018-07-13 14:48:03.316 [IPControllerApp] task::task '2a7e0892-2f29cab59b8afee5da82df1b' arrived on 24
+2018-07-13 14:48:03.317 [IPControllerApp] task::task '9f65935a-812b0ad1b392ce42a1cf0991' arrived on 14
+2018-07-13 14:48:03.317 [IPControllerApp] task::task 'ab56faf2-9135c640674bb6be1d201bf8' arrived on 31
+2018-07-13 14:48:03.318 [IPControllerApp] task::task 'fa4e9b4a-e76a263416be296a341fac85' arrived on 0
+2018-07-13 14:48:03.318 [IPControllerApp] task::task 'c44ec48b-5a4172e2a1befb8b740d82d7' arrived on 27
+2018-07-13 14:48:03.319 [IPControllerApp] task::task '52446330-51f7ffc49427d00e53f905d5' arrived on 25
+2018-07-13 14:48:03.319 [IPControllerApp] task::task 'e0c25cab-7a08bdedfc0749a413cff9fb' arrived on 3
+2018-07-13 14:48:03.320 [IPControllerApp] task::task '808e96b4-cf7945be306233e877a868e6' arrived on 9
+2018-07-13 14:48:03.321 [IPControllerApp] task::task '985f5b71-239bbf898426dac92433c450' arrived on 4
+2018-07-13 14:48:03.322 [IPControllerApp] task::task 'e61ee0fa-e2a8323518688fa36afc653d' arrived on 17
+2018-07-13 14:48:03.323 [IPControllerApp] task::task '8cd19a82-c25b45fe2c6ab172a16b9eaa' arrived on 10
+2018-07-13 14:48:03.323 [IPControllerApp] task::task '348a9237-c5f48594cd67c6eca33f2a7b' arrived on 33
+2018-07-13 14:48:03.324 [IPControllerApp] task::task 'b85df76c-01306264ad29b1628cfa70f7' arrived on 34
+2018-07-13 14:48:03.325 [IPControllerApp] task::task 'a7cfcb45-55a3bc98830d921c69dd14d9' arrived on 18
+2018-07-13 14:48:03.326 [IPControllerApp] task::task '9d9377f3-a80a6d904d3010128be12dc8' arrived on 28
+2018-07-13 14:48:03.327 [IPControllerApp] task::task 'be838123-7e2c5efaad3c4f2b93819669' arrived on 16
+2018-07-13 14:48:03.328 [IPControllerApp] task::task '85a1c1fb-09e850c859f3c868d4d06d1e' arrived on 23
+2018-07-13 14:48:03.329 [IPControllerApp] task::task 'e4658881-8575ec99614640fe8928e342' arrived on 12
+2018-07-13 14:48:03.330 [IPControllerApp] task::task '18d94cf3-9f48c9cba7dda64e241f95ef' arrived on 11
+2018-07-13 14:48:03.331 [IPControllerApp] task::task 'fb7faaca-9e54cca209b3fa3e12eda3ba' arrived on 26
+2018-07-13 14:48:03.331 [IPControllerApp] task::task 'fb19639e-0dece0d7509b1418653d20f7' arrived on 13
+2018-07-13 14:48:03.332 [IPControllerApp] task::task '71259a2d-a5900068b30a867830a2a839' arrived on 30
+2018-07-13 14:48:03.333 [IPControllerApp] task::task 'f855865b-6b581bfd81d8b403a6156a3b' arrived on 29
+2018-07-13 14:48:03.334 [IPControllerApp] task::task '97bf945e-7fe0e98efbf5c21555d35fc5' arrived on 15
+2018-07-13 14:48:03.335 [IPControllerApp] task::task '585cf7ac-a2dc763e984ab4dd92c1de35' arrived on 2
+2018-07-13 14:48:03.336 [IPControllerApp] task::task '015fa78a-9b87310557e8b386df611aa8' arrived on 19
+2018-07-13 14:48:03.337 [IPControllerApp] task::task '197121d7-a302a2447375145dca1f3e51' arrived on 32
+2018-07-13 14:48:03.338 [IPControllerApp] task::task 'd509d1b2-d35e91ec370db81ba8ab3ad4' arrived on 1
+2018-07-13 14:48:03.339 [IPControllerApp] task::task '5eb5ca7f-c9d15c30f31d44fe36a8dd56' arrived on 7
+2018-07-13 14:48:06.289 [IPControllerApp] heartbeat::missed b'218d8f21-cf824ef947c064385bb06c94' : 1
+2018-07-13 14:48:06.289 [IPControllerApp] heartbeat::missed b'a0c8ee4a-51c0345a1a9e828f146d1bbb' : 1
+2018-07-13 14:48:06.289 [IPControllerApp] heartbeat::missed b'94ff3c2e-474a17ac865df84de1be9343' : 1
+2018-07-13 14:48:06.289 [IPControllerApp] heartbeat::missed b'6a295ba7-91b791a404bd83b6904c1bab' : 1
+2018-07-13 14:48:06.290 [IPControllerApp] heartbeat::missed b'b95023e7-bb94254275b4cce55b456e75' : 1
+2018-07-13 14:48:06.290 [IPControllerApp] heartbeat::missed b'3e1f6d26-799258cac12f5a30c0ebaa01' : 1
+2018-07-13 14:48:06.290 [IPControllerApp] heartbeat::missed b'353d32c1-bba7aaf9aaf6c0c179966659' : 1
+2018-07-13 14:48:06.290 [IPControllerApp] heartbeat::missed b'e32c77dd-d0591354f9c0fc9756d1e563' : 1
+2018-07-13 14:48:06.290 [IPControllerApp] heartbeat::missed b'2b13b791-3b94fd4012d0a3c0b5bece09' : 1
+2018-07-13 14:48:06.290 [IPControllerApp] heartbeat::missed b'a729376e-8d33e63ec528b0dd2b899571' : 1
+2018-07-13 14:48:06.290 [IPControllerApp] heartbeat::missed b'102f2e32-a4d8a46a6353e2197f514d31' : 1
+2018-07-13 14:48:06.290 [IPControllerApp] heartbeat::missed b'2837291c-75e870052c186635b527991e' : 1
+2018-07-13 14:48:06.290 [IPControllerApp] heartbeat::missed b'57ccf5f0-fe09420528fe8708e1a9109b' : 1
+2018-07-13 14:48:06.290 [IPControllerApp] heartbeat::missed b'e038d784-0ea761aa8c5ca1ea3fa2f7ec' : 1
+2018-07-13 14:48:06.290 [IPControllerApp] heartbeat::missed b'53146d77-e92b9dfef0a841cb2532bf01' : 1
+2018-07-13 14:48:06.290 [IPControllerApp] heartbeat::missed b'e38beadb-ea4be532502ae8ae6ab6dc08' : 1
+2018-07-13 14:48:06.290 [IPControllerApp] heartbeat::missed b'4688e094-493079393556803c0efa17f8' : 1
+2018-07-13 14:48:06.290 [IPControllerApp] heartbeat::missed b'079f4074-441e9e7eeaddb2b7ec9a4200' : 1
+2018-07-13 14:48:06.290 [IPControllerApp] heartbeat::missed b'545e19fe-71277352f5a723b2ef7cc8e7' : 1
+2018-07-13 14:48:06.290 [IPControllerApp] heartbeat::missed b'96be70c0-5ee703714edd4112f50249b6' : 1
+2018-07-13 14:48:06.291 [IPControllerApp] heartbeat::missed b'f40212b3-014de9065eebbd2d4d360adb' : 1
+2018-07-13 14:48:06.291 [IPControllerApp] heartbeat::missed b'8bd92868-1b4a2bfb9d64c3aa1178f957' : 1
+2018-07-13 14:48:06.291 [IPControllerApp] heartbeat::missed b'bf5dc456-50e2caeb930ff32a34a611f7' : 1
+2018-07-13 14:48:06.291 [IPControllerApp] heartbeat::missed b'bfa63c95-b1d941f45f1e4264213fdbc1' : 1
+2018-07-13 14:48:06.291 [IPControllerApp] heartbeat::missed b'c7640aa5-5ba5ccc448101ead86e93723' : 1
+2018-07-13 14:48:06.291 [IPControllerApp] heartbeat::missed b'eb4695ca-d0ad5f870b275296ea9c840b' : 1
+2018-07-13 14:48:06.291 [IPControllerApp] heartbeat::missed b'677e45f9-f835d00481c52b174559a339' : 1
+2018-07-13 14:48:06.291 [IPControllerApp] heartbeat::missed b'a4fffa4e-bb292f2acd75141044a34726' : 1
+2018-07-13 14:48:06.291 [IPControllerApp] heartbeat::missed b'3bd5591f-7ffc31a36fa964074422a216' : 1
+2018-07-13 14:48:06.291 [IPControllerApp] heartbeat::missed b'8a152062-28301da1cedcf06c2ea0c1d9' : 1
+2018-07-13 14:48:06.291 [IPControllerApp] heartbeat::missed b'7cc0a83b-394a59847e03812d6382b33a' : 1
+2018-07-13 14:48:06.291 [IPControllerApp] heartbeat::missed b'048bc7a6-5ca92e5fe6841e68ff129d48' : 1
+2018-07-13 14:48:09.290 [IPControllerApp] heartbeat::missed b'218d8f21-cf824ef947c064385bb06c94' : 2
+2018-07-13 14:48:09.290 [IPControllerApp] heartbeat::missed b'a0c8ee4a-51c0345a1a9e828f146d1bbb' : 2
+2018-07-13 14:48:09.290 [IPControllerApp] heartbeat::missed b'94ff3c2e-474a17ac865df84de1be9343' : 2
+2018-07-13 14:48:09.290 [IPControllerApp] heartbeat::missed b'6a295ba7-91b791a404bd83b6904c1bab' : 2
+2018-07-13 14:48:09.290 [IPControllerApp] heartbeat::missed b'b95023e7-bb94254275b4cce55b456e75' : 2
+2018-07-13 14:48:09.290 [IPControllerApp] heartbeat::missed b'3e1f6d26-799258cac12f5a30c0ebaa01' : 2
+2018-07-13 14:48:09.290 [IPControllerApp] heartbeat::missed b'353d32c1-bba7aaf9aaf6c0c179966659' : 2
+2018-07-13 14:48:09.290 [IPControllerApp] heartbeat::missed b'e32c77dd-d0591354f9c0fc9756d1e563' : 2
+2018-07-13 14:48:09.290 [IPControllerApp] heartbeat::missed b'2b13b791-3b94fd4012d0a3c0b5bece09' : 2
+2018-07-13 14:48:09.290 [IPControllerApp] heartbeat::missed b'a729376e-8d33e63ec528b0dd2b899571' : 2
+2018-07-13 14:48:09.291 [IPControllerApp] heartbeat::missed b'102f2e32-a4d8a46a6353e2197f514d31' : 2
+2018-07-13 14:48:09.291 [IPControllerApp] heartbeat::missed b'2837291c-75e870052c186635b527991e' : 2
+2018-07-13 14:48:09.291 [IPControllerApp] heartbeat::missed b'57ccf5f0-fe09420528fe8708e1a9109b' : 2
+2018-07-13 14:48:09.291 [IPControllerApp] heartbeat::missed b'e038d784-0ea761aa8c5ca1ea3fa2f7ec' : 2
+2018-07-13 14:48:09.291 [IPControllerApp] heartbeat::missed b'53146d77-e92b9dfef0a841cb2532bf01' : 2
+2018-07-13 14:48:09.291 [IPControllerApp] heartbeat::missed b'e38beadb-ea4be532502ae8ae6ab6dc08' : 2
+2018-07-13 14:48:09.291 [IPControllerApp] heartbeat::missed b'4688e094-493079393556803c0efa17f8' : 2
+2018-07-13 14:48:09.291 [IPControllerApp] heartbeat::missed b'079f4074-441e9e7eeaddb2b7ec9a4200' : 2
+2018-07-13 14:48:09.291 [IPControllerApp] heartbeat::missed b'545e19fe-71277352f5a723b2ef7cc8e7' : 2
+2018-07-13 14:48:09.291 [IPControllerApp] heartbeat::missed b'96be70c0-5ee703714edd4112f50249b6' : 2
+2018-07-13 14:48:09.291 [IPControllerApp] heartbeat::missed b'f40212b3-014de9065eebbd2d4d360adb' : 2
+2018-07-13 14:48:09.292 [IPControllerApp] heartbeat::missed b'8bd92868-1b4a2bfb9d64c3aa1178f957' : 2
+2018-07-13 14:48:09.292 [IPControllerApp] heartbeat::missed b'bf5dc456-50e2caeb930ff32a34a611f7' : 2
+2018-07-13 14:48:09.292 [IPControllerApp] heartbeat::missed b'bfa63c95-b1d941f45f1e4264213fdbc1' : 2
+2018-07-13 14:48:09.292 [IPControllerApp] heartbeat::missed b'c7640aa5-5ba5ccc448101ead86e93723' : 2
+2018-07-13 14:48:09.292 [IPControllerApp] heartbeat::missed b'eb4695ca-d0ad5f870b275296ea9c840b' : 2
+2018-07-13 14:48:09.292 [IPControllerApp] heartbeat::missed b'677e45f9-f835d00481c52b174559a339' : 2
+2018-07-13 14:48:09.292 [IPControllerApp] heartbeat::missed b'a4fffa4e-bb292f2acd75141044a34726' : 2
+2018-07-13 14:48:09.292 [IPControllerApp] heartbeat::missed b'3bd5591f-7ffc31a36fa964074422a216' : 2
+2018-07-13 14:48:09.292 [IPControllerApp] heartbeat::missed b'8a152062-28301da1cedcf06c2ea0c1d9' : 2
+2018-07-13 14:48:09.292 [IPControllerApp] heartbeat::missed b'7cc0a83b-394a59847e03812d6382b33a' : 2
+2018-07-13 14:48:09.292 [IPControllerApp] heartbeat::missed b'048bc7a6-5ca92e5fe6841e68ff129d48' : 2
+2018-07-13 14:48:12.289 [IPControllerApp] heartbeat::missed b'218d8f21-cf824ef947c064385bb06c94' : 3
+2018-07-13 14:48:12.290 [IPControllerApp] heartbeat::missed b'a0c8ee4a-51c0345a1a9e828f146d1bbb' : 3
+2018-07-13 14:48:12.290 [IPControllerApp] heartbeat::missed b'94ff3c2e-474a17ac865df84de1be9343' : 3
+2018-07-13 14:48:12.290 [IPControllerApp] heartbeat::missed b'6a295ba7-91b791a404bd83b6904c1bab' : 3
+2018-07-13 14:48:12.290 [IPControllerApp] heartbeat::missed b'b95023e7-bb94254275b4cce55b456e75' : 3
+2018-07-13 14:48:12.290 [IPControllerApp] heartbeat::missed b'3e1f6d26-799258cac12f5a30c0ebaa01' : 3
+2018-07-13 14:48:12.290 [IPControllerApp] heartbeat::missed b'353d32c1-bba7aaf9aaf6c0c179966659' : 3
+2018-07-13 14:48:12.290 [IPControllerApp] heartbeat::missed b'e32c77dd-d0591354f9c0fc9756d1e563' : 3
+2018-07-13 14:48:12.290 [IPControllerApp] heartbeat::missed b'2b13b791-3b94fd4012d0a3c0b5bece09' : 3
+2018-07-13 14:48:12.290 [IPControllerApp] heartbeat::missed b'a729376e-8d33e63ec528b0dd2b899571' : 3
+2018-07-13 14:48:12.290 [IPControllerApp] heartbeat::missed b'102f2e32-a4d8a46a6353e2197f514d31' : 3
+2018-07-13 14:48:12.290 [IPControllerApp] heartbeat::missed b'2837291c-75e870052c186635b527991e' : 3
+2018-07-13 14:48:12.290 [IPControllerApp] heartbeat::missed b'57ccf5f0-fe09420528fe8708e1a9109b' : 3
+2018-07-13 14:48:12.290 [IPControllerApp] heartbeat::missed b'e038d784-0ea761aa8c5ca1ea3fa2f7ec' : 3
+2018-07-13 14:48:12.290 [IPControllerApp] heartbeat::missed b'53146d77-e92b9dfef0a841cb2532bf01' : 3
+2018-07-13 14:48:12.291 [IPControllerApp] heartbeat::missed b'e38beadb-ea4be532502ae8ae6ab6dc08' : 3
+2018-07-13 14:48:12.291 [IPControllerApp] heartbeat::missed b'4688e094-493079393556803c0efa17f8' : 3
+2018-07-13 14:48:12.291 [IPControllerApp] heartbeat::missed b'079f4074-441e9e7eeaddb2b7ec9a4200' : 3
+2018-07-13 14:48:12.291 [IPControllerApp] heartbeat::missed b'545e19fe-71277352f5a723b2ef7cc8e7' : 3
+2018-07-13 14:48:12.291 [IPControllerApp] heartbeat::missed b'96be70c0-5ee703714edd4112f50249b6' : 3
+2018-07-13 14:48:12.291 [IPControllerApp] heartbeat::missed b'f40212b3-014de9065eebbd2d4d360adb' : 3
+2018-07-13 14:48:12.291 [IPControllerApp] heartbeat::missed b'8bd92868-1b4a2bfb9d64c3aa1178f957' : 3
+2018-07-13 14:48:12.291 [IPControllerApp] heartbeat::missed b'bf5dc456-50e2caeb930ff32a34a611f7' : 3
+2018-07-13 14:48:12.291 [IPControllerApp] heartbeat::missed b'bfa63c95-b1d941f45f1e4264213fdbc1' : 3
+2018-07-13 14:48:12.291 [IPControllerApp] heartbeat::missed b'c7640aa5-5ba5ccc448101ead86e93723' : 3
+2018-07-13 14:48:12.291 [IPControllerApp] heartbeat::missed b'eb4695ca-d0ad5f870b275296ea9c840b' : 3
+2018-07-13 14:48:12.291 [IPControllerApp] heartbeat::missed b'677e45f9-f835d00481c52b174559a339' : 3
+2018-07-13 14:48:12.291 [IPControllerApp] heartbeat::missed b'a4fffa4e-bb292f2acd75141044a34726' : 3
+2018-07-13 14:48:12.291 [IPControllerApp] heartbeat::missed b'3bd5591f-7ffc31a36fa964074422a216' : 3
+2018-07-13 14:48:12.291 [IPControllerApp] heartbeat::missed b'8a152062-28301da1cedcf06c2ea0c1d9' : 3
+2018-07-13 14:48:12.291 [IPControllerApp] heartbeat::missed b'7cc0a83b-394a59847e03812d6382b33a' : 3
+2018-07-13 14:48:12.292 [IPControllerApp] heartbeat::missed b'048bc7a6-5ca92e5fe6841e68ff129d48' : 3
+2018-07-13 14:48:15.287 [IPControllerApp] heartbeat::missed b'218d8f21-cf824ef947c064385bb06c94' : 4
+2018-07-13 14:48:15.287 [IPControllerApp] heartbeat::missed b'a0c8ee4a-51c0345a1a9e828f146d1bbb' : 4
+2018-07-13 14:48:15.287 [IPControllerApp] heartbeat::missed b'94ff3c2e-474a17ac865df84de1be9343' : 4
+2018-07-13 14:48:15.287 [IPControllerApp] heartbeat::missed b'6a295ba7-91b791a404bd83b6904c1bab' : 4
+2018-07-13 14:48:15.288 [IPControllerApp] heartbeat::missed b'b95023e7-bb94254275b4cce55b456e75' : 4
+2018-07-13 14:48:15.288 [IPControllerApp] heartbeat::missed b'3e1f6d26-799258cac12f5a30c0ebaa01' : 4
+2018-07-13 14:48:15.288 [IPControllerApp] heartbeat::missed b'353d32c1-bba7aaf9aaf6c0c179966659' : 4
+2018-07-13 14:48:15.288 [IPControllerApp] heartbeat::missed b'e32c77dd-d0591354f9c0fc9756d1e563' : 4
+2018-07-13 14:48:15.288 [IPControllerApp] heartbeat::missed b'2b13b791-3b94fd4012d0a3c0b5bece09' : 4
+2018-07-13 14:48:15.288 [IPControllerApp] heartbeat::missed b'a729376e-8d33e63ec528b0dd2b899571' : 4
+2018-07-13 14:48:15.288 [IPControllerApp] heartbeat::missed b'102f2e32-a4d8a46a6353e2197f514d31' : 4
+2018-07-13 14:48:15.288 [IPControllerApp] heartbeat::missed b'2837291c-75e870052c186635b527991e' : 4
+2018-07-13 14:48:15.288 [IPControllerApp] heartbeat::missed b'57ccf5f0-fe09420528fe8708e1a9109b' : 4
+2018-07-13 14:48:15.288 [IPControllerApp] heartbeat::missed b'e038d784-0ea761aa8c5ca1ea3fa2f7ec' : 4
+2018-07-13 14:48:15.288 [IPControllerApp] heartbeat::missed b'53146d77-e92b9dfef0a841cb2532bf01' : 4
+2018-07-13 14:48:15.288 [IPControllerApp] heartbeat::missed b'e38beadb-ea4be532502ae8ae6ab6dc08' : 4
+2018-07-13 14:48:15.288 [IPControllerApp] heartbeat::missed b'4688e094-493079393556803c0efa17f8' : 4
+2018-07-13 14:48:15.288 [IPControllerApp] heartbeat::missed b'079f4074-441e9e7eeaddb2b7ec9a4200' : 4
+2018-07-13 14:48:15.289 [IPControllerApp] heartbeat::missed b'545e19fe-71277352f5a723b2ef7cc8e7' : 4
+2018-07-13 14:48:15.289 [IPControllerApp] heartbeat::missed b'96be70c0-5ee703714edd4112f50249b6' : 4
+2018-07-13 14:48:15.289 [IPControllerApp] heartbeat::missed b'f40212b3-014de9065eebbd2d4d360adb' : 4
+2018-07-13 14:48:15.289 [IPControllerApp] heartbeat::missed b'8bd92868-1b4a2bfb9d64c3aa1178f957' : 4
+2018-07-13 14:48:15.289 [IPControllerApp] heartbeat::missed b'bf5dc456-50e2caeb930ff32a34a611f7' : 4
+2018-07-13 14:48:15.289 [IPControllerApp] heartbeat::missed b'bfa63c95-b1d941f45f1e4264213fdbc1' : 4
+2018-07-13 14:48:15.289 [IPControllerApp] heartbeat::missed b'c7640aa5-5ba5ccc448101ead86e93723' : 4
+2018-07-13 14:48:15.289 [IPControllerApp] heartbeat::missed b'eb4695ca-d0ad5f870b275296ea9c840b' : 4
+2018-07-13 14:48:15.289 [IPControllerApp] heartbeat::missed b'677e45f9-f835d00481c52b174559a339' : 4
+2018-07-13 14:48:15.289 [IPControllerApp] heartbeat::missed b'a4fffa4e-bb292f2acd75141044a34726' : 4
+2018-07-13 14:48:15.289 [IPControllerApp] heartbeat::missed b'3bd5591f-7ffc31a36fa964074422a216' : 4
+2018-07-13 14:48:15.289 [IPControllerApp] heartbeat::missed b'8a152062-28301da1cedcf06c2ea0c1d9' : 4
+2018-07-13 14:48:15.290 [IPControllerApp] heartbeat::missed b'7cc0a83b-394a59847e03812d6382b33a' : 4
+2018-07-13 14:48:15.290 [IPControllerApp] heartbeat::missed b'048bc7a6-5ca92e5fe6841e68ff129d48' : 4
+2018-07-13 14:48:18.289 [IPControllerApp] heartbeat::missed b'218d8f21-cf824ef947c064385bb06c94' : 5
+2018-07-13 14:48:18.289 [IPControllerApp] heartbeat::missed b'a0c8ee4a-51c0345a1a9e828f146d1bbb' : 5
+2018-07-13 14:48:18.289 [IPControllerApp] heartbeat::missed b'94ff3c2e-474a17ac865df84de1be9343' : 5
+2018-07-13 14:48:18.289 [IPControllerApp] heartbeat::missed b'6a295ba7-91b791a404bd83b6904c1bab' : 5
+2018-07-13 14:48:18.289 [IPControllerApp] heartbeat::missed b'b95023e7-bb94254275b4cce55b456e75' : 5
+2018-07-13 14:48:18.289 [IPControllerApp] heartbeat::missed b'3e1f6d26-799258cac12f5a30c0ebaa01' : 5
+2018-07-13 14:48:18.289 [IPControllerApp] heartbeat::missed b'353d32c1-bba7aaf9aaf6c0c179966659' : 5
+2018-07-13 14:48:18.289 [IPControllerApp] heartbeat::missed b'e32c77dd-d0591354f9c0fc9756d1e563' : 5
+2018-07-13 14:48:18.289 [IPControllerApp] heartbeat::missed b'2b13b791-3b94fd4012d0a3c0b5bece09' : 5
+2018-07-13 14:48:18.289 [IPControllerApp] heartbeat::missed b'a729376e-8d33e63ec528b0dd2b899571' : 5
+2018-07-13 14:48:18.290 [IPControllerApp] heartbeat::missed b'102f2e32-a4d8a46a6353e2197f514d31' : 5
+2018-07-13 14:48:18.290 [IPControllerApp] heartbeat::missed b'2837291c-75e870052c186635b527991e' : 5
+2018-07-13 14:48:18.290 [IPControllerApp] heartbeat::missed b'57ccf5f0-fe09420528fe8708e1a9109b' : 5
+2018-07-13 14:48:18.290 [IPControllerApp] heartbeat::missed b'e038d784-0ea761aa8c5ca1ea3fa2f7ec' : 5
+2018-07-13 14:48:18.290 [IPControllerApp] heartbeat::missed b'53146d77-e92b9dfef0a841cb2532bf01' : 5
+2018-07-13 14:48:18.290 [IPControllerApp] heartbeat::missed b'e38beadb-ea4be532502ae8ae6ab6dc08' : 5
+2018-07-13 14:48:18.290 [IPControllerApp] heartbeat::missed b'4688e094-493079393556803c0efa17f8' : 5
+2018-07-13 14:48:18.290 [IPControllerApp] heartbeat::missed b'079f4074-441e9e7eeaddb2b7ec9a4200' : 5
+2018-07-13 14:48:18.290 [IPControllerApp] heartbeat::missed b'545e19fe-71277352f5a723b2ef7cc8e7' : 5
+2018-07-13 14:48:18.290 [IPControllerApp] heartbeat::missed b'96be70c0-5ee703714edd4112f50249b6' : 5
+2018-07-13 14:48:18.290 [IPControllerApp] heartbeat::missed b'f40212b3-014de9065eebbd2d4d360adb' : 5
+2018-07-13 14:48:18.290 [IPControllerApp] heartbeat::missed b'8bd92868-1b4a2bfb9d64c3aa1178f957' : 5
+2018-07-13 14:48:18.290 [IPControllerApp] heartbeat::missed b'bf5dc456-50e2caeb930ff32a34a611f7' : 5
+2018-07-13 14:48:18.290 [IPControllerApp] heartbeat::missed b'bfa63c95-b1d941f45f1e4264213fdbc1' : 5
+2018-07-13 14:48:18.290 [IPControllerApp] heartbeat::missed b'c7640aa5-5ba5ccc448101ead86e93723' : 5
+2018-07-13 14:48:18.291 [IPControllerApp] heartbeat::missed b'eb4695ca-d0ad5f870b275296ea9c840b' : 5
+2018-07-13 14:48:18.291 [IPControllerApp] heartbeat::missed b'677e45f9-f835d00481c52b174559a339' : 5
+2018-07-13 14:48:18.291 [IPControllerApp] heartbeat::missed b'a4fffa4e-bb292f2acd75141044a34726' : 5
+2018-07-13 14:48:18.291 [IPControllerApp] heartbeat::missed b'3bd5591f-7ffc31a36fa964074422a216' : 5
+2018-07-13 14:48:18.291 [IPControllerApp] heartbeat::missed b'8a152062-28301da1cedcf06c2ea0c1d9' : 5
+2018-07-13 14:48:18.291 [IPControllerApp] heartbeat::missed b'7cc0a83b-394a59847e03812d6382b33a' : 5
+2018-07-13 14:48:18.291 [IPControllerApp] heartbeat::missed b'048bc7a6-5ca92e5fe6841e68ff129d48' : 5
+2018-07-13 14:48:21.287 [IPControllerApp] heartbeat::missed b'218d8f21-cf824ef947c064385bb06c94' : 6
+2018-07-13 14:48:21.287 [IPControllerApp] heartbeat::missed b'a0c8ee4a-51c0345a1a9e828f146d1bbb' : 6
+2018-07-13 14:48:21.287 [IPControllerApp] heartbeat::missed b'94ff3c2e-474a17ac865df84de1be9343' : 6
+2018-07-13 14:48:21.287 [IPControllerApp] heartbeat::missed b'6a295ba7-91b791a404bd83b6904c1bab' : 6
+2018-07-13 14:48:21.287 [IPControllerApp] heartbeat::missed b'b95023e7-bb94254275b4cce55b456e75' : 6
+2018-07-13 14:48:21.287 [IPControllerApp] heartbeat::missed b'3e1f6d26-799258cac12f5a30c0ebaa01' : 6
+2018-07-13 14:48:21.287 [IPControllerApp] heartbeat::missed b'353d32c1-bba7aaf9aaf6c0c179966659' : 6
+2018-07-13 14:48:21.287 [IPControllerApp] heartbeat::missed b'e32c77dd-d0591354f9c0fc9756d1e563' : 6
+2018-07-13 14:48:21.288 [IPControllerApp] heartbeat::missed b'2b13b791-3b94fd4012d0a3c0b5bece09' : 6
+2018-07-13 14:48:21.288 [IPControllerApp] heartbeat::missed b'a729376e-8d33e63ec528b0dd2b899571' : 6
+2018-07-13 14:48:21.288 [IPControllerApp] heartbeat::missed b'102f2e32-a4d8a46a6353e2197f514d31' : 6
+2018-07-13 14:48:21.288 [IPControllerApp] heartbeat::missed b'2837291c-75e870052c186635b527991e' : 6
+2018-07-13 14:48:21.288 [IPControllerApp] heartbeat::missed b'57ccf5f0-fe09420528fe8708e1a9109b' : 6
+2018-07-13 14:48:21.288 [IPControllerApp] heartbeat::missed b'e038d784-0ea761aa8c5ca1ea3fa2f7ec' : 6
+2018-07-13 14:48:21.288 [IPControllerApp] heartbeat::missed b'53146d77-e92b9dfef0a841cb2532bf01' : 6
+2018-07-13 14:48:21.288 [IPControllerApp] heartbeat::missed b'e38beadb-ea4be532502ae8ae6ab6dc08' : 6
+2018-07-13 14:48:21.288 [IPControllerApp] heartbeat::missed b'4688e094-493079393556803c0efa17f8' : 6
+2018-07-13 14:48:21.288 [IPControllerApp] heartbeat::missed b'079f4074-441e9e7eeaddb2b7ec9a4200' : 6
+2018-07-13 14:48:21.288 [IPControllerApp] heartbeat::missed b'545e19fe-71277352f5a723b2ef7cc8e7' : 6
+2018-07-13 14:48:21.288 [IPControllerApp] heartbeat::missed b'96be70c0-5ee703714edd4112f50249b6' : 6
+2018-07-13 14:48:21.288 [IPControllerApp] heartbeat::missed b'f40212b3-014de9065eebbd2d4d360adb' : 6
+2018-07-13 14:48:21.288 [IPControllerApp] heartbeat::missed b'8bd92868-1b4a2bfb9d64c3aa1178f957' : 6
+2018-07-13 14:48:21.288 [IPControllerApp] heartbeat::missed b'bf5dc456-50e2caeb930ff32a34a611f7' : 6
+2018-07-13 14:48:21.289 [IPControllerApp] heartbeat::missed b'bfa63c95-b1d941f45f1e4264213fdbc1' : 6
+2018-07-13 14:48:21.289 [IPControllerApp] heartbeat::missed b'c7640aa5-5ba5ccc448101ead86e93723' : 6
+2018-07-13 14:48:21.289 [IPControllerApp] heartbeat::missed b'eb4695ca-d0ad5f870b275296ea9c840b' : 6
+2018-07-13 14:48:21.289 [IPControllerApp] heartbeat::missed b'677e45f9-f835d00481c52b174559a339' : 6
+2018-07-13 14:48:21.289 [IPControllerApp] heartbeat::missed b'a4fffa4e-bb292f2acd75141044a34726' : 6
+2018-07-13 14:48:21.289 [IPControllerApp] heartbeat::missed b'3bd5591f-7ffc31a36fa964074422a216' : 6
+2018-07-13 14:48:21.289 [IPControllerApp] heartbeat::missed b'8a152062-28301da1cedcf06c2ea0c1d9' : 6
+2018-07-13 14:48:21.289 [IPControllerApp] heartbeat::missed b'7cc0a83b-394a59847e03812d6382b33a' : 6
+2018-07-13 14:48:21.289 [IPControllerApp] heartbeat::missed b'048bc7a6-5ca92e5fe6841e68ff129d48' : 6
+2018-07-13 14:48:24.289 [IPControllerApp] heartbeat::missed b'218d8f21-cf824ef947c064385bb06c94' : 7
+2018-07-13 14:48:24.289 [IPControllerApp] heartbeat::missed b'a0c8ee4a-51c0345a1a9e828f146d1bbb' : 7
+2018-07-13 14:48:24.289 [IPControllerApp] heartbeat::missed b'94ff3c2e-474a17ac865df84de1be9343' : 7
+2018-07-13 14:48:24.289 [IPControllerApp] heartbeat::missed b'6a295ba7-91b791a404bd83b6904c1bab' : 7
+2018-07-13 14:48:24.289 [IPControllerApp] heartbeat::missed b'b95023e7-bb94254275b4cce55b456e75' : 7
+2018-07-13 14:48:24.289 [IPControllerApp] heartbeat::missed b'3e1f6d26-799258cac12f5a30c0ebaa01' : 7
+2018-07-13 14:48:24.289 [IPControllerApp] heartbeat::missed b'353d32c1-bba7aaf9aaf6c0c179966659' : 7
+2018-07-13 14:48:24.289 [IPControllerApp] heartbeat::missed b'e32c77dd-d0591354f9c0fc9756d1e563' : 7
+2018-07-13 14:48:24.289 [IPControllerApp] heartbeat::missed b'2b13b791-3b94fd4012d0a3c0b5bece09' : 7
+2018-07-13 14:48:24.289 [IPControllerApp] heartbeat::missed b'a729376e-8d33e63ec528b0dd2b899571' : 7
+2018-07-13 14:48:24.290 [IPControllerApp] heartbeat::missed b'102f2e32-a4d8a46a6353e2197f514d31' : 7
+2018-07-13 14:48:24.290 [IPControllerApp] heartbeat::missed b'2837291c-75e870052c186635b527991e' : 7
+2018-07-13 14:48:24.290 [IPControllerApp] heartbeat::missed b'57ccf5f0-fe09420528fe8708e1a9109b' : 7
+2018-07-13 14:48:24.290 [IPControllerApp] heartbeat::missed b'e038d784-0ea761aa8c5ca1ea3fa2f7ec' : 7
+2018-07-13 14:48:24.290 [IPControllerApp] heartbeat::missed b'53146d77-e92b9dfef0a841cb2532bf01' : 7
+2018-07-13 14:48:24.290 [IPControllerApp] heartbeat::missed b'e38beadb-ea4be532502ae8ae6ab6dc08' : 7
+2018-07-13 14:48:24.290 [IPControllerApp] heartbeat::missed b'4688e094-493079393556803c0efa17f8' : 7
+2018-07-13 14:48:24.290 [IPControllerApp] heartbeat::missed b'079f4074-441e9e7eeaddb2b7ec9a4200' : 7
+2018-07-13 14:48:24.290 [IPControllerApp] heartbeat::missed b'545e19fe-71277352f5a723b2ef7cc8e7' : 7
+2018-07-13 14:48:24.290 [IPControllerApp] heartbeat::missed b'96be70c0-5ee703714edd4112f50249b6' : 7
+2018-07-13 14:48:24.290 [IPControllerApp] heartbeat::missed b'f40212b3-014de9065eebbd2d4d360adb' : 7
+2018-07-13 14:48:24.290 [IPControllerApp] heartbeat::missed b'8bd92868-1b4a2bfb9d64c3aa1178f957' : 7
+2018-07-13 14:48:24.290 [IPControllerApp] heartbeat::missed b'bf5dc456-50e2caeb930ff32a34a611f7' : 7
+2018-07-13 14:48:24.290 [IPControllerApp] heartbeat::missed b'bfa63c95-b1d941f45f1e4264213fdbc1' : 7
+2018-07-13 14:48:24.290 [IPControllerApp] heartbeat::missed b'c7640aa5-5ba5ccc448101ead86e93723' : 7
+2018-07-13 14:48:24.290 [IPControllerApp] heartbeat::missed b'eb4695ca-d0ad5f870b275296ea9c840b' : 7
+2018-07-13 14:48:24.291 [IPControllerApp] heartbeat::missed b'677e45f9-f835d00481c52b174559a339' : 7
+2018-07-13 14:48:24.291 [IPControllerApp] heartbeat::missed b'a4fffa4e-bb292f2acd75141044a34726' : 7
+2018-07-13 14:48:24.291 [IPControllerApp] heartbeat::missed b'3bd5591f-7ffc31a36fa964074422a216' : 7
+2018-07-13 14:48:24.291 [IPControllerApp] heartbeat::missed b'8a152062-28301da1cedcf06c2ea0c1d9' : 7
+2018-07-13 14:48:24.291 [IPControllerApp] heartbeat::missed b'7cc0a83b-394a59847e03812d6382b33a' : 7
+2018-07-13 14:48:24.291 [IPControllerApp] heartbeat::missed b'048bc7a6-5ca92e5fe6841e68ff129d48' : 7
+2018-07-13 14:48:27.289 [IPControllerApp] heartbeat::missed b'218d8f21-cf824ef947c064385bb06c94' : 8
+2018-07-13 14:48:27.290 [IPControllerApp] heartbeat::missed b'a0c8ee4a-51c0345a1a9e828f146d1bbb' : 8
+2018-07-13 14:48:27.290 [IPControllerApp] heartbeat::missed b'94ff3c2e-474a17ac865df84de1be9343' : 8
+2018-07-13 14:48:27.290 [IPControllerApp] heartbeat::missed b'6a295ba7-91b791a404bd83b6904c1bab' : 8
+2018-07-13 14:48:27.290 [IPControllerApp] heartbeat::missed b'b95023e7-bb94254275b4cce55b456e75' : 8
+2018-07-13 14:48:27.290 [IPControllerApp] heartbeat::missed b'3e1f6d26-799258cac12f5a30c0ebaa01' : 8
+2018-07-13 14:48:27.290 [IPControllerApp] heartbeat::missed b'353d32c1-bba7aaf9aaf6c0c179966659' : 8
+2018-07-13 14:48:27.290 [IPControllerApp] heartbeat::missed b'e32c77dd-d0591354f9c0fc9756d1e563' : 8
+2018-07-13 14:48:27.290 [IPControllerApp] heartbeat::missed b'2b13b791-3b94fd4012d0a3c0b5bece09' : 8
+2018-07-13 14:48:27.290 [IPControllerApp] heartbeat::missed b'a729376e-8d33e63ec528b0dd2b899571' : 8
+2018-07-13 14:48:27.290 [IPControllerApp] heartbeat::missed b'102f2e32-a4d8a46a6353e2197f514d31' : 8
+2018-07-13 14:48:27.290 [IPControllerApp] heartbeat::missed b'2837291c-75e870052c186635b527991e' : 8
+2018-07-13 14:48:27.290 [IPControllerApp] heartbeat::missed b'57ccf5f0-fe09420528fe8708e1a9109b' : 8
+2018-07-13 14:48:27.290 [IPControllerApp] heartbeat::missed b'e038d784-0ea761aa8c5ca1ea3fa2f7ec' : 8
+2018-07-13 14:48:27.290 [IPControllerApp] heartbeat::missed b'53146d77-e92b9dfef0a841cb2532bf01' : 8
+2018-07-13 14:48:27.291 [IPControllerApp] heartbeat::missed b'e38beadb-ea4be532502ae8ae6ab6dc08' : 8
+2018-07-13 14:48:27.291 [IPControllerApp] heartbeat::missed b'4688e094-493079393556803c0efa17f8' : 8
+2018-07-13 14:48:27.291 [IPControllerApp] heartbeat::missed b'079f4074-441e9e7eeaddb2b7ec9a4200' : 8
+2018-07-13 14:48:27.291 [IPControllerApp] heartbeat::missed b'545e19fe-71277352f5a723b2ef7cc8e7' : 8
+2018-07-13 14:48:27.291 [IPControllerApp] heartbeat::missed b'96be70c0-5ee703714edd4112f50249b6' : 8
+2018-07-13 14:48:27.291 [IPControllerApp] heartbeat::missed b'f40212b3-014de9065eebbd2d4d360adb' : 8
+2018-07-13 14:48:27.291 [IPControllerApp] heartbeat::missed b'8bd92868-1b4a2bfb9d64c3aa1178f957' : 8
+2018-07-13 14:48:27.291 [IPControllerApp] heartbeat::missed b'bf5dc456-50e2caeb930ff32a34a611f7' : 8
+2018-07-13 14:48:27.291 [IPControllerApp] heartbeat::missed b'bfa63c95-b1d941f45f1e4264213fdbc1' : 8
+2018-07-13 14:48:27.291 [IPControllerApp] heartbeat::missed b'c7640aa5-5ba5ccc448101ead86e93723' : 8
+2018-07-13 14:48:27.291 [IPControllerApp] heartbeat::missed b'eb4695ca-d0ad5f870b275296ea9c840b' : 8
+2018-07-13 14:48:27.291 [IPControllerApp] heartbeat::missed b'677e45f9-f835d00481c52b174559a339' : 8
+2018-07-13 14:48:27.291 [IPControllerApp] heartbeat::missed b'a4fffa4e-bb292f2acd75141044a34726' : 8
+2018-07-13 14:48:27.291 [IPControllerApp] heartbeat::missed b'3bd5591f-7ffc31a36fa964074422a216' : 8
+2018-07-13 14:48:27.291 [IPControllerApp] heartbeat::missed b'8a152062-28301da1cedcf06c2ea0c1d9' : 8
+2018-07-13 14:48:27.291 [IPControllerApp] heartbeat::missed b'7cc0a83b-394a59847e03812d6382b33a' : 8
+2018-07-13 14:48:27.292 [IPControllerApp] heartbeat::missed b'048bc7a6-5ca92e5fe6841e68ff129d48' : 8
+2018-07-13 14:48:27.533 [IPControllerApp] registration::purging stalled registration: 5
+2018-07-13 14:48:27.544 [IPControllerApp] registration::purging stalled registration: 6
+2018-07-13 14:48:27.614 [IPControllerApp] registration::purging stalled registration: 8
+2018-07-13 14:48:30.288 [IPControllerApp] heartbeat::missed b'218d8f21-cf824ef947c064385bb06c94' : 9
+2018-07-13 14:48:30.289 [IPControllerApp] heartbeat::missed b'a0c8ee4a-51c0345a1a9e828f146d1bbb' : 9
+2018-07-13 14:48:30.289 [IPControllerApp] heartbeat::missed b'94ff3c2e-474a17ac865df84de1be9343' : 9
+2018-07-13 14:48:30.289 [IPControllerApp] heartbeat::missed b'6a295ba7-91b791a404bd83b6904c1bab' : 9
+2018-07-13 14:48:30.289 [IPControllerApp] heartbeat::missed b'b95023e7-bb94254275b4cce55b456e75' : 9
+2018-07-13 14:48:30.289 [IPControllerApp] heartbeat::missed b'3e1f6d26-799258cac12f5a30c0ebaa01' : 9
+2018-07-13 14:48:30.289 [IPControllerApp] heartbeat::missed b'353d32c1-bba7aaf9aaf6c0c179966659' : 9
+2018-07-13 14:48:30.289 [IPControllerApp] heartbeat::missed b'e32c77dd-d0591354f9c0fc9756d1e563' : 9
+2018-07-13 14:48:30.289 [IPControllerApp] heartbeat::missed b'2b13b791-3b94fd4012d0a3c0b5bece09' : 9
+2018-07-13 14:48:30.289 [IPControllerApp] heartbeat::missed b'a729376e-8d33e63ec528b0dd2b899571' : 9
+2018-07-13 14:48:30.289 [IPControllerApp] heartbeat::missed b'102f2e32-a4d8a46a6353e2197f514d31' : 9
+2018-07-13 14:48:30.289 [IPControllerApp] heartbeat::missed b'2837291c-75e870052c186635b527991e' : 9
+2018-07-13 14:48:30.289 [IPControllerApp] heartbeat::missed b'57ccf5f0-fe09420528fe8708e1a9109b' : 9
+2018-07-13 14:48:30.289 [IPControllerApp] heartbeat::missed b'e038d784-0ea761aa8c5ca1ea3fa2f7ec' : 9
+2018-07-13 14:48:30.289 [IPControllerApp] heartbeat::missed b'53146d77-e92b9dfef0a841cb2532bf01' : 9
+2018-07-13 14:48:30.289 [IPControllerApp] heartbeat::missed b'e38beadb-ea4be532502ae8ae6ab6dc08' : 9
+2018-07-13 14:48:30.289 [IPControllerApp] heartbeat::missed b'4688e094-493079393556803c0efa17f8' : 9
+2018-07-13 14:48:30.290 [IPControllerApp] heartbeat::missed b'079f4074-441e9e7eeaddb2b7ec9a4200' : 9
+2018-07-13 14:48:30.290 [IPControllerApp] heartbeat::missed b'545e19fe-71277352f5a723b2ef7cc8e7' : 9
+2018-07-13 14:48:30.290 [IPControllerApp] heartbeat::missed b'96be70c0-5ee703714edd4112f50249b6' : 9
+2018-07-13 14:48:30.290 [IPControllerApp] heartbeat::missed b'f40212b3-014de9065eebbd2d4d360adb' : 9
+2018-07-13 14:48:30.290 [IPControllerApp] heartbeat::missed b'8bd92868-1b4a2bfb9d64c3aa1178f957' : 9
+2018-07-13 14:48:30.290 [IPControllerApp] heartbeat::missed b'bf5dc456-50e2caeb930ff32a34a611f7' : 9
+2018-07-13 14:48:30.290 [IPControllerApp] heartbeat::missed b'bfa63c95-b1d941f45f1e4264213fdbc1' : 9
+2018-07-13 14:48:30.290 [IPControllerApp] heartbeat::missed b'c7640aa5-5ba5ccc448101ead86e93723' : 9
+2018-07-13 14:48:30.290 [IPControllerApp] heartbeat::missed b'eb4695ca-d0ad5f870b275296ea9c840b' : 9
+2018-07-13 14:48:30.290 [IPControllerApp] heartbeat::missed b'677e45f9-f835d00481c52b174559a339' : 9
+2018-07-13 14:48:30.290 [IPControllerApp] heartbeat::missed b'a4fffa4e-bb292f2acd75141044a34726' : 9
+2018-07-13 14:48:30.290 [IPControllerApp] heartbeat::missed b'3bd5591f-7ffc31a36fa964074422a216' : 9
+2018-07-13 14:48:30.290 [IPControllerApp] heartbeat::missed b'8a152062-28301da1cedcf06c2ea0c1d9' : 9
+2018-07-13 14:48:30.290 [IPControllerApp] heartbeat::missed b'7cc0a83b-394a59847e03812d6382b33a' : 9
+2018-07-13 14:48:30.290 [IPControllerApp] heartbeat::missed b'048bc7a6-5ca92e5fe6841e68ff129d48' : 9
+2018-07-13 14:48:30.369 [IPControllerApp] registration::purging stalled registration: 35
+2018-07-13 14:48:30.513 [IPControllerApp] registration::purging stalled registration: 36
+2018-07-13 14:48:30.697 [IPControllerApp] registration::purging stalled registration: 37
+2018-07-13 14:48:30.820 [IPControllerApp] registration::purging stalled registration: 38
+2018-07-13 14:48:30.877 [IPControllerApp] registration::purging stalled registration: 39
+2018-07-13 14:48:31.205 [IPControllerApp] registration::purging stalled registration: 40
+2018-07-13 14:48:31.221 [IPControllerApp] registration::purging stalled registration: 41
+2018-07-13 14:48:31.417 [IPControllerApp] registration::purging stalled registration: 42
+2018-07-13 14:48:31.434 [IPControllerApp] registration::purging stalled registration: 43
+2018-07-13 14:48:33.287 [IPControllerApp] heartbeat::missed b'218d8f21-cf824ef947c064385bb06c94' : 10
+2018-07-13 14:48:33.287 [IPControllerApp] heartbeat::missed b'a0c8ee4a-51c0345a1a9e828f146d1bbb' : 10
+2018-07-13 14:48:33.288 [IPControllerApp] heartbeat::missed b'94ff3c2e-474a17ac865df84de1be9343' : 10
+2018-07-13 14:48:33.288 [IPControllerApp] heartbeat::missed b'6a295ba7-91b791a404bd83b6904c1bab' : 10
+2018-07-13 14:48:33.288 [IPControllerApp] heartbeat::missed b'b95023e7-bb94254275b4cce55b456e75' : 10
+2018-07-13 14:48:33.288 [IPControllerApp] heartbeat::missed b'3e1f6d26-799258cac12f5a30c0ebaa01' : 10
+2018-07-13 14:48:33.288 [IPControllerApp] heartbeat::missed b'353d32c1-bba7aaf9aaf6c0c179966659' : 10
+2018-07-13 14:48:33.288 [IPControllerApp] heartbeat::missed b'e32c77dd-d0591354f9c0fc9756d1e563' : 10
+2018-07-13 14:48:33.288 [IPControllerApp] heartbeat::missed b'2b13b791-3b94fd4012d0a3c0b5bece09' : 10
+2018-07-13 14:48:33.288 [IPControllerApp] heartbeat::missed b'a729376e-8d33e63ec528b0dd2b899571' : 10
+2018-07-13 14:48:33.288 [IPControllerApp] heartbeat::missed b'102f2e32-a4d8a46a6353e2197f514d31' : 10
+2018-07-13 14:48:33.288 [IPControllerApp] heartbeat::missed b'2837291c-75e870052c186635b527991e' : 10
+2018-07-13 14:48:33.288 [IPControllerApp] heartbeat::missed b'57ccf5f0-fe09420528fe8708e1a9109b' : 10
+2018-07-13 14:48:33.288 [IPControllerApp] heartbeat::missed b'e038d784-0ea761aa8c5ca1ea3fa2f7ec' : 10
+2018-07-13 14:48:33.288 [IPControllerApp] heartbeat::missed b'53146d77-e92b9dfef0a841cb2532bf01' : 10
+2018-07-13 14:48:33.288 [IPControllerApp] heartbeat::missed b'e38beadb-ea4be532502ae8ae6ab6dc08' : 10
+2018-07-13 14:48:33.289 [IPControllerApp] heartbeat::missed b'4688e094-493079393556803c0efa17f8' : 10
+2018-07-13 14:48:33.289 [IPControllerApp] heartbeat::missed b'079f4074-441e9e7eeaddb2b7ec9a4200' : 10
+2018-07-13 14:48:33.289 [IPControllerApp] heartbeat::missed b'545e19fe-71277352f5a723b2ef7cc8e7' : 10
+2018-07-13 14:48:33.289 [IPControllerApp] heartbeat::missed b'96be70c0-5ee703714edd4112f50249b6' : 10
+2018-07-13 14:48:33.289 [IPControllerApp] heartbeat::missed b'f40212b3-014de9065eebbd2d4d360adb' : 10
+2018-07-13 14:48:33.289 [IPControllerApp] heartbeat::missed b'8bd92868-1b4a2bfb9d64c3aa1178f957' : 10
+2018-07-13 14:48:33.289 [IPControllerApp] heartbeat::missed b'bf5dc456-50e2caeb930ff32a34a611f7' : 10
+2018-07-13 14:48:33.289 [IPControllerApp] heartbeat::missed b'bfa63c95-b1d941f45f1e4264213fdbc1' : 10
+2018-07-13 14:48:33.289 [IPControllerApp] heartbeat::missed b'c7640aa5-5ba5ccc448101ead86e93723' : 10
+2018-07-13 14:48:33.289 [IPControllerApp] heartbeat::missed b'eb4695ca-d0ad5f870b275296ea9c840b' : 10
+2018-07-13 14:48:33.289 [IPControllerApp] heartbeat::missed b'677e45f9-f835d00481c52b174559a339' : 10
+2018-07-13 14:48:33.289 [IPControllerApp] heartbeat::missed b'a4fffa4e-bb292f2acd75141044a34726' : 10
+2018-07-13 14:48:33.289 [IPControllerApp] heartbeat::missed b'3bd5591f-7ffc31a36fa964074422a216' : 10
+2018-07-13 14:48:33.289 [IPControllerApp] heartbeat::missed b'8a152062-28301da1cedcf06c2ea0c1d9' : 10
+2018-07-13 14:48:33.289 [IPControllerApp] heartbeat::missed b'7cc0a83b-394a59847e03812d6382b33a' : 10
+2018-07-13 14:48:33.290 [IPControllerApp] heartbeat::missed b'048bc7a6-5ca92e5fe6841e68ff129d48' : 10
+2018-07-13 14:48:36.289 [IPControllerApp] heartbeat::missed b'218d8f21-cf824ef947c064385bb06c94' : 11
+2018-07-13 14:48:36.290 [IPControllerApp] heartbeat::missed b'a0c8ee4a-51c0345a1a9e828f146d1bbb' : 11
+2018-07-13 14:48:36.290 [IPControllerApp] heartbeat::missed b'94ff3c2e-474a17ac865df84de1be9343' : 11
+2018-07-13 14:48:36.290 [IPControllerApp] heartbeat::missed b'6a295ba7-91b791a404bd83b6904c1bab' : 11
+2018-07-13 14:48:36.290 [IPControllerApp] heartbeat::missed b'b95023e7-bb94254275b4cce55b456e75' : 11
+2018-07-13 14:48:36.290 [IPControllerApp] heartbeat::missed b'3e1f6d26-799258cac12f5a30c0ebaa01' : 11
+2018-07-13 14:48:36.290 [IPControllerApp] heartbeat::missed b'353d32c1-bba7aaf9aaf6c0c179966659' : 11
+2018-07-13 14:48:36.290 [IPControllerApp] heartbeat::missed b'e32c77dd-d0591354f9c0fc9756d1e563' : 11
+2018-07-13 14:48:36.290 [IPControllerApp] heartbeat::missed b'2b13b791-3b94fd4012d0a3c0b5bece09' : 11
+2018-07-13 14:48:36.290 [IPControllerApp] heartbeat::missed b'a729376e-8d33e63ec528b0dd2b899571' : 11
+2018-07-13 14:48:36.290 [IPControllerApp] heartbeat::missed b'102f2e32-a4d8a46a6353e2197f514d31' : 11
+2018-07-13 14:48:36.290 [IPControllerApp] heartbeat::missed b'2837291c-75e870052c186635b527991e' : 11
+2018-07-13 14:48:36.290 [IPControllerApp] heartbeat::missed b'57ccf5f0-fe09420528fe8708e1a9109b' : 11
+2018-07-13 14:48:36.290 [IPControllerApp] heartbeat::missed b'e038d784-0ea761aa8c5ca1ea3fa2f7ec' : 11
+2018-07-13 14:48:36.290 [IPControllerApp] heartbeat::missed b'53146d77-e92b9dfef0a841cb2532bf01' : 11
+2018-07-13 14:48:36.290 [IPControllerApp] heartbeat::missed b'e38beadb-ea4be532502ae8ae6ab6dc08' : 11
+2018-07-13 14:48:36.291 [IPControllerApp] heartbeat::missed b'4688e094-493079393556803c0efa17f8' : 11
+2018-07-13 14:48:36.291 [IPControllerApp] heartbeat::missed b'079f4074-441e9e7eeaddb2b7ec9a4200' : 11
+2018-07-13 14:48:36.291 [IPControllerApp] heartbeat::missed b'545e19fe-71277352f5a723b2ef7cc8e7' : 11
+2018-07-13 14:48:36.291 [IPControllerApp] heartbeat::missed b'96be70c0-5ee703714edd4112f50249b6' : 11
+2018-07-13 14:48:36.291 [IPControllerApp] heartbeat::missed b'f40212b3-014de9065eebbd2d4d360adb' : 11
+2018-07-13 14:48:36.291 [IPControllerApp] heartbeat::missed b'8bd92868-1b4a2bfb9d64c3aa1178f957' : 11
+2018-07-13 14:48:36.291 [IPControllerApp] heartbeat::missed b'bf5dc456-50e2caeb930ff32a34a611f7' : 11
+2018-07-13 14:48:36.291 [IPControllerApp] heartbeat::missed b'bfa63c95-b1d941f45f1e4264213fdbc1' : 11
+2018-07-13 14:48:36.291 [IPControllerApp] heartbeat::missed b'c7640aa5-5ba5ccc448101ead86e93723' : 11
+2018-07-13 14:48:36.291 [IPControllerApp] heartbeat::missed b'eb4695ca-d0ad5f870b275296ea9c840b' : 11
+2018-07-13 14:48:36.291 [IPControllerApp] heartbeat::missed b'677e45f9-f835d00481c52b174559a339' : 11
+2018-07-13 14:48:36.291 [IPControllerApp] heartbeat::missed b'a4fffa4e-bb292f2acd75141044a34726' : 11
+2018-07-13 14:48:36.291 [IPControllerApp] heartbeat::missed b'3bd5591f-7ffc31a36fa964074422a216' : 11
+2018-07-13 14:48:36.291 [IPControllerApp] heartbeat::missed b'8a152062-28301da1cedcf06c2ea0c1d9' : 11
+2018-07-13 14:48:36.291 [IPControllerApp] heartbeat::missed b'7cc0a83b-394a59847e03812d6382b33a' : 11
+2018-07-13 14:48:36.292 [IPControllerApp] heartbeat::missed b'048bc7a6-5ca92e5fe6841e68ff129d48' : 11
+2018-07-13 14:48:36.292 [IPControllerApp] registration::unregister_engine(20)
+2018-07-13 14:48:36.293 [IPControllerApp] registration::unregister_engine(21)
+2018-07-13 14:48:36.294 [IPControllerApp] registration::unregister_engine(22)
+2018-07-13 14:48:36.294 [IPControllerApp] registration::unregister_engine(24)
+2018-07-13 14:48:36.295 [IPControllerApp] registration::unregister_engine(14)
+2018-07-13 14:48:36.295 [IPControllerApp] registration::unregister_engine(31)
+2018-07-13 14:48:36.296 [IPControllerApp] registration::unregister_engine(0)
+2018-07-13 14:48:36.297 [IPControllerApp] registration::unregister_engine(27)
+2018-07-13 14:48:36.297 [IPControllerApp] registration::unregister_engine(25)
+2018-07-13 14:48:36.298 [IPControllerApp] registration::unregister_engine(3)
+2018-07-13 14:48:36.298 [IPControllerApp] registration::unregister_engine(9)
+2018-07-13 14:48:36.299 [IPControllerApp] registration::unregister_engine(4)
+2018-07-13 14:48:36.299 [IPControllerApp] registration::unregister_engine(17)
+2018-07-13 14:48:36.300 [IPControllerApp] registration::unregister_engine(10)
+2018-07-13 14:48:36.300 [IPControllerApp] registration::unregister_engine(33)
+2018-07-13 14:48:36.301 [IPControllerApp] registration::unregister_engine(34)
+2018-07-13 14:48:36.302 [IPControllerApp] registration::unregister_engine(18)
+2018-07-13 14:48:36.302 [IPControllerApp] registration::unregister_engine(28)
+2018-07-13 14:48:36.303 [IPControllerApp] registration::unregister_engine(16)
+2018-07-13 14:48:36.303 [IPControllerApp] registration::unregister_engine(23)
+2018-07-13 14:48:36.304 [IPControllerApp] registration::unregister_engine(12)
+2018-07-13 14:48:36.304 [IPControllerApp] registration::unregister_engine(11)
+2018-07-13 14:48:36.305 [IPControllerApp] registration::unregister_engine(26)
+2018-07-13 14:48:36.305 [IPControllerApp] registration::unregister_engine(13)
+2018-07-13 14:48:36.306 [IPControllerApp] registration::unregister_engine(30)
+2018-07-13 14:48:36.306 [IPControllerApp] registration::unregister_engine(29)
+2018-07-13 14:48:36.307 [IPControllerApp] registration::unregister_engine(15)
+2018-07-13 14:48:36.307 [IPControllerApp] registration::unregister_engine(2)
+2018-07-13 14:48:36.308 [IPControllerApp] registration::unregister_engine(19)
+2018-07-13 14:48:36.308 [IPControllerApp] registration::unregister_engine(32)
+2018-07-13 14:48:36.309 [IPControllerApp] registration::unregister_engine(1)
+2018-07-13 14:48:36.309 [IPControllerApp] registration::unregister_engine(7)
+2018-07-13 14:48:41.328 [IPControllerApp] task::task 'e3374cc2-b10221e6f61653d5b352f1dc' finished on 20
+2018-07-13 14:48:41.329 [IPControllerApp] task::task '531b7e67-d718b1023424baf2ac4f6be5' finished on 21
+2018-07-13 14:48:41.330 [IPControllerApp] task::task '926b5bf5-12479e3b7fc88f72a274c260' finished on 22
+2018-07-13 14:48:41.331 [IPControllerApp] task::task '2a7e0892-2f29cab59b8afee5da82df1b' finished on 24
+2018-07-13 14:48:41.332 [IPControllerApp] task::task '9f65935a-812b0ad1b392ce42a1cf0991' finished on 14
+2018-07-13 14:48:41.333 [IPControllerApp] task::task 'ab56faf2-9135c640674bb6be1d201bf8' finished on 31
+2018-07-13 14:48:41.333 [IPControllerApp] task::task 'fa4e9b4a-e76a263416be296a341fac85' finished on 0
+2018-07-13 14:48:41.334 [IPControllerApp] task::task 'c44ec48b-5a4172e2a1befb8b740d82d7' finished on 27
+2018-07-13 14:48:41.335 [IPControllerApp] task::task '52446330-51f7ffc49427d00e53f905d5' finished on 25
+2018-07-13 14:48:41.336 [IPControllerApp] task::task 'e0c25cab-7a08bdedfc0749a413cff9fb' finished on 3
+2018-07-13 14:48:41.336 [IPControllerApp] task::task '808e96b4-cf7945be306233e877a868e6' finished on 9
+2018-07-13 14:48:41.347 [IPControllerApp] task::task '985f5b71-239bbf898426dac92433c450' finished on 4
+2018-07-13 14:48:41.347 [IPControllerApp] task::task 'e61ee0fa-e2a8323518688fa36afc653d' finished on 17
+2018-07-13 14:48:41.348 [IPControllerApp] task::task '8cd19a82-c25b45fe2c6ab172a16b9eaa' finished on 10
+2018-07-13 14:48:41.349 [IPControllerApp] task::task '348a9237-c5f48594cd67c6eca33f2a7b' finished on 33
+2018-07-13 14:48:41.350 [IPControllerApp] task::task 'b85df76c-01306264ad29b1628cfa70f7' finished on 34
+2018-07-13 14:48:41.351 [IPControllerApp] task::task 'a7cfcb45-55a3bc98830d921c69dd14d9' finished on 18
+2018-07-13 14:48:41.352 [IPControllerApp] task::task '9d9377f3-a80a6d904d3010128be12dc8' finished on 28
+2018-07-13 14:48:41.353 [IPControllerApp] task::task 'be838123-7e2c5efaad3c4f2b93819669' finished on 16
+2018-07-13 14:48:41.353 [IPControllerApp] task::task '85a1c1fb-09e850c859f3c868d4d06d1e' finished on 23
+2018-07-13 14:48:41.354 [IPControllerApp] task::task 'e4658881-8575ec99614640fe8928e342' finished on 12
+2018-07-13 14:48:41.355 [IPControllerApp] task::task '18d94cf3-9f48c9cba7dda64e241f95ef' finished on 11
+2018-07-13 14:48:41.356 [IPControllerApp] task::task 'fb7faaca-9e54cca209b3fa3e12eda3ba' finished on 26
+2018-07-13 14:48:41.356 [IPControllerApp] task::task 'fb19639e-0dece0d7509b1418653d20f7' finished on 13
+2018-07-13 14:48:41.357 [IPControllerApp] task::task '71259a2d-a5900068b30a867830a2a839' finished on 30
+2018-07-13 14:48:41.358 [IPControllerApp] task::task 'f855865b-6b581bfd81d8b403a6156a3b' finished on 29
+2018-07-13 14:48:41.359 [IPControllerApp] task::task '97bf945e-7fe0e98efbf5c21555d35fc5' finished on 15
+2018-07-13 14:48:41.360 [IPControllerApp] task::task '585cf7ac-a2dc763e984ab4dd92c1de35' finished on 2
+2018-07-13 14:48:41.360 [IPControllerApp] task::task '015fa78a-9b87310557e8b386df611aa8' finished on 19
+2018-07-13 14:48:41.361 [IPControllerApp] task::task '197121d7-a302a2447375145dca1f3e51' finished on 32
+2018-07-13 14:48:41.362 [IPControllerApp] task::task 'd509d1b2-d35e91ec370db81ba8ab3ad4' finished on 1
+2018-07-13 14:48:41.363 [IPControllerApp] task::task '5eb5ca7f-c9d15c30f31d44fe36a8dd56' finished on 7
+2018-07-13 14:48:41.627 [IPControllerApp] CRITICAL | Received signal 15, shutting down
+2018-07-13 14:48:41.627 [IPControllerApp] CRITICAL | terminating children...

@@ -1,0 +1,16 @@
+2018-07-06 10:05:38.034 [IPControllerApp] Created profile dir: '/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/659/profile_midway_ipp'
+2018-07-06 10:05:38.052 [IPControllerApp] Hub listening on tcp://*:41745 for registration.
+2018-07-06 10:05:38.054 [IPControllerApp] Hub using DB backend: 'DictDB'
+2018-07-06 10:05:38.316 [IPControllerApp] hub::created hub
+2018-07-06 10:05:38.316 [IPControllerApp] writing connection info to /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/659/profile_midway_ipp/security/ipcontroller-client.json
+2018-07-06 10:05:38.318 [IPControllerApp] writing connection info to /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/659/profile_midway_ipp/security/ipcontroller-engine.json
+2018-07-06 10:05:38.318 [IPControllerApp] task::using Python leastload Task scheduler
+2018-07-06 10:05:38.319 [IPControllerApp] Heartmonitor started
+2018-07-06 10:05:38.327 [IPControllerApp] Creating pid file: /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/659/profile_midway_ipp/pid/ipcontroller.pid
+2018-07-06 10:05:38.337 [scheduler] Scheduler started [leastload]
+2018-07-06 10:05:38.339 [IPControllerApp] client::client b'\x00k\x8bEg' requested 'connection_request'
+2018-07-06 10:05:38.340 [IPControllerApp] client::client [b'\x00k\x8bEg'] connected
+2018-07-06 10:05:39.494 [IPControllerApp] client::client b'\x00k\x8bEh' requested 'connection_request'
+2018-07-06 10:05:39.494 [IPControllerApp] client::client [b'\x00k\x8bEh'] connected
+2018-07-06 10:05:45.781 [IPControllerApp] CRITICAL | Received signal 15, shutting down
+2018-07-06 10:05:45.782 [IPControllerApp] CRITICAL | terminating children...

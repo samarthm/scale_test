@@ -1,0 +1,17 @@
+/tmp/slurmd/job47696243/slurm_script: line 18: 19970 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47696243/slurm_script: line 18: 19947 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47696243/slurm_script: line 18: 19966 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47696243/slurm_script: line 18: 19936 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47696243/slurm_script: line 18: 19952 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47696243/slurm_script: line 18: 19917 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47696243/slurm_script: line 18: 19951 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47696243/slurm_script: line 18: 19918 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47696243/slurm_script: line 18: 19953 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47696243/slurm_script: line 18: 19935 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47696243/slurm_script: line 18: 19929 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47696243/slurm_script: line 18: 19965 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47696243/slurm_script: line 18: 19971 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47696243/slurm_script: line 18: 19956 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47696243/slurm_script: line 18: 19959 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+slurmstepd-midway081: error: *** JOB 47696243 ON midway081 CANCELLED AT 2018-07-19T22:27:16 DUE TO TIME LIMIT ***
+slurmstepd-midway081: error: Detected 125 oom-kill event(s) in step 47696243.batch cgroup.

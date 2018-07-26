@@ -1,0 +1,55 @@
+2018-07-25 14:38:36.102 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-25 14:38:36.133 [IPEngineApp] Registering with controller at tcp://10.50.180.71:37956
+2018-07-25 14:38:36.196 [IPEngineApp] Starting to monitor the heartbeat signal from the hub every 3010 ms.
+2018-07-25 14:38:36.201 [IPEngineApp] Completed registration with id 0
+2018-07-25 14:40:03.489 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (1 time(s) in a row).
+2018-07-25 14:40:06.500 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (2 time(s) in a row).
+2018-07-25 14:40:09.510 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (3 time(s) in a row).
+2018-07-25 14:40:12.520 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (4 time(s) in a row).
+2018-07-25 14:40:15.530 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (5 time(s) in a row).
+2018-07-25 14:40:18.540 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (6 time(s) in a row).
+2018-07-25 14:40:21.547 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (7 time(s) in a row).
+2018-07-25 14:40:24.560 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (8 time(s) in a row).
+2018-07-25 14:40:27.570 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (9 time(s) in a row).
+2018-07-25 14:40:30.580 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (10 time(s) in a row).
+2018-07-25 14:40:33.588 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (11 time(s) in a row).
+2018-07-25 14:40:36.600 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (12 time(s) in a row).
+2018-07-25 14:40:39.610 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (13 time(s) in a row).
+2018-07-25 14:40:42.618 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (14 time(s) in a row).
+2018-07-25 14:40:45.630 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (15 time(s) in a row).
+2018-07-25 14:40:48.640 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (16 time(s) in a row).
+2018-07-25 14:40:51.650 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (17 time(s) in a row).
+2018-07-25 14:40:54.660 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (18 time(s) in a row).
+2018-07-25 14:40:57.670 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (19 time(s) in a row).
+2018-07-25 14:41:00.680 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (20 time(s) in a row).
+2018-07-25 14:41:03.690 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (21 time(s) in a row).
+2018-07-25 14:41:06.700 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (22 time(s) in a row).
+2018-07-25 14:41:09.710 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (23 time(s) in a row).
+2018-07-25 14:41:12.719 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (24 time(s) in a row).
+2018-07-25 14:41:15.730 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (25 time(s) in a row).
+2018-07-25 14:41:18.738 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (26 time(s) in a row).
+2018-07-25 14:41:21.750 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (27 time(s) in a row).
+2018-07-25 14:41:24.760 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (28 time(s) in a row).
+2018-07-25 14:41:27.769 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (29 time(s) in a row).
+2018-07-25 14:41:30.780 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (30 time(s) in a row).
+2018-07-25 14:41:33.790 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (31 time(s) in a row).
+2018-07-25 14:41:36.800 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (32 time(s) in a row).
+2018-07-25 14:41:39.810 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (33 time(s) in a row).
+2018-07-25 14:41:42.818 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (34 time(s) in a row).
+2018-07-25 14:41:45.828 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (35 time(s) in a row).
+2018-07-25 14:41:48.840 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (36 time(s) in a row).
+2018-07-25 14:41:51.849 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (37 time(s) in a row).
+2018-07-25 14:41:54.860 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (38 time(s) in a row).
+2018-07-25 14:41:57.870 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (39 time(s) in a row).
+2018-07-25 14:42:00.880 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (40 time(s) in a row).
+2018-07-25 14:42:03.890 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (41 time(s) in a row).
+2018-07-25 14:42:06.900 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (42 time(s) in a row).
+2018-07-25 14:42:09.910 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (43 time(s) in a row).
+2018-07-25 14:42:12.920 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (44 time(s) in a row).
+2018-07-25 14:42:15.930 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (45 time(s) in a row).
+2018-07-25 14:42:18.939 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (46 time(s) in a row).
+2018-07-25 14:42:21.950 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (47 time(s) in a row).
+2018-07-25 14:42:24.960 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (48 time(s) in a row).
+2018-07-25 14:42:27.970 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (49 time(s) in a row).
+2018-07-25 14:42:30.980 [IPEngineApp] WARNING | No heartbeat in the last 3010 ms (50 time(s) in a row).
+2018-07-25 14:42:30.980 [IPEngineApp] CRITICAL | Maximum number of heartbeats misses reached (50 times 3010 ms), shutting down.

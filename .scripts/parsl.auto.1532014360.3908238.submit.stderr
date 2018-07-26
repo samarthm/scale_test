@@ -1,0 +1,70 @@
+/tmp/slurmd/job47682289/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47682289/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47682289/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47682289/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47682289/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47682289/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47682289/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47682289/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47682289/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47682289/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47682289/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47682289/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47682289/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47682289/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47682289/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47682289/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47682289/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47682289/slurm_script: line 18:  8880 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18:  8890 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18:  9740 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18:  9315 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18: 10632 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18:  9759 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18: 10703 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18:  9763 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18:  8944 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18:  9651 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18:  9780 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18: 10644 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18:  9530 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18: 10621 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18:  9766 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18: 10468 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18: 10720 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18: 10477 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18: 10156 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18: 10605 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18:  8881 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18:  8920 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18: 10448 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18:  8879 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18: 10255 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18:  8898 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18:  8882 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47682289/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47682289/slurm_script: line 18: 10656 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18:  8905 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: fork: retry: Resource temporarily unavailable
+/tmp/slurmd/job47682289/slurm_script: line 18:  8902 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18: 10606 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+slurmstepd-midway033: error: Job 47682289 exceeded memory limit (2091868 > 1945600), being killed
+/tmp/slurmd/job47682289/slurm_script: line 18:  9365 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18: 10493 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18:  8892 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18: 10624 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18: 10058 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+slurmstepd-midway033: error: *** JOB 47682289 ON midway033 CANCELLED AT 2018-07-19T10:34:28 ***
+/tmp/slurmd/job47682289/slurm_script: line 18:  8883 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18:  9781 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18:  8884 Killed                  ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18:  9534 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18: 10451 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18: 10707 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18: 10665 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18:  9767 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18: 10238 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+/tmp/slurmd/job47682289/slurm_script: line 18: 10556 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1
+slurmstepd-midway033: error: Detected 730 oom-kill event(s) in step 47682289.batch cgroup.
+/tmp/slurmd/job47682289/slurm_script: line 18:  9961 Bus error               ipengine --file=ipengine.json >> .ipengine_logs/$JOBNAME.log 2>&1

@@ -1,0 +1,1056 @@
+2018-07-19 09:45:35.768 [IPEngineApp] Loading url_file 'ipengine.json'
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-156>", line 2, in initialize
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 313, in initialize
+    self.init_engine()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 264, in init_engine
+    self.load_connector_file()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 164, in load_connector_file
+    d = json.loads(f.read())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    c.Application.verbose_crash=True
+
+2018-07-19 09:45:40.601 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 09:45:41.298 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 09:45:42.011 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 09:45:42.551 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 09:45:43.063 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 09:45:43.279 [IPEngineApp] Loading url_file 'ipengine.json'
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-156>", line 2, in initialize
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 313, in initialize
+    self.init_engine()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 264, in init_engine
+    self.load_connector_file()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 164, in load_connector_file
+    d = json.loads(f.read())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    c.Application.verbose_crash=True
+
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-156>", line 2, in initialize
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 313, in initialize
+    self.init_engine()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 264, in init_engine
+    self.load_connector_file()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 164, in load_connector_file
+    d = json.loads(f.read())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    c.Application.verbose_crash=True
+
+2018-07-19 09:45:44.365 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 09:45:44.458 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 09:45:44.608 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 09:45:44.559 [IPEngineApp] Loading url_file 'ipengine.json'
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-156>", line 2, in initialize
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 313, in initialize
+    self.init_engine()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 264, in init_engine
+    self.load_connector_file()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 164, in load_connector_file
+    d = json.loads(f.read())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    c.Application.verbose_crash=True
+
+2018-07-19 09:45:45.526 [IPEngineApp] Loading url_file 'ipengine.json'
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-156>", line 2, in initialize
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 313, in initialize
+    self.init_engine()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 264, in init_engine
+    self.load_connector_file()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 164, in load_connector_file
+    d = json.loads(f.read())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    c.Application.verbose_crash=True
+
+2018-07-19 09:45:45.601 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 09:45:45.624 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 09:45:45.836 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 09:45:45.843 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 09:45:45.847 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 09:45:45.896 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 09:45:46.009 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 09:45:46.040 [IPEngineApp] Loading url_file 'ipengine.json'
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-156>", line 2, in initialize
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 313, in initialize
+    self.init_engine()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 264, in init_engine
+    self.load_connector_file()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 164, in load_connector_file
+    d = json.loads(f.read())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    c.Application.verbose_crash=True
+
+2018-07-19 09:45:46.164 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 09:45:46.221 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 09:45:46.267 [IPEngineApp] Loading url_file 'ipengine.json'
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-156>", line 2, in initialize
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 313, in initialize
+    self.init_engine()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 264, in init_engine
+    self.load_connector_file()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 164, in load_connector_file
+    d = json.loads(f.read())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    c.Application.verbose_crash=True
+
+2018-07-19 09:45:46.321 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 09:45:46.336 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 09:45:46.466 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 09:45:46.526 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 09:45:46.574 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 09:45:46.650 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 09:45:46.702 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 09:45:46.722 [IPEngineApp] Loading url_file 'ipengine.json'
+2018-07-19 09:45:46.774 [IPEngineApp] Loading url_file 'ipengine.json'
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-156>", line 2, in initialize
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 313, in initialize
+    self.init_engine()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 264, in init_engine
+    self.load_connector_file()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 164, in load_connector_file
+    d = json.loads(f.read())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    c.Application.verbose_crash=True
+
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-156>", line 2, in initialize
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 313, in initialize
+    self.init_engine()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 264, in init_engine
+    self.load_connector_file()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 164, in load_connector_file
+    d = json.loads(f.read())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    c.Application.verbose_crash=True
+
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-156>", line 2, in initialize
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 313, in initialize
+    self.init_engine()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 264, in init_engine
+    self.load_connector_file()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 164, in load_connector_file
+    d = json.loads(f.read())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    c.Application.verbose_crash=True
+
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-156>", line 2, in initialize
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 313, in initialize
+    self.init_engine()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 264, in init_engine
+    self.load_connector_file()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 164, in load_connector_file
+    d = json.loads(f.read())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    c.Application.verbose_crash=True
+
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-156>", line 2, in initialize
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 313, in initialize
+    self.init_engine()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 264, in init_engine
+    self.load_connector_file()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 164, in load_connector_file
+    d = json.loads(f.read())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    c.Application.verbose_crash=True
+
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-156>", line 2, in initialize
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 313, in initialize
+    self.init_engine()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 264, in init_engine
+    self.load_connector_file()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 164, in load_connector_file
+    d = json.loads(f.read())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    c.Application.verbose_crash=True
+
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-156>", line 2, in initialize
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 313, in initialize
+    self.init_engine()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 264, in init_engine
+    self.load_connector_file()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 164, in load_connector_file
+    d = json.loads(f.read())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    c.Application.verbose_crash=True
+
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-156>", line 2, in initialize
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 313, in initialize
+    self.init_engine()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 264, in init_engine
+    self.load_connector_file()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 164, in load_connector_file
+    d = json.loads(f.read())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    c.Application.verbose_crash=True
+
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-156>", line 2, in initialize
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 313, in initialize
+    self.init_engine()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 264, in init_engine
+    self.load_connector_file()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 164, in load_connector_file
+    d = json.loads(f.read())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    c.Application.verbose_crash=True
+
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-156>", line 2, in initialize
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 313, in initialize
+    self.init_engine()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 264, in init_engine
+    self.load_connector_file()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 164, in load_connector_file
+    d = json.loads(f.read())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    c.Application.verbose_crash=True
+
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-156>", line 2, in initialize
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 313, in initialize
+    self.init_engine()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 264, in init_engine
+    self.load_connector_file()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 164, in load_connector_file
+    d = json.loads(f.read())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    c.Application.verbose_crash=True
+
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-156>", line 2, in initialize
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 313, in initialize
+    self.init_engine()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 264, in init_engine
+    self.load_connector_file()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 164, in load_connector_file
+    d = json.loads(f.read())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    c.Application.verbose_crash=True
+
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-156>", line 2, in initialize
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 313, in initialize
+    self.init_engine()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 264, in init_engine
+    self.load_connector_file()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 164, in load_connector_file
+    d = json.loads(f.read())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    c.Application.verbose_crash=True
+
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-156>", line 2, in initialize
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 313, in initialize
+    self.init_engine()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 264, in init_engine
+    self.load_connector_file()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 164, in load_connector_file
+    d = json.loads(f.read())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    c.Application.verbose_crash=True
+
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-156>", line 2, in initialize
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 313, in initialize
+    self.init_engine()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 264, in init_engine
+    self.load_connector_file()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 164, in load_connector_file
+    d = json.loads(f.read())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    c.Application.verbose_crash=True
+
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-156>", line 2, in initialize
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 313, in initialize
+    self.init_engine()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 264, in init_engine
+    self.load_connector_file()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 164, in load_connector_file
+    d = json.loads(f.read())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    c.Application.verbose_crash=True
+
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-156>", line 2, in initialize
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 313, in initialize
+    self.init_engine()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 264, in init_engine
+    self.load_connector_file()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 164, in load_connector_file
+    d = json.loads(f.read())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    c.Application.verbose_crash=True
+
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-156>", line 2, in initialize
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 313, in initialize
+    self.init_engine()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 264, in init_engine
+    self.load_connector_file()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 164, in load_connector_file
+    d = json.loads(f.read())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    c.Application.verbose_crash=True
+
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-156>", line 2, in initialize
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 313, in initialize
+    self.init_engine()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 264, in init_engine
+    self.load_connector_file()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 164, in load_connector_file
+    d = json.loads(f.read())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    c.Application.verbose_crash=True
+
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-156>", line 2, in initialize
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 313, in initialize
+    self.init_engine()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 264, in init_engine
+    self.load_connector_file()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 164, in load_connector_file
+    d = json.loads(f.read())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    c.Application.verbose_crash=True
+
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-156>", line 2, in initialize
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 313, in initialize
+    self.init_engine()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 264, in init_engine
+    self.load_connector_file()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 164, in load_connector_file
+    d = json.loads(f.read())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    c.Application.verbose_crash=True
+
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-156>", line 2, in initialize
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 313, in initialize
+    self.init_engine()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 264, in init_engine
+    self.load_connector_file()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 164, in load_connector_file
+    d = json.loads(f.read())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    c.Application.verbose_crash=True
+
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-156>", line 2, in initialize
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 313, in initialize
+    self.init_engine()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 264, in init_engine
+    self.load_connector_file()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 164, in load_connector_file
+    d = json.loads(f.read())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    c.Application.verbose_crash=True
+
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-156>", line 2, in initialize
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 313, in initialize
+    self.init_engine()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 264, in init_engine
+    self.load_connector_file()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 164, in load_connector_file
+    d = json.loads(f.read())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    c.Application.verbose_crash=True
+
+Traceback (most recent call last):
+  File "/home/madduru/.conda/envs/parsl_py36/bin/ipengine", line 11, in <module>
+    load_entry_point('ipyparallel==6.2.1', 'console_scripts', 'ipengine')()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "<decorator-gen-156>", line 2, in initialize
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 313, in initialize
+    self.init_engine()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 264, in init_engine
+    self.load_connector_file()
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/site-packages/ipyparallel-6.2.1-py3.6.egg/ipyparallel/apps/ipengineapp.py", line 164, in load_connector_file
+    d = json.loads(f.read())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/home/madduru/.conda/envs/parsl_py36/lib/python3.6/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+If you suspect this is an IPython bug, please report it at:
+    https://github.com/ipython/ipython/issues
+or send an email to the mailing list at ipython-dev@python.org
+
+You can print a more detailed traceback right now with "%tb", or use "%debug"
+to interactively debug it.
+
+Extra-detailed tracebacks for bug-reporting purposes can be enabled via:
+    c.Application.verbose_crash=True
+

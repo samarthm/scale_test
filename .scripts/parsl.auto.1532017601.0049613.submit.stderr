@@ -1,0 +1,3 @@
+slurmstepd-midway098: error: Job 47686906 exceeded memory limit (2107164 > 1945600), being killed
+slurmstepd-midway098: error: Exceeded job memory limit
+slurmstepd-midway098: error: *** JOB 47686906 ON midway098 CANCELLED AT 2018-07-19T11:27:17 ***
