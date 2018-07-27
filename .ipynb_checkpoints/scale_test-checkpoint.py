@@ -91,7 +91,7 @@ for repeat in range(0, 3):
 
         print(times)   
         bigger_list.append(times)
-        thefile.write(str(times) + "\n")
+        thefile.write(str(times) + "\t" + str(init_workers) + "\n")
 
 
     #thefile.write(str(times) + "\n")
