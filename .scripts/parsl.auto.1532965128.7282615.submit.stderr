@@ -1,0 +1,4 @@
+slurmstepd-midway2-0012: error: task/cgroup: unable to add task[pid=41642] to memory cg '(null)'
+slurmstepd-midway2-0012: error: Job 47948296 exceeded memory limit (2733244 > 2097152), being killed
+slurmstepd-midway2-0012: error: Exceeded job memory limit
+slurmstepd-midway2-0012: error: *** JOB 47948296 ON midway2-0012 CANCELLED AT 2018-07-30T10:39:26 ***

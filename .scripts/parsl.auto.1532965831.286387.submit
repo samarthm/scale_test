@@ -1,0 +1,50 @@
+#!/bin/bash
+
+#SBATCH --job-name=parsl.auto.1532965831.286387
+#SBATCH --output=/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/.scripts/parsl.auto.1532965831.286387.submit.stdout
+#SBATCH --error=/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/.scripts/parsl.auto.1532965831.286387.submit.stderr
+#SBATCH --nodes=1
+#SBATCH --partition=broadwl
+#SBATCH --time=361
+
+module load Anaconda3/5.1.0; export PARSL_TESTING=True
+
+export JOBNAME="parsl.auto.1532965831.286387"
+
+export CORES=$(getconf _NPROCESSORS_ONLN)
+echo "Found cores : $CORES"
+WORKERCOUNT=16
+
+CMD ( ) {
+cd .
+cat <<EOF > ipengine.0b67db9c-6415-4a52-ac68-24f2c9da11d5.json
+{
+  "ssh": "",
+  "interface": "tcp://*",
+  "registration": 59304,
+  "control": 38448,
+  "mux": 34837,
+  "hb_ping": 60057,
+  "hb_pong": 52381,
+  "task": 49665,
+  "iopub": 63702,
+  "key": "abe2ebcc-04aae0d0fb5845287330431b",
+  "location": "midway-login1",
+  "pack": "json",
+  "unpack": "json",
+  "signature_scheme": "hmac-sha256"
+}
+EOF
+
+mkdir -p '.ipengine_logs'
+ipengine --file=ipengine.0b67db9c-6415-4a52-ac68-24f2c9da11d5.json  >> .ipengine_logs/$JOBNAME.log 2>&1
+
+}
+for COUNT in $(seq 1 1 $WORKERCOUNT)
+do
+    echo "Launching worker: $COUNT"
+    CMD &
+done
+wait
+echo "All workers done"
+

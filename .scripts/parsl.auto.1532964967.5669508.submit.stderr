@@ -1,0 +1,2 @@
+slurmstepd-midway2-0012: error: task/cgroup: unable to add task[pid=40650] to memory cg '(null)'
+slurmstepd-midway2-0012: error: *** JOB 47948277 ON midway2-0012 CANCELLED AT 2018-07-30T10:36:35 ***

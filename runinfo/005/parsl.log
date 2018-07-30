@@ -1,0 +1,172 @@
+2018-07-30 10:38:47 parsl.dataflow.dflow:78 [INFO]  Parsl version: 0.6.1
+2018-07-30 10:38:47 parsl.dataflow.dflow:79 [INFO]  Libsubmit version: 0.5.0
+2018-07-30 10:38:47 parsl.dataflow.usage_tracking.usage:126 [DEBUG]  Tracking status: True
+2018-07-30 10:38:47 parsl.dataflow.usage_tracking.usage:127 [DEBUG]  Testing mode   : False
+2018-07-30 10:38:47 parsl.dataflow.dflow:95 [INFO]  Run id is: scale_test.py-38
+2018-07-30 10:38:47 parsl.dataflow.memoization:52 [INFO]  App caching initialized
+2018-07-30 10:38:47 parsl.executors.ipp_controller:83 [DEBUG]  Starting ipcontroller with 'ipcontroller --ipython-dir=/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/005 --ip=* --profile=midway_ipp   '
+2018-07-30 10:38:48 parsl.executors.ipp:105 [DEBUG]  Waiting for /scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/runinfo/005/profile_midway_ipp/security/ipcontroller-client.json
+2018-07-30 10:38:48 parsl.executors.ipp:122 [DEBUG]  Starting IPyParallelExecutor with provider:
+SlurmProvider(
+    'broadwl',
+    channel=LocalChannel(
+        envs={}, 
+        script_dir='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress/.scripts', 
+        userhome='/scratch/midway2/madduru/parsl/parsl/tests/integration/test_stress'
+    ), 
+    cmd_timeout=10, 
+    init_blocks=1, 
+    label='slurm', 
+    launcher=<libsubmit.launchers.launchers.SingleNodeLauncher object at 0x7fe7c68baeb8>, 
+    max_blocks=1, 
+    min_blocks=1, 
+    nodes_per_block=1, 
+    overrides='module load Anaconda3/5.1.0; export PARSL_TESTING=True', 
+    parallelism=0.5, 
+    script_dir='parsl_scripts', 
+    tasks_per_node=256, 
+    walltime=361
+)
+2018-07-30 10:38:48 parsl.executors.ipp:127 [DEBUG]  Launched block: 0:47948296
+2018-07-30 10:38:48 parsl.executors.ipp:142 [DEBUG]  Starting executor
+2018-07-30 10:38:48 parsl.dataflow.strategy:122 [DEBUG]  Scaling strategy: simple
+2018-07-30 10:38:49 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:256 Parallelism:0.5
+2018-07-30 10:38:54 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:256 Parallelism:0.5
+2018-07-30 10:38:59 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:256 Parallelism:0.5
+2018-07-30 10:39:04 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:256 Parallelism:0.5
+2018-07-30 10:39:09 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:256 Parallelism:0.5
+2018-07-30 10:39:14 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:256 Parallelism:0.5
+2018-07-30 10:39:19 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:256 Parallelism:0.5
+2018-07-30 10:39:24 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:256 Parallelism:0.5
+2018-07-30 10:39:29 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:256 Parallelism:0.5
+2018-07-30 10:39:36 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:256 Parallelism:0.5
+2018-07-30 10:39:41 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:39:45 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:39:49 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:39:54 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:39:59 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:40:04 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:40:09 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:40:14 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:40:20 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:40:25 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:40:29 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:40:34 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:40:39 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:40:44 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:40:49 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:40:54 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:41:01 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:41:06 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:41:09 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:41:14 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:41:19 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:41:24 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:41:29 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:41:34 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:41:40 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:41:45 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:41:50 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:41:54 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:41:59 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:42:04 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:42:09 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:42:14 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:42:19 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:42:24 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:42:29 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:42:34 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:42:39 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:42:44 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:42:49 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:42:54 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:42:59 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:43:06 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:43:11 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:43:14 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:43:19 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:43:24 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:43:29 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:43:34 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:43:39 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:43:45 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:43:50 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:43:55 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:43:59 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:44:04 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:44:09 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:44:14 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:44:19 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:44:27 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:44:29 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:44:34 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:44:39 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:44:44 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:44:49 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:44:54 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:44:59 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:45:04 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:45:11 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:45:16 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:45:19 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:45:24 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:45:29 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:45:34 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:45:39 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:45:44 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:45:50 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:45:55 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:46:00 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:46:04 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:46:09 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:46:14 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:46:19 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:46:24 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:46:29 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:46:35 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:46:40 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:46:44 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:46:49 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:46:54 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:46:59 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:47:04 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:47:09 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:47:14 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:47:19 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:47:24 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:47:29 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:47:34 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:47:39 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:47:44 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:47:49 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:47:56 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:48:01 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:48:05 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:48:09 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:48:14 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:48:19 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:48:24 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:48:29 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:48:34 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:48:39 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:48:44 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:48:49 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:48:54 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:48:59 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:49:04 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:49:09 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:49:14 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:49:20 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:49:26 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:49:29 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:49:34 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:49:39 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:49:44 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:49:49 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:49:54 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:49:59 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:50:04 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:50:09 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:50:14 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:50:19 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5
+2018-07-30 10:50:24 parsl.dataflow.strategy:189 [DEBUG]  Tasks:0 Slots:0 Parallelism:0.5

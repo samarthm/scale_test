@@ -17,16 +17,17 @@ import ipyparallel
 def mean(a):
     return sum(a) / len(a)
 
-thefile = open('times500.txt', 'w')
+thefile = open('times.txt', 'w')
 myNum = 0
 ticker = 0
 myList = []
-num_tasks = 1000
+init_worker = []
+num_tasks = 100
 print("test")
 bigger_list = []
-for repeat in range(0, 3):
+for repeat in range(4, 5):
     subprocess.call("pkill -f ipcontroller", shell=True)
-    for init_nodes_set in range(0, 10):
+    for init_nodes_set in range(3, 5):
 
         init_workers = 2 ** init_nodes_set
         init_tasks = init_workers
@@ -86,12 +87,14 @@ for repeat in range(0, 3):
             print(init_tasks)
 
         test_stress()
+        
+        init_worker.append(init_workers)
 
 
 
-        print(times)   
+        print(str(times) + "\t" + str(init_worker) + "\n")   
         bigger_list.append(times)
-        thefile.write(str(times) + "\t" + str(init_workers) + "\n")
+        thefile.write(str(times) + "\t" + str(init_worker) + "\n")
 
 
     #thefile.write(str(times) + "\n")
